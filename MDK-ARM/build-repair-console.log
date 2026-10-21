@@ -1,0 +1,223 @@
+[1/2] Building py32f002b_qmi8656_jacdac_clean_hybrid_phy_build
+Rebuild started: Project: Project
+*** Using Compiler 'V5.06 update 7 (build 960)', folder: 'D:\Keil_v5\ARM\ARMCC\Bin'
+Rebuild target 'py32f002b_qmi8656_jacdac_clean_hybrid_phy_build'
+assembling startup_py32f002bxx.s...
+assembling py32_jacdac_rx_fastpath.s...
+compiling jd_control.c...
+..\third_party\jacdac-c\inc\jd_config.h(383): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\third_party\jacdac-c\inc\jd_service_framework.h(74): warning:  #381-D: extra ";" ignored
+      SRV_COMMON;
+..\third_party\jacdac-c\inc\jd_srvcfg.h(16): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\third_party\jacdac-c\inc\interfaces/jd_alloc.h(45): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\third_party\jacdac-c\source\jd_control.c(16): warning:  #381-D: extra ";" ignored
+      SRV_COMMON;
+..\third_party\jacdac-c\source\jd_control.c: 5 warnings, 0 errors
+compiling jd_io.c...
+..\third_party\jacdac-c\inc\jd_config.h(383): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\third_party\jacdac-c\inc\jd_service_framework.h(74): warning:  #381-D: extra ";" ignored
+      SRV_COMMON;
+..\third_party\jacdac-c\inc\jd_srvcfg.h(16): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\third_party\jacdac-c\inc\interfaces/jd_alloc.h(45): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\third_party\jacdac-c\source\jd_io.c: 4 warnings, 0 errors
+compiling jd_physical.c...
+..\third_party\jacdac-c\inc\jd_config.h(383): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\third_party\jacdac-c\inc\jd_service_framework.h(74): warning:  #381-D: extra ";" ignored
+      SRV_COMMON;
+..\third_party\jacdac-c\inc\jd_srvcfg.h(16): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\third_party\jacdac-c\inc\interfaces/jd_alloc.h(45): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\third_party\jacdac-c\source\jd_physical.c: 4 warnings, 0 errors
+compiling jd_util.c...
+..\third_party\jacdac-c\inc\jd_config.h(383): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\third_party\jacdac-c\inc\jd_service_framework.h(74): warning:  #381-D: extra ";" ignored
+      SRV_COMMON;
+..\third_party\jacdac-c\inc\jd_srvcfg.h(16): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\third_party\jacdac-c\inc\interfaces/jd_alloc.h(45): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\third_party\jacdac-c\source\jd_util.c: 4 warnings, 0 errors
+compiling py32f002b_hal_msp.c...
+compiling py32f002b_it.c...
+compiling jd_protocol.c...
+..\third_party\jacdac-c\inc\jd_config.h(383): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\third_party\jacdac-c\inc\jd_service_framework.h(74): warning:  #381-D: extra ";" ignored
+      SRV_COMMON;
+..\third_party\jacdac-c\inc\jd_srvcfg.h(16): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\third_party\jacdac-c\inc\interfaces/jd_alloc.h(45): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\third_party\jacdac-c\source\jd_protocol.c(26): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\third_party\jacdac-c\source\jd_protocol.c: 5 warnings, 0 errors
+compiling qmi8656_probe.c...
+compiling py32_qmi8656_jacdac_services.c...
+..\third_party\jacdac-c\inc\jd_config.h(383): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\third_party\jacdac-c\inc\jd_service_framework.h(74): warning:  #381-D: extra ";" ignored
+      SRV_COMMON;
+..\third_party\jacdac-c\inc\jd_srvcfg.h(16): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\third_party\jacdac-c\inc\interfaces/jd_alloc.h(45): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\third_party\jacdac-c\services/jd_services.h(345): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\Src\py32_qmi8656_jacdac_services.c: 5 warnings, 0 errors
+compiling system_py32f002b.c...
+compiling main.c...
+compiling py32_rgb_pwm_backend.c...
+..\third_party\jacdac-c\services\interfaces/jd_pins.h(32): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\third_party\jacdac-c\services\interfaces/jd_pwm.h(15): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\Src\py32_rgb_pwm_backend.c: 2 warnings, 0 errors
+compiling jd_services.c...
+..\third_party\jacdac-c\inc\jd_config.h(383): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\third_party\jacdac-c\inc\jd_service_framework.h(74): warning:  #381-D: extra ";" ignored
+      SRV_COMMON;
+..\third_party\jacdac-c\inc\jd_srvcfg.h(16): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\third_party\jacdac-c\inc\interfaces/jd_alloc.h(45): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\third_party\jacdac-c\source\jd_services.c(21): warning:  #381-D: extra ";" ignored
+      SRV_COMMON;
+..\third_party\jacdac-c\source\jd_services.c: 5 warnings, 0 errors
+compiling py32_jacdac_runtime.c...
+..\third_party\jacdac-c\inc\jd_config.h(383): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\third_party\jacdac-c\inc\jd_service_framework.h(74): warning:  #381-D: extra ";" ignored
+      SRV_COMMON;
+..\third_party\jacdac-c\inc\jd_srvcfg.h(16): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\third_party\jacdac-c\inc\interfaces/jd_alloc.h(45): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\Src\py32_jacdac_runtime.c(890): warning:  #111-D: statement is unreachable
+    if (sample_offset_ticks > APP_JACDAC_RX_SAMPLE_ADVANCE_TICKS)
+..\Src\py32_jacdac_runtime.c: 5 warnings, 0 errors
+compiling jd_send_util.c...
+..\third_party\jacdac-c\inc\jd_config.h(383): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\third_party\jacdac-c\inc\jd_service_framework.h(74): warning:  #381-D: extra ";" ignored
+      SRV_COMMON;
+..\third_party\jacdac-c\inc\jd_srvcfg.h(16): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\third_party\jacdac-c\inc\interfaces/jd_alloc.h(45): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\third_party\jacdac-c\source\jd_send_util.c: 4 warnings, 0 errors
+compiling simple_rx.c...
+..\third_party\jacdac-c\inc\jd_config.h(383): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\third_party\jacdac-c\inc\jd_service_framework.h(74): warning:  #381-D: extra ";" ignored
+      SRV_COMMON;
+..\third_party\jacdac-c\inc\jd_srvcfg.h(16): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\third_party\jacdac-c\inc\interfaces/jd_alloc.h(45): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\third_party\jacdac-c\source\interfaces\simple_rx.c(85): warning:  #1-D: last line of file ends without a newline
+  }
+..\third_party\jacdac-c\source\interfaces\simple_rx.c: 5 warnings, 0 errors
+compiling event_queue.c...
+..\third_party\jacdac-c\inc\jd_config.h(383): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\third_party\jacdac-c\inc\jd_service_framework.h(74): warning:  #381-D: extra ";" ignored
+      SRV_COMMON;
+..\third_party\jacdac-c\inc\jd_srvcfg.h(16): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\third_party\jacdac-c\inc\interfaces/jd_alloc.h(45): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\third_party\jacdac-c\source\interfaces\event_queue.c: 4 warnings, 0 errors
+compiling tx_queue.c...
+..\third_party\jacdac-c\inc\jd_config.h(383): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\third_party\jacdac-c\inc\jd_service_framework.h(74): warning:  #381-D: extra ";" ignored
+      SRV_COMMON;
+..\third_party\jacdac-c\inc\jd_srvcfg.h(16): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\third_party\jacdac-c\inc\interfaces/jd_alloc.h(45): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\third_party\jacdac-c\source\interfaces\tx_queue.c: 4 warnings, 0 errors
+compiling jd_sensor.c...
+..\third_party\jacdac-c\inc\jd_config.h(383): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\third_party\jacdac-c\inc\jd_service_framework.h(74): warning:  #381-D: extra ";" ignored
+      SRV_COMMON;
+..\third_party\jacdac-c\inc\jd_srvcfg.h(16): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\third_party\jacdac-c\inc\interfaces/jd_alloc.h(45): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\third_party\jacdac-c\services\jd_services.h(345): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\third_party\jacdac-c\services\jd_sensor.c(14): warning:  #381-D: extra ";" ignored
+      SENSOR_COMMON;
+..\third_party\jacdac-c\services\jd_sensor.c: 6 warnings, 0 errors
+compiling gyroscope.c...
+..\third_party\jacdac-c\inc\jd_config.h(383): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\third_party\jacdac-c\inc\jd_service_framework.h(74): warning:  #381-D: extra ";" ignored
+      SRV_COMMON;
+..\third_party\jacdac-c\inc\jd_srvcfg.h(16): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\third_party\jacdac-c\inc\interfaces/jd_alloc.h(45): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\third_party\jacdac-c\services\jd_services.h(345): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\third_party\jacdac-c\services\gyroscope.c(9): warning:  #381-D: extra ";" ignored
+      SENSOR_COMMON;
+..\third_party\jacdac-c\services\gyroscope.c: 6 warnings, 0 errors
+compiling accelerometer.c...
+..\third_party\jacdac-c\inc\jd_config.h(383): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\third_party\jacdac-c\inc\jd_service_framework.h(74): warning:  #381-D: extra ";" ignored
+      SRV_COMMON;
+..\third_party\jacdac-c\inc\jd_srvcfg.h(16): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\third_party\jacdac-c\inc\interfaces/jd_alloc.h(45): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\third_party\jacdac-c\services\jd_services.h(345): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\third_party\jacdac-c\services\accelerometer.c(57): warning:  #381-D: extra ";" ignored
+      SENSOR_COMMON;
+..\third_party\jacdac-c\services\accelerometer.c: 6 warnings, 0 errors
+compiling jd_status_light.c...
+..\third_party\jacdac-c\inc\jd_config.h(383): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\third_party\jacdac-c\inc\jd_service_framework.h(74): warning:  #381-D: extra ";" ignored
+      SRV_COMMON;
+..\third_party\jacdac-c\inc\jd_srvcfg.h(16): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\third_party\jacdac-c\inc\interfaces/jd_alloc.h(45): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\third_party\jacdac-c\services\jd_services.h(345): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\third_party\jacdac-c\services\interfaces/jd_pins.h(32): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\third_party\jacdac-c\services\interfaces/jd_pwm.h(15): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\third_party\jacdac-c\services\jd_status_light.c: 7 warnings, 0 errors
+compiling py32f002bxx_Start_Kit.c...
+compiling py32f002b_hal.c...
+compiling py32f002b_hal_rcc.c...
+compiling py32f002b_hal_gpio.c...
+compiling py32f002b_hal_rcc_ex.c...
+compiling py32f002b_hal_pwr.c...
+compiling py32f002b_hal_cortex.c...
+compiling py32f002b_hal_uart.c...
+compiling py32f002b_hal_i2c.c...
+linking...
+Program Size: Code=22864 RO-data=696 RW-data=340 ZI-data=2724  
+FromELF: creating hex file...
+".\Output\py32f002b_qmi8656_jacdac_clean_hybrid_phy_build.axf" - 0 Error(s), 81 Warning(s).
+Build Time Elapsed:  00:00:03
+Build succeeded:
+  C:\Users\72903\Desktop\jacdac\gyro\197-py32-pa4-jacdac-hw-uart-rx-gyroscope-build\MDK-ARM\Output\py32f002b_qmi8656_jacdac_clean_hybrid_phy_build.hex

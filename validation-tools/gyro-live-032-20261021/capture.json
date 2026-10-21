@@ -1,0 +1,5925 @@
+{
+  "uid": "004400564A00001156313848",
+  "samples": [
+    {
+      "seconds": 0.046,
+      "probe": {
+        "ready": 2,
+        "match": 2,
+        "mismatch": 0,
+        "addr": 107,
+        "part_id": 5,
+        "id_valid": 1,
+        "config_attempted": 1,
+        "write_ok": 1,
+        "config_ok": 1,
+        "motion_ok": 1,
+        "status": 0,
+        "accel": [
+          232,
+          1162,
+          -4068
+        ],
+        "gyro": [
+          475,
+          -100,
+          -32
+        ]
+      },
+      "valid": 1,
+      "stage": 14,
+      "cal_count": 81,
+      "cal_phase": 3,
+      "still_elapsed_ms": 610,
+      "reading": [
+        -127835,
+        -122577,
+        237466
+      ],
+      "uwTick": 84103,
+      "now": 84100410,
+      "g_heap_used": 620,
+      "g_irq_lock_depth": 0,
+      "g_app_jd_diag_rx_complete": 868,
+      "g_app_jd_diag_crc_ok": 667,
+      "nextAnnounce": 84500000,
+      "lastMax": 83955183,
+      "g_app_jd_rx_hw_rxne_count": 17280,
+      "g_app_jd_rx_hw_fe_count": 288,
+      "g_app_jd_rx_hw_ore_count": 0,
+      "packets_since_announce": 3,
+      "service_sample": [
+        171729,
+        95067,
+        24678
+      ],
+      "runtime_flags": {
+        "g_runtime_ready": 1,
+        "g_uart_rx_active": 0,
+        "g_uart_tx_active": 0,
+        "g_tx_complete_pending": 0
+      }
+    },
+    {
+      "seconds": 0.343,
+      "probe": {
+        "ready": 2,
+        "match": 2,
+        "mismatch": 0,
+        "addr": 107,
+        "part_id": 5,
+        "id_valid": 1,
+        "config_attempted": 1,
+        "write_ok": 1,
+        "config_ok": 1,
+        "motion_ok": 1,
+        "status": 0,
+        "accel": [
+          239,
+          1159,
+          -4060
+        ],
+        "gyro": [
+          493,
+          -68,
+          -34
+        ]
+      },
+      "valid": 1,
+      "stage": 14,
+      "cal_count": 81,
+      "cal_phase": 3,
+      "still_elapsed_ms": 610,
+      "reading": [
+        19621,
+        -24273,
+        -204902
+      ],
+      "uwTick": 84406,
+      "now": 84403365,
+      "g_heap_used": 620,
+      "g_irq_lock_depth": 0,
+      "g_app_jd_diag_rx_complete": 869,
+      "g_app_jd_diag_crc_ok": 667,
+      "nextAnnounce": 84500000,
+      "lastMax": 83955183,
+      "g_app_jd_rx_hw_rxne_count": 17282,
+      "g_app_jd_rx_hw_fe_count": 289,
+      "g_app_jd_rx_hw_ore_count": 0,
+      "packets_since_announce": 9,
+      "service_sample": [
+        -352559,
+        -199845,
+        57446
+      ],
+      "runtime_flags": {
+        "g_runtime_ready": 1,
+        "g_uart_rx_active": 0,
+        "g_uart_tx_active": 0,
+        "g_tx_complete_pending": 0
+      }
+    },
+    {
+      "seconds": 0.656,
+      "probe": {
+        "ready": 2,
+        "match": 2,
+        "mismatch": 0,
+        "addr": 107,
+        "part_id": 5,
+        "id_valid": 1,
+        "config_attempted": 1,
+        "write_ok": 1,
+        "config_ok": 1,
+        "motion_ok": 1,
+        "status": 0,
+        "accel": [
+          230,
+          1179,
+          -4062
+        ],
+        "gyro": [
+          471,
+          -98,
+          -32
+        ]
+      },
+      "valid": 0,
+      "stage": 14,
+      "cal_count": 81,
+      "cal_phase": 3,
+      "still_elapsed_ms": 610,
+      "reading": [
+        -160603,
+        -138961,
+        -24678
+      ],
+      "uwTick": 84706,
+      "now": 84703398,
+      "g_heap_used": 620,
+      "g_irq_lock_depth": 0,
+      "g_app_jd_diag_rx_complete": 872,
+      "g_app_jd_diag_crc_ok": 669,
+      "nextAnnounce": 85000000,
+      "lastMax": 83955183,
+      "g_app_jd_rx_hw_rxne_count": 17332,
+      "g_app_jd_rx_hw_fe_count": 290,
+      "g_app_jd_rx_hw_ore_count": 0,
+      "packets_since_announce": 5,
+      "service_sample": [
+        138961,
+        160603,
+        24678
+      ],
+      "runtime_flags": {
+        "g_runtime_ready": 1,
+        "g_uart_rx_active": 0,
+        "g_uart_tx_active": 0,
+        "g_tx_complete_pending": 0
+      }
+    },
+    {
+      "seconds": 0.953,
+      "probe": {
+        "ready": 2,
+        "match": 2,
+        "mismatch": 0,
+        "addr": 107,
+        "part_id": 5,
+        "id_valid": 1,
+        "config_attempted": 1,
+        "write_ok": 1,
+        "config_ok": 1,
+        "motion_ok": 1,
+        "status": 0,
+        "accel": [
+          239,
+          1164,
+          -4066
+        ],
+        "gyro": [
+          483,
+          -80,
+          -42
+        ]
+      },
+      "valid": 0,
+      "stage": 15,
+      "cal_count": 81,
+      "cal_phase": 3,
+      "still_elapsed_ms": 610,
+      "reading": [
+        36005,
+        155951,
+        -188518
+      ],
+      "uwTick": 85003,
+      "now": 85000029,
+      "g_heap_used": 620,
+      "g_irq_lock_depth": 1,
+      "g_app_jd_diag_rx_complete": 876,
+      "g_app_jd_diag_crc_ok": 672,
+      "nextAnnounce": 85500000,
+      "lastMax": 84962701,
+      "g_app_jd_rx_hw_rxne_count": 17642,
+      "g_app_jd_rx_hw_fe_count": 293,
+      "g_app_jd_rx_hw_ore_count": 0,
+      "packets_since_announce": 1,
+      "service_sample": [
+        -155951,
+        -36005,
+        188518
+      ],
+      "runtime_flags": {
+        "g_runtime_ready": 1,
+        "g_uart_rx_active": 0,
+        "g_uart_tx_active": 0,
+        "g_tx_complete_pending": 0
+      }
+    },
+    {
+      "seconds": 1.25,
+      "probe": {
+        "ready": 2,
+        "match": 2,
+        "mismatch": 0,
+        "addr": 107,
+        "part_id": 5,
+        "id_valid": 1,
+        "config_attempted": 1,
+        "write_ok": 1,
+        "config_ok": 1,
+        "motion_ok": 1,
+        "status": 0,
+        "accel": [
+          237,
+          1159,
+          -4077
+        ],
+        "gyro": [
+          481,
+          -92,
+          -37
+        ]
+      },
+      "valid": 1,
+      "stage": 15,
+      "cal_count": 81,
+      "cal_phase": 3,
+      "still_elapsed_ms": 610,
+      "reading": [
+        3237,
+        -40657,
+        -106598
+      ],
+      "uwTick": 85299,
+      "now": 85296014,
+      "g_heap_used": 620,
+      "g_irq_lock_depth": 0,
+      "g_app_jd_diag_rx_complete": 886,
+      "g_app_jd_diag_crc_ok": 682,
+      "nextAnnounce": 85500000,
+      "lastMax": 84962701,
+      "g_app_jd_rx_hw_rxne_count": 17815,
+      "g_app_jd_rx_hw_fe_count": 293,
+      "g_app_jd_rx_hw_ore_count": 0,
+      "packets_since_announce": 7,
+      "service_sample": [
+        40657,
+        -3237,
+        106598
+      ],
+      "runtime_flags": {
+        "g_runtime_ready": 1,
+        "g_uart_rx_active": 0,
+        "g_uart_tx_active": 0,
+        "g_tx_complete_pending": 0
+      }
+    },
+    {
+      "seconds": 1.546,
+      "probe": {
+        "ready": 2,
+        "match": 2,
+        "mismatch": 0,
+        "addr": 107,
+        "part_id": 5,
+        "id_valid": 1,
+        "config_attempted": 1,
+        "write_ok": 1,
+        "config_ok": 1,
+        "motion_ok": 1,
+        "status": 0,
+        "accel": [
+          242,
+          1159,
+          -4068
+        ],
+        "gyro": [
+          471,
+          -83,
+          -42
+        ]
+      },
+      "valid": 1,
+      "stage": 15,
+      "cal_count": 81,
+      "cal_phase": 3,
+      "still_elapsed_ms": 610,
+      "reading": [
+        -160603,
+        106799,
+        -188518
+      ],
+      "uwTick": 85596,
+      "now": 85593097,
+      "g_heap_used": 620,
+      "g_irq_lock_depth": 0,
+      "g_app_jd_diag_rx_complete": 891,
+      "g_app_jd_diag_crc_ok": 686,
+      "nextAnnounce": 86000000,
+      "lastMax": 85466378,
+      "g_app_jd_rx_hw_rxne_count": 17931,
+      "g_app_jd_rx_hw_fe_count": 294,
+      "g_app_jd_rx_hw_ore_count": 0,
+      "packets_since_announce": 3,
+      "service_sample": [
+        -106799,
+        160603,
+        188518
+      ],
+      "runtime_flags": {
+        "g_runtime_ready": 1,
+        "g_uart_rx_active": 0,
+        "g_uart_tx_active": 0,
+        "g_tx_complete_pending": 0
+      }
+    },
+    {
+      "seconds": 1.843,
+      "probe": {
+        "ready": 2,
+        "match": 2,
+        "mismatch": 0,
+        "addr": 107,
+        "part_id": 5,
+        "id_valid": 1,
+        "config_attempted": 1,
+        "write_ok": 1,
+        "config_ok": 1,
+        "motion_ok": 1,
+        "status": 0,
+        "accel": [
+          237,
+          1158,
+          -4073
+        ],
+        "gyro": [
+          475,
+          -95,
+          -19
+        ]
+      },
+      "valid": 1,
+      "stage": 15,
+      "cal_count": 81,
+      "cal_phase": 3,
+      "still_elapsed_ms": 610,
+      "reading": [
+        -95067,
+        -89809,
+        188314
+      ],
+      "uwTick": 85892,
+      "now": 85888680,
+      "g_heap_used": 620,
+      "g_irq_lock_depth": 1,
+      "g_app_jd_diag_rx_complete": 897,
+      "g_app_jd_diag_crc_ok": 691,
+      "nextAnnounce": 86000000,
+      "lastMax": 85466378,
+      "g_app_jd_rx_hw_rxne_count": 18018,
+      "g_app_jd_rx_hw_fe_count": 295,
+      "g_app_jd_rx_hw_ore_count": 0,
+      "packets_since_announce": 9,
+      "service_sample": [
+        89809,
+        95067,
+        -188314
+      ],
+      "runtime_flags": {
+        "g_runtime_ready": 1,
+        "g_uart_rx_active": 0,
+        "g_uart_tx_active": 0,
+        "g_tx_complete_pending": 0
+      }
+    },
+    {
+      "seconds": 2.14,
+      "probe": {
+        "ready": 2,
+        "match": 2,
+        "mismatch": 0,
+        "addr": 107,
+        "part_id": 5,
+        "id_valid": 1,
+        "config_attempted": 1,
+        "write_ok": 1,
+        "config_ok": 1,
+        "motion_ok": 1,
+        "status": 0,
+        "accel": [
+          229,
+          1161,
+          -4067
+        ],
+        "gyro": [
+          457,
+          -86,
+          -32
+        ]
+      },
+      "valid": 1,
+      "stage": 11,
+      "cal_count": 81,
+      "cal_phase": 3,
+      "still_elapsed_ms": 610,
+      "reading": [
+        -389979,
+        57647,
+        -24678
+      ],
+      "uwTick": 86187,
+      "now": 86183835,
+      "g_heap_used": 620,
+      "g_irq_lock_depth": 1,
+      "g_app_jd_diag_rx_complete": 902,
+      "g_app_jd_diag_crc_ok": 692,
+      "nextAnnounce": 86500000,
+      "lastMax": 85466378,
+      "g_app_jd_rx_hw_rxne_count": 18048,
+      "g_app_jd_rx_hw_fe_count": 297,
+      "g_app_jd_rx_hw_ore_count": 0,
+      "packets_since_announce": 5,
+      "service_sample": [
+        -57647,
+        389979,
+        24678
+      ],
+      "runtime_flags": {
+        "g_runtime_ready": 1,
+        "g_uart_rx_active": 0,
+        "g_uart_tx_active": 0,
+        "g_tx_complete_pending": 0
+      }
+    },
+    {
+      "seconds": 2.453,
+      "probe": {
+        "ready": 2,
+        "match": 2,
+        "mismatch": 0,
+        "addr": 107,
+        "part_id": 5,
+        "id_valid": 1,
+        "config_attempted": 1,
+        "write_ok": 1,
+        "config_ok": 1,
+        "motion_ok": 0,
+        "status": 0,
+        "accel": [
+          233,
+          1168,
+          -4070
+        ],
+        "gyro": [
+          487,
+          -86,
+          -40
+        ]
+      },
+      "valid": 1,
+      "stage": 11,
+      "cal_count": 81,
+      "cal_phase": 3,
+      "still_elapsed_ms": 610,
+      "reading": [
+        167077,
+        -40657,
+        8090
+      ],
+      "uwTick": 86496,
+      "now": 86493012,
+      "g_heap_used": 620,
+      "g_irq_lock_depth": 1,
+      "g_app_jd_diag_rx_complete": 905,
+      "g_app_jd_diag_crc_ok": 695,
+      "nextAnnounce": 86500000,
+      "lastMax": 86481132,
+      "g_app_jd_rx_hw_rxne_count": 18125,
+      "g_app_jd_rx_hw_fe_count": 298,
+      "g_app_jd_rx_hw_ore_count": 0,
+      "packets_since_announce": 11,
+      "service_sample": [
+        40657,
+        -167077,
+        -8090
+      ],
+      "runtime_flags": {
+        "g_runtime_ready": 1,
+        "g_uart_rx_active": 0,
+        "g_uart_tx_active": 0,
+        "g_tx_complete_pending": 0
+      }
+    },
+    {
+      "seconds": 2.75,
+      "probe": {
+        "ready": 2,
+        "match": 2,
+        "mismatch": 0,
+        "addr": 107,
+        "part_id": 5,
+        "id_valid": 1,
+        "config_attempted": 1,
+        "write_ok": 1,
+        "config_ok": 1,
+        "motion_ok": 1,
+        "status": 0,
+        "accel": [
+          244,
+          1165,
+          -4076
+        ],
+        "gyro": [
+          483,
+          -101,
+          -29
+        ]
+      },
+      "valid": 1,
+      "stage": 11,
+      "cal_count": 81,
+      "cal_phase": 3,
+      "still_elapsed_ms": 610,
+      "reading": [
+        232613,
+        -24273,
+        221082
+      ],
+      "uwTick": 86805,
+      "now": 86801642,
+      "g_heap_used": 620,
+      "g_irq_lock_depth": 1,
+      "g_app_jd_diag_rx_complete": 906,
+      "g_app_jd_diag_crc_ok": 696,
+      "nextAnnounce": 87000000,
+      "lastMax": 86481132,
+      "g_app_jd_rx_hw_rxne_count": 18153,
+      "g_app_jd_rx_hw_fe_count": 298,
+      "g_app_jd_rx_hw_ore_count": 0,
+      "packets_since_announce": 7,
+      "service_sample": [
+        188113,
+        -36005,
+        -24474
+      ],
+      "runtime_flags": {
+        "g_runtime_ready": 1,
+        "g_uart_rx_active": 0,
+        "g_uart_tx_active": 0,
+        "g_tx_complete_pending": 0
+      }
+    },
+    {
+      "seconds": 3.062,
+      "probe": {
+        "ready": 2,
+        "match": 2,
+        "mismatch": 0,
+        "addr": 107,
+        "part_id": 5,
+        "id_valid": 1,
+        "config_attempted": 1,
+        "write_ok": 1,
+        "config_ok": 1,
+        "motion_ok": 1,
+        "status": 0,
+        "accel": [
+          234,
+          1156,
+          -4054
+        ],
+        "gyro": [
+          491,
+          -95,
+          -30
+        ]
+      },
+      "valid": 1,
+      "stage": 12,
+      "cal_count": 81,
+      "cal_phase": 3,
+      "still_elapsed_ms": 610,
+      "reading": [
+        3237,
+        8495,
+        139162
+      ],
+      "uwTick": 87101,
+      "now": 87097857,
+      "g_heap_used": 620,
+      "g_irq_lock_depth": 0,
+      "g_app_jd_diag_rx_complete": 910,
+      "g_app_jd_diag_crc_ok": 700,
+      "nextAnnounce": 87500000,
+      "lastMax": 86984744,
+      "g_app_jd_rx_hw_rxne_count": 18258,
+      "g_app_jd_rx_hw_fe_count": 299,
+      "g_app_jd_rx_hw_ore_count": 0,
+      "packets_since_announce": 3,
+      "service_sample": [
+        89809,
+        -167077,
+        -8090
+      ],
+      "runtime_flags": {
+        "g_runtime_ready": 1,
+        "g_uart_rx_active": 0,
+        "g_uart_tx_active": 0,
+        "g_tx_complete_pending": 0
+      }
+    },
+    {
+      "seconds": 3.359,
+      "probe": {
+        "ready": 2,
+        "match": 2,
+        "mismatch": 0,
+        "addr": 107,
+        "part_id": 5,
+        "id_valid": 1,
+        "config_attempted": 1,
+        "write_ok": 1,
+        "config_ok": 1,
+        "motion_ok": 1,
+        "status": 0,
+        "accel": [
+          243,
+          1158,
+          -4069
+        ],
+        "gyro": [
+          480,
+          -99,
+          -29
+        ]
+      },
+      "valid": 1,
+      "stage": 12,
+      "cal_count": 81,
+      "cal_phase": 3,
+      "still_elapsed_ms": 610,
+      "reading": [
+        -13147,
+        -155345,
+        24474
+      ],
+      "uwTick": 87409,
+      "now": 87405920,
+      "g_heap_used": 620,
+      "g_irq_lock_depth": 0,
+      "g_app_jd_diag_rx_complete": 910,
+      "g_app_jd_diag_crc_ok": 700,
+      "nextAnnounce": 87500000,
+      "lastMax": 86984744,
+      "g_app_jd_rx_hw_rxne_count": 18258,
+      "g_app_jd_rx_hw_fe_count": 299,
+      "g_app_jd_rx_hw_ore_count": 0,
+      "packets_since_announce": 9,
+      "service_sample": [
+        155345,
+        13147,
+        -24474
+      ],
+      "runtime_flags": {
+        "g_runtime_ready": 1,
+        "g_uart_rx_active": 0,
+        "g_uart_tx_active": 0,
+        "g_tx_complete_pending": 0
+      }
+    },
+    {
+      "seconds": 3.671,
+      "probe": {
+        "ready": 2,
+        "match": 2,
+        "mismatch": 0,
+        "addr": 107,
+        "part_id": 5,
+        "id_valid": 1,
+        "config_attempted": 1,
+        "write_ok": 1,
+        "config_ok": 1,
+        "motion_ok": 1,
+        "status": 0,
+        "accel": [
+          228,
+          1152,
+          -4061
+        ],
+        "gyro": [
+          472,
+          -79,
+          -19
+        ]
+      },
+      "valid": 1,
+      "stage": 12,
+      "cal_count": 81,
+      "cal_phase": 3,
+      "still_elapsed_ms": 610,
+      "reading": [
+        -13147,
+        -122577,
+        -139366
+      ],
+      "uwTick": 87717,
+      "now": 87714144,
+      "g_heap_used": 620,
+      "g_irq_lock_depth": 1,
+      "g_app_jd_diag_rx_complete": 920,
+      "g_app_jd_diag_crc_ok": 709,
+      "nextAnnounce": 88000000,
+      "lastMax": 87488352,
+      "g_app_jd_rx_hw_rxne_count": 18454,
+      "g_app_jd_rx_hw_fe_count": 300,
+      "g_app_jd_rx_hw_ore_count": 0,
+      "packets_since_announce": 5,
+      "service_sample": [
+        122577,
+        13147,
+        139366
+      ],
+      "runtime_flags": {
+        "g_runtime_ready": 1,
+        "g_uart_rx_active": 0,
+        "g_uart_tx_active": 0,
+        "g_tx_complete_pending": 0
+      }
+    },
+    {
+      "seconds": 3.968,
+      "probe": {
+        "ready": 2,
+        "match": 2,
+        "mismatch": 0,
+        "addr": 107,
+        "part_id": 5,
+        "id_valid": 1,
+        "config_attempted": 1,
+        "write_ok": 1,
+        "config_ok": 1,
+        "motion_ok": 1,
+        "status": 0,
+        "accel": [
+          238,
+          1163,
+          -4070
+        ],
+        "gyro": [
+          485,
+          -85,
+          -21
+        ]
+      },
+      "valid": 1,
+      "stage": 13,
+      "cal_count": 81,
+      "cal_phase": 3,
+      "still_elapsed_ms": 610,
+      "reading": [
+        68773,
+        74031,
+        155546
+      ],
+      "uwTick": 88014,
+      "now": 88011144,
+      "g_heap_used": 620,
+      "g_irq_lock_depth": 1,
+      "g_app_jd_diag_rx_complete": 923,
+      "g_app_jd_diag_crc_ok": 712,
+      "nextAnnounce": 88500000,
+      "lastMax": 87992183,
+      "g_app_jd_rx_hw_rxne_count": 18531,
+      "g_app_jd_rx_hw_fe_count": 301,
+      "g_app_jd_rx_hw_ore_count": 0,
+      "packets_since_announce": 1,
+      "service_sample": [
+        -74031,
+        -68773,
+        -155546
+      ],
+      "runtime_flags": {
+        "g_runtime_ready": 1,
+        "g_uart_rx_active": 0,
+        "g_uart_tx_active": 0,
+        "g_tx_complete_pending": 0
+      }
+    },
+    {
+      "seconds": 4.281,
+      "probe": {
+        "ready": 2,
+        "match": 2,
+        "mismatch": 0,
+        "addr": 107,
+        "part_id": 5,
+        "id_valid": 1,
+        "config_attempted": 1,
+        "write_ok": 1,
+        "config_ok": 1,
+        "motion_ok": 1,
+        "status": 0,
+        "accel": [
+          239,
+          1166,
+          -4058
+        ],
+        "gyro": [
+          496,
+          -81,
+          -19
+        ]
+      },
+      "valid": 1,
+      "stage": 13,
+      "cal_count": 81,
+      "cal_phase": 3,
+      "still_elapsed_ms": 610,
+      "reading": [
+        232613,
+        205103,
+        -8294
+      ],
+      "uwTick": 88323,
+      "now": 88319473,
+      "g_heap_used": 620,
+      "g_irq_lock_depth": 1,
+      "g_app_jd_diag_rx_complete": 924,
+      "g_app_jd_diag_crc_ok": 713,
+      "nextAnnounce": 88500000,
+      "lastMax": 87992183,
+      "g_app_jd_rx_hw_rxne_count": 18559,
+      "g_app_jd_rx_hw_fe_count": 301,
+      "g_app_jd_rx_hw_ore_count": 0,
+      "packets_since_announce": 8,
+      "service_sample": [
+        -205103,
+        -232613,
+        8294
+      ],
+      "runtime_flags": {
+        "g_runtime_ready": 1,
+        "g_uart_rx_active": 0,
+        "g_uart_tx_active": 0,
+        "g_tx_complete_pending": 0
+      }
+    },
+    {
+      "seconds": 4.578,
+      "probe": {
+        "ready": 2,
+        "match": 2,
+        "mismatch": 0,
+        "addr": 107,
+        "part_id": 5,
+        "id_valid": 1,
+        "config_attempted": 1,
+        "write_ok": 1,
+        "config_ok": 1,
+        "motion_ok": 1,
+        "status": 0,
+        "accel": [
+          246,
+          1169,
+          -4063
+        ],
+        "gyro": [
+          484,
+          -91,
+          -18
+        ]
+      },
+      "valid": 1,
+      "stage": 13,
+      "cal_count": 81,
+      "cal_phase": 3,
+      "still_elapsed_ms": 610,
+      "reading": [
+        199845,
+        90415,
+        -221286
+      ],
+      "uwTick": 88620,
+      "now": 88616547,
+      "g_heap_used": 620,
+      "g_irq_lock_depth": 1,
+      "g_app_jd_diag_rx_complete": 933,
+      "g_app_jd_diag_crc_ok": 719,
+      "nextAnnounce": 89000000,
+      "lastMax": 88495735,
+      "g_app_jd_rx_hw_rxne_count": 18697,
+      "g_app_jd_rx_hw_fe_count": 303,
+      "g_app_jd_rx_hw_ore_count": 0,
+      "packets_since_announce": 3,
+      "service_sample": [
+        -90415,
+        -199845,
+        221286
+      ],
+      "runtime_flags": {
+        "g_runtime_ready": 1,
+        "g_uart_rx_active": 0,
+        "g_uart_tx_active": 0,
+        "g_tx_complete_pending": 0
+      }
+    },
+    {
+      "seconds": 4.875,
+      "probe": {
+        "ready": 2,
+        "match": 2,
+        "mismatch": 0,
+        "addr": 107,
+        "part_id": 5,
+        "id_valid": 1,
+        "config_attempted": 1,
+        "write_ok": 1,
+        "config_ok": 1,
+        "motion_ok": 1,
+        "status": 0,
+        "accel": [
+          236,
+          1154,
+          -4057
+        ],
+        "gyro": [
+          478,
+          -92,
+          -34
+        ]
+      },
+      "valid": 1,
+      "stage": 13,
+      "cal_count": 81,
+      "cal_phase": 3,
+      "still_elapsed_ms": 610,
+      "reading": [
+        101541,
+        8495,
+        -155750
+      ],
+      "uwTick": 88914,
+      "now": 88910580,
+      "g_heap_used": 620,
+      "g_irq_lock_depth": 0,
+      "g_app_jd_diag_rx_complete": 933,
+      "g_app_jd_diag_crc_ok": 719,
+      "nextAnnounce": 89000000,
+      "lastMax": 88495735,
+      "g_app_jd_rx_hw_rxne_count": 18697,
+      "g_app_jd_rx_hw_fe_count": 303,
+      "g_app_jd_rx_hw_ore_count": 0,
+      "packets_since_announce": 9,
+      "service_sample": [
+        -8495,
+        -101541,
+        155750
+      ],
+      "runtime_flags": {
+        "g_runtime_ready": 1,
+        "g_uart_rx_active": 0,
+        "g_uart_tx_active": 0,
+        "g_tx_complete_pending": 0
+      }
+    },
+    {
+      "seconds": 5.187,
+      "probe": {
+        "ready": 2,
+        "match": 2,
+        "mismatch": 0,
+        "addr": 107,
+        "part_id": 5,
+        "id_valid": 1,
+        "config_attempted": 1,
+        "write_ok": 1,
+        "config_ok": 1,
+        "motion_ok": 1,
+        "status": 0,
+        "accel": [
+          250,
+          1166,
+          -4078
+        ],
+        "gyro": [
+          472,
+          -95,
+          -31
+        ]
+      },
+      "valid": 1,
+      "stage": 14,
+      "cal_count": 81,
+      "cal_phase": 3,
+      "still_elapsed_ms": 610,
+      "reading": [
+        -193371,
+        106799,
+        73626
+      ],
+      "uwTick": 89224,
+      "now": 89220565,
+      "g_heap_used": 620,
+      "g_irq_lock_depth": 0,
+      "g_app_jd_diag_rx_complete": 937,
+      "g_app_jd_diag_crc_ok": 723,
+      "nextAnnounce": 89500000,
+      "lastMax": 89012063,
+      "g_app_jd_rx_hw_rxne_count": 18802,
+      "g_app_jd_rx_hw_fe_count": 304,
+      "g_app_jd_rx_hw_ore_count": 0,
+      "packets_since_announce": 5,
+      "service_sample": [
+        89809,
+        144219,
+        8294
+      ],
+      "runtime_flags": {
+        "g_runtime_ready": 1,
+        "g_uart_rx_active": 0,
+        "g_uart_tx_active": 0,
+        "g_tx_complete_pending": 0
+      }
+    },
+    {
+      "seconds": 5.484,
+      "probe": {
+        "ready": 2,
+        "match": 2,
+        "mismatch": 0,
+        "addr": 107,
+        "part_id": 5,
+        "id_valid": 1,
+        "config_attempted": 1,
+        "write_ok": 1,
+        "config_ok": 1,
+        "motion_ok": 1,
+        "status": 0,
+        "accel": [
+          227,
+          1168,
+          -4068
+        ],
+        "gyro": [
+          480,
+          -73,
+          -23
+        ]
+      },
+      "valid": 1,
+      "stage": 14,
+      "cal_count": 81,
+      "cal_phase": 3,
+      "still_elapsed_ms": 610,
+      "reading": [
+        -13147,
+        -24273,
+        -237670
+      ],
+      "uwTick": 89520,
+      "now": 89516725,
+      "g_heap_used": 620,
+      "g_irq_lock_depth": 0,
+      "g_app_jd_diag_rx_complete": 941,
+      "g_app_jd_diag_crc_ok": 726,
+      "nextAnnounce": 90000000,
+      "lastMax": 89512099,
+      "g_app_jd_rx_hw_rxne_count": 18880,
+      "g_app_jd_rx_hw_fe_count": 306,
+      "g_app_jd_rx_hw_ore_count": 0,
+      "packets_since_announce": 1,
+      "service_sample": [
+        -270639,
+        13147,
+        -122778
+      ],
+      "runtime_flags": {
+        "g_runtime_ready": 1,
+        "g_uart_rx_active": 0,
+        "g_uart_tx_active": 0,
+        "g_tx_complete_pending": 0
+      }
+    },
+    {
+      "seconds": 5.781,
+      "probe": {
+        "ready": 2,
+        "match": 2,
+        "mismatch": 0,
+        "addr": 107,
+        "part_id": 5,
+        "id_valid": 1,
+        "config_attempted": 1,
+        "write_ok": 1,
+        "config_ok": 1,
+        "motion_ok": 1,
+        "status": 0,
+        "accel": [
+          246,
+          1166,
+          -4062
+        ],
+        "gyro": [
+          473,
+          -99,
+          -28
+        ]
+      },
+      "valid": 1,
+      "stage": 14,
+      "cal_count": 81,
+      "cal_phase": 3,
+      "still_elapsed_ms": 610,
+      "reading": [
+        167077,
+        205103,
+        122778
+      ],
+      "uwTick": 89818,
+      "now": 89815352,
+      "g_heap_used": 620,
+      "g_irq_lock_depth": 1,
+      "g_app_jd_diag_rx_complete": 942,
+      "g_app_jd_diag_crc_ok": 726,
+      "nextAnnounce": 90000000,
+      "lastMax": 89512099,
+      "g_app_jd_rx_hw_rxne_count": 18881,
+      "g_app_jd_rx_hw_fe_count": 307,
+      "g_app_jd_rx_hw_ore_count": 0,
+      "packets_since_announce": 7,
+      "service_sample": [
+        -205103,
+        -167077,
+        -122778
+      ],
+      "runtime_flags": {
+        "g_runtime_ready": 1,
+        "g_uart_rx_active": 0,
+        "g_uart_tx_active": 0,
+        "g_tx_complete_pending": 0
+      }
+    },
+    {
+      "seconds": 6.093,
+      "probe": {
+        "ready": 2,
+        "match": 2,
+        "mismatch": 0,
+        "addr": 107,
+        "part_id": 5,
+        "id_valid": 1,
+        "config_attempted": 1,
+        "write_ok": 1,
+        "config_ok": 1,
+        "motion_ok": 1,
+        "status": 0,
+        "accel": [
+          239,
+          1161,
+          -4053
+        ],
+        "gyro": [
+          485,
+          -98,
+          -34
+        ]
+      },
+      "valid": 1,
+      "stage": 15,
+      "cal_count": 81,
+      "cal_phase": 3,
+      "still_elapsed_ms": 610,
+      "reading": [
+        -13147,
+        -335569,
+        106394
+      ],
+      "uwTick": 90126,
+      "now": 90123088,
+      "g_heap_used": 620,
+      "g_irq_lock_depth": 1,
+      "g_app_jd_diag_rx_complete": 946,
+      "g_app_jd_diag_crc_ok": 728,
+      "nextAnnounce": 90500000,
+      "lastMax": 89512099,
+      "g_app_jd_rx_hw_rxne_count": 18936,
+      "g_app_jd_rx_hw_fe_count": 309,
+      "g_app_jd_rx_hw_ore_count": 0,
+      "packets_since_announce": 3,
+      "service_sample": [
+        138961,
+        -68773,
+        57446
+      ],
+      "runtime_flags": {
+        "g_runtime_ready": 1,
+        "g_uart_rx_active": 0,
+        "g_uart_tx_active": 0,
+        "g_tx_complete_pending": 0
+      }
+    },
+    {
+      "seconds": 6.39,
+      "probe": {
+        "ready": 2,
+        "match": 2,
+        "mismatch": 0,
+        "addr": 107,
+        "part_id": 5,
+        "id_valid": 1,
+        "config_attempted": 1,
+        "write_ok": 1,
+        "config_ok": 1,
+        "motion_ok": 1,
+        "status": 0,
+        "accel": [
+          245,
+          1160,
+          -4077
+        ],
+        "gyro": [
+          476,
+          -90,
+          -24
+        ]
+      },
+      "valid": 1,
+      "stage": 15,
+      "cal_count": 81,
+      "cal_phase": 3,
+      "still_elapsed_ms": 610,
+      "reading": [
+        -78683,
+        172335,
+        171930
+      ],
+      "uwTick": 90424,
+      "now": 90421014,
+      "g_heap_used": 620,
+      "g_irq_lock_depth": 1,
+      "g_app_jd_diag_rx_complete": 946,
+      "g_app_jd_diag_crc_ok": 728,
+      "nextAnnounce": 90500000,
+      "lastMax": 89512099,
+      "g_app_jd_rx_hw_rxne_count": 18936,
+      "g_app_jd_rx_hw_fe_count": 309,
+      "g_app_jd_rx_hw_ore_count": 0,
+      "packets_since_announce": 9,
+      "service_sample": [
+        7889,
+        78683,
+        -106394
+      ],
+      "runtime_flags": {
+        "g_runtime_ready": 1,
+        "g_uart_rx_active": 0,
+        "g_uart_tx_active": 0,
+        "g_tx_complete_pending": 0
+      }
+    },
+    {
+      "seconds": 6.687,
+      "probe": {
+        "ready": 2,
+        "match": 2,
+        "mismatch": 0,
+        "addr": 107,
+        "part_id": 5,
+        "id_valid": 1,
+        "config_attempted": 1,
+        "write_ok": 1,
+        "config_ok": 1,
+        "motion_ok": 1,
+        "status": 0,
+        "accel": [
+          233,
+          1167,
+          -4073
+        ],
+        "gyro": [
+          472,
+          -103,
+          -20
+        ]
+      },
+      "valid": 1,
+      "stage": 15,
+      "cal_count": 81,
+      "cal_phase": 3,
+      "still_elapsed_ms": 610,
+      "reading": [
+        19621,
+        -89809,
+        24474
+      ],
+      "uwTick": 90723,
+      "now": 90719815,
+      "g_heap_used": 620,
+      "g_irq_lock_depth": 1,
+      "g_app_jd_diag_rx_complete": 950,
+      "g_app_jd_diag_crc_ok": 730,
+      "nextAnnounce": 91000000,
+      "lastMax": 89512099,
+      "g_app_jd_rx_hw_rxne_count": 18988,
+      "g_app_jd_rx_hw_fe_count": 311,
+      "g_app_jd_rx_hw_ore_count": 0,
+      "packets_since_announce": 5,
+      "service_sample": [
+        220881,
+        144219,
+        -171930
+      ],
+      "runtime_flags": {
+        "g_runtime_ready": 1,
+        "g_uart_rx_active": 0,
+        "g_uart_tx_active": 0,
+        "g_tx_complete_pending": 0
+      }
+    },
+    {
+      "seconds": 7.0,
+      "probe": {
+        "ready": 2,
+        "match": 2,
+        "mismatch": 0,
+        "addr": 107,
+        "part_id": 5,
+        "id_valid": 1,
+        "config_attempted": 1,
+        "write_ok": 1,
+        "config_ok": 1,
+        "motion_ok": 1,
+        "status": 0,
+        "accel": [
+          257,
+          1162,
+          -4067
+        ],
+        "gyro": [
+          479,
+          -96,
+          -49
+        ]
+      },
+      "valid": 1,
+      "stage": 11,
+      "cal_count": 81,
+      "cal_phase": 3,
+      "still_elapsed_ms": 610,
+      "reading": [
+        183461,
+        -24273,
+        -24678
+      ],
+      "uwTick": 91029,
+      "now": 91026227,
+      "g_heap_used": 620,
+      "g_irq_lock_depth": 1,
+      "g_app_jd_diag_rx_complete": 952,
+      "g_app_jd_diag_crc_ok": 731,
+      "nextAnnounce": 91500000,
+      "lastMax": 89512099,
+      "g_app_jd_rx_hw_rxne_count": 19010,
+      "g_app_jd_rx_hw_fe_count": 312,
+      "g_app_jd_rx_hw_ore_count": 0,
+      "packets_since_announce": 1,
+      "service_sample": [
+        106193,
+        29531,
+        303206
+      ],
+      "runtime_flags": {
+        "g_runtime_ready": 1,
+        "g_uart_rx_active": 0,
+        "g_uart_tx_active": 0,
+        "g_tx_complete_pending": 0
+      }
+    },
+    {
+      "seconds": 7.296,
+      "probe": {
+        "ready": 2,
+        "match": 2,
+        "mismatch": 0,
+        "addr": 107,
+        "part_id": 5,
+        "id_valid": 1,
+        "config_attempted": 1,
+        "write_ok": 1,
+        "config_ok": 1,
+        "motion_ok": 1,
+        "status": 0,
+        "accel": [
+          244,
+          1162,
+          -4058
+        ],
+        "gyro": [
+          479,
+          -91,
+          -38
+        ]
+      },
+      "valid": 1,
+      "stage": 11,
+      "cal_count": 81,
+      "cal_phase": 3,
+      "still_elapsed_ms": 610,
+      "reading": [
+        -29531,
+        -57041,
+        -73830
+      ],
+      "uwTick": 91325,
+      "now": 91321466,
+      "g_heap_used": 620,
+      "g_irq_lock_depth": 0,
+      "g_app_jd_diag_rx_complete": 955,
+      "g_app_jd_diag_crc_ok": 734,
+      "nextAnnounce": 91500000,
+      "lastMax": 89512099,
+      "g_app_jd_rx_hw_rxne_count": 19080,
+      "g_app_jd_rx_hw_fe_count": 313,
+      "g_app_jd_rx_hw_ore_count": 0,
+      "packets_since_announce": 7,
+      "service_sample": [
+        24273,
+        29531,
+        122982
+      ],
+      "runtime_flags": {
+        "g_runtime_ready": 1,
+        "g_uart_rx_active": 0,
+        "g_uart_tx_active": 0,
+        "g_tx_complete_pending": 0
+      }
+    },
+    {
+      "seconds": 7.593,
+      "probe": {
+        "ready": 2,
+        "match": 2,
+        "mismatch": 0,
+        "addr": 107,
+        "part_id": 5,
+        "id_valid": 1,
+        "config_attempted": 1,
+        "write_ok": 1,
+        "config_ok": 1,
+        "motion_ok": 1,
+        "status": 0,
+        "accel": [
+          235,
+          1153,
+          -4056
+        ],
+        "gyro": [
+          490,
+          -98,
+          -50
+        ]
+      },
+      "valid": 1,
+      "stage": 11,
+      "cal_count": 81,
+      "cal_phase": 3,
+      "still_elapsed_ms": 610,
+      "reading": [
+        150693,
+        24879,
+        122778
+      ],
+      "uwTick": 91621,
+      "now": 91617428,
+      "g_heap_used": 620,
+      "g_irq_lock_depth": 0,
+      "g_app_jd_diag_rx_complete": 959,
+      "g_app_jd_diag_crc_ok": 738,
+      "nextAnnounce": 92000000,
+      "lastMax": 91512217,
+      "g_app_jd_rx_hw_rxne_count": 19185,
+      "g_app_jd_rx_hw_fe_count": 314,
+      "g_app_jd_rx_hw_ore_count": 0,
+      "packets_since_announce": 3,
+      "service_sample": [
+        138961,
+        -150693,
+        319590
+      ],
+      "runtime_flags": {
+        "g_runtime_ready": 1,
+        "g_uart_rx_active": 0,
+        "g_uart_tx_active": 0,
+        "g_tx_complete_pending": 0
+      }
+    },
+    {
+      "seconds": 7.906,
+      "probe": {
+        "ready": 2,
+        "match": 2,
+        "mismatch": 0,
+        "addr": 107,
+        "part_id": 5,
+        "id_valid": 1,
+        "config_attempted": 1,
+        "write_ok": 1,
+        "config_ok": 1,
+        "motion_ok": 1,
+        "status": 0,
+        "accel": [
+          242,
+          1115,
+          -4026
+        ],
+        "gyro": [
+          483,
+          -80,
+          -16
+        ]
+      },
+      "valid": 1,
+      "stage": 11,
+      "cal_count": 81,
+      "cal_phase": 3,
+      "still_elapsed_ms": 610,
+      "reading": [
+        36005,
+        155951,
+        237466
+      ],
+      "uwTick": 91929,
+      "now": 91924980,
+      "g_heap_used": 620,
+      "g_irq_lock_depth": 0,
+      "g_app_jd_diag_rx_complete": 959,
+      "g_app_jd_diag_crc_ok": 738,
+      "nextAnnounce": 92000000,
+      "lastMax": 91512217,
+      "g_app_jd_rx_hw_rxne_count": 19185,
+      "g_app_jd_rx_hw_fe_count": 314,
+      "g_app_jd_rx_hw_ore_count": 0,
+      "packets_since_announce": 9,
+      "service_sample": [
+        -155951,
+        -36005,
+        -237466
+      ],
+      "runtime_flags": {
+        "g_runtime_ready": 1,
+        "g_uart_rx_active": 0,
+        "g_uart_tx_active": 0,
+        "g_tx_complete_pending": 0
+      }
+    },
+    {
+      "seconds": 8.218,
+      "probe": {
+        "ready": 2,
+        "match": 2,
+        "mismatch": 0,
+        "addr": 107,
+        "part_id": 5,
+        "id_valid": 1,
+        "config_attempted": 1,
+        "write_ok": 1,
+        "config_ok": 1,
+        "motion_ok": 1,
+        "status": 0,
+        "accel": [
+          238,
+          1167,
+          -4068
+        ],
+        "gyro": [
+          489,
+          -87,
+          -36
+        ]
+      },
+      "valid": 1,
+      "stage": 12,
+      "cal_count": 81,
+      "cal_phase": 3,
+      "still_elapsed_ms": 610,
+      "reading": [
+        -144219,
+        -171729,
+        40858
+      ],
+      "uwTick": 92237,
+      "now": 92233695,
+      "g_heap_used": 620,
+      "g_irq_lock_depth": 0,
+      "g_app_jd_diag_rx_complete": 963,
+      "g_app_jd_diag_crc_ok": 742,
+      "nextAnnounce": 92500000,
+      "lastMax": 92012778,
+      "g_app_jd_rx_hw_rxne_count": 19290,
+      "g_app_jd_rx_hw_fe_count": 315,
+      "g_app_jd_rx_hw_ore_count": 0,
+      "packets_since_announce": 5,
+      "service_sample": [
+        171729,
+        144219,
+        -40858
+      ],
+      "runtime_flags": {
+        "g_runtime_ready": 1,
+        "g_uart_rx_active": 0,
+        "g_uart_tx_active": 0,
+        "g_tx_complete_pending": 0
+      }
+    },
+    {
+      "seconds": 8.515,
+      "probe": {
+        "ready": 2,
+        "match": 2,
+        "mismatch": 0,
+        "addr": 107,
+        "part_id": 5,
+        "id_valid": 1,
+        "config_attempted": 1,
+        "write_ok": 1,
+        "config_ok": 1,
+        "motion_ok": 1,
+        "status": 0,
+        "accel": [
+          241,
+          1165,
+          -4061
+        ],
+        "gyro": [
+          477,
+          -88,
+          -31
+        ]
+      },
+      "valid": 1,
+      "stage": 12,
+      "cal_count": 81,
+      "cal_phase": 3,
+      "still_elapsed_ms": 610,
+      "reading": [
+        314533,
+        205103,
+        204698
+      ],
+      "uwTick": 92534,
+      "now": 92530852,
+      "g_heap_used": 620,
+      "g_irq_lock_depth": 0,
+      "g_app_jd_diag_rx_complete": 965,
+      "g_app_jd_diag_crc_ok": 744,
+      "nextAnnounce": 93000000,
+      "lastMax": 92511993,
+      "g_app_jd_rx_hw_rxne_count": 19342,
+      "g_app_jd_rx_hw_fe_count": 315,
+      "g_app_jd_rx_hw_ore_count": 0,
+      "packets_since_announce": 1,
+      "service_sample": [
+        -205103,
+        -314533,
+        -204698
+      ],
+      "runtime_flags": {
+        "g_runtime_ready": 1,
+        "g_uart_rx_active": 0,
+        "g_uart_tx_active": 0,
+        "g_tx_complete_pending": 0
+      }
+    },
+    {
+      "seconds": 8.812,
+      "probe": {
+        "ready": 2,
+        "match": 2,
+        "mismatch": 0,
+        "addr": 107,
+        "part_id": 5,
+        "id_valid": 1,
+        "config_attempted": 1,
+        "write_ok": 1,
+        "config_ok": 1,
+        "motion_ok": 1,
+        "status": 0,
+        "accel": [
+          255,
+          1160,
+          -4068
+        ],
+        "gyro": [
+          464,
+          -76,
+          -23
+        ]
+      },
+      "valid": 1,
+      "stage": 12,
+      "cal_count": 81,
+      "cal_phase": 3,
+      "still_elapsed_ms": 610,
+      "reading": [
+        -78683,
+        139567,
+        155546
+      ],
+      "uwTick": 92842,
+      "now": 92839151,
+      "g_heap_used": 620,
+      "g_irq_lock_depth": 0,
+      "g_app_jd_diag_rx_complete": 967,
+      "g_app_jd_diag_crc_ok": 746,
+      "nextAnnounce": 93000000,
+      "lastMax": 92511993,
+      "g_app_jd_rx_hw_rxne_count": 19395,
+      "g_app_jd_rx_hw_fe_count": 316,
+      "g_app_jd_rx_hw_ore_count": 0,
+      "packets_since_announce": 7,
+      "service_sample": [
+        -221487,
+        275291,
+        -122778
+      ],
+      "runtime_flags": {
+        "g_runtime_ready": 1,
+        "g_uart_rx_active": 0,
+        "g_uart_tx_active": 0,
+        "g_tx_complete_pending": 0
+      }
+    },
+    {
+      "seconds": 9.109,
+      "probe": {
+        "ready": 2,
+        "match": 2,
+        "mismatch": 0,
+        "addr": 107,
+        "part_id": 5,
+        "id_valid": 1,
+        "config_attempted": 1,
+        "write_ok": 1,
+        "config_ok": 1,
+        "motion_ok": 1,
+        "status": 0,
+        "accel": [
+          254,
+          1174,
+          -4068
+        ],
+        "gyro": [
+          477,
+          -90,
+          -19
+        ]
+      },
+      "valid": 1,
+      "stage": 13,
+      "cal_count": 81,
+      "cal_phase": 3,
+      "still_elapsed_ms": 610,
+      "reading": [
+        117925,
+        -122577,
+        106394
+      ],
+      "uwTick": 93138,
+      "now": 93134847,
+      "g_heap_used": 620,
+      "g_irq_lock_depth": 1,
+      "g_app_jd_diag_rx_complete": 970,
+      "g_app_jd_diag_crc_ok": 749,
+      "nextAnnounce": 93500000,
+      "lastMax": 93013235,
+      "g_app_jd_rx_hw_rxne_count": 19475,
+      "g_app_jd_rx_hw_fe_count": 316,
+      "g_app_jd_rx_hw_ore_count": 0,
+      "packets_since_announce": 3,
+      "service_sample": [
+        7889,
+        62299,
+        -188314
+      ],
+      "runtime_flags": {
+        "g_runtime_ready": 1,
+        "g_uart_rx_active": 0,
+        "g_uart_tx_active": 0,
+        "g_tx_complete_pending": 0
+      }
+    },
+    {
+      "seconds": 9.406,
+      "probe": {
+        "ready": 2,
+        "match": 2,
+        "mismatch": 0,
+        "addr": 107,
+        "part_id": 5,
+        "id_valid": 1,
+        "config_attempted": 1,
+        "write_ok": 1,
+        "config_ok": 1,
+        "motion_ok": 1,
+        "status": 0,
+        "accel": [
+          248,
+          1158,
+          -4064
+        ],
+        "gyro": [
+          484,
+          -91,
+          -40
+        ]
+      },
+      "valid": 1,
+      "stage": 13,
+      "cal_count": 81,
+      "cal_phase": 3,
+      "still_elapsed_ms": 610,
+      "reading": [
+        183461,
+        24879,
+        -155750
+      ],
+      "uwTick": 93435,
+      "now": 93432054,
+      "g_heap_used": 620,
+      "g_irq_lock_depth": 0,
+      "g_app_jd_diag_rx_complete": 971,
+      "g_app_jd_diag_crc_ok": 749,
+      "nextAnnounce": 93500000,
+      "lastMax": 93013235,
+      "g_app_jd_rx_hw_rxne_count": 19477,
+      "g_app_jd_rx_hw_fe_count": 317,
+      "g_app_jd_rx_hw_ore_count": 0,
+      "packets_since_announce": 9,
+      "service_sample": [
+        -24879,
+        -183461,
+        155750
+      ],
+      "runtime_flags": {
+        "g_runtime_ready": 1,
+        "g_uart_rx_active": 0,
+        "g_uart_tx_active": 0,
+        "g_tx_complete_pending": 0
+      }
+    },
+    {
+      "seconds": 9.718,
+      "probe": {
+        "ready": 2,
+        "match": 2,
+        "mismatch": 0,
+        "addr": 107,
+        "part_id": 5,
+        "id_valid": 1,
+        "config_attempted": 1,
+        "write_ok": 1,
+        "config_ok": 1,
+        "motion_ok": 1,
+        "status": 0,
+        "accel": [
+          259,
+          1165,
+          -4064
+        ],
+        "gyro": [
+          471,
+          -96,
+          -27
+        ]
+      },
+      "valid": 1,
+      "stage": 13,
+      "cal_count": 81,
+      "cal_phase": 3,
+      "still_elapsed_ms": 610,
+      "reading": [
+        380069,
+        41263,
+        515994
+      ],
+      "uwTick": 93743,
+      "now": 93739820,
+      "g_heap_used": 620,
+      "g_irq_lock_depth": 0,
+      "g_app_jd_diag_rx_complete": 980,
+      "g_app_jd_diag_crc_ok": 755,
+      "nextAnnounce": 94000000,
+      "lastMax": 93013235,
+      "g_app_jd_rx_hw_rxne_count": 19598,
+      "g_app_jd_rx_hw_fe_count": 319,
+      "g_app_jd_rx_hw_ore_count": 0,
+      "packets_since_announce": 6,
+      "service_sample": [
+        106193,
+        160603,
+        -57242
+      ],
+      "runtime_flags": {
+        "g_runtime_ready": 1,
+        "g_uart_rx_active": 0,
+        "g_uart_tx_active": 0,
+        "g_tx_complete_pending": 0
+      }
+    },
+    {
+      "seconds": 10.031,
+      "probe": {
+        "ready": 2,
+        "match": 2,
+        "mismatch": 0,
+        "addr": 107,
+        "part_id": 5,
+        "id_valid": 1,
+        "config_attempted": 1,
+        "write_ok": 1,
+        "config_ok": 1,
+        "motion_ok": 0,
+        "status": 0,
+        "accel": [
+          244,
+          1161,
+          -4062
+        ],
+        "gyro": [
+          477,
+          -92,
+          -30
+        ]
+      },
+      "valid": 1,
+      "stage": 14,
+      "cal_count": 81,
+      "cal_phase": 3,
+      "still_elapsed_ms": 610,
+      "reading": [
+        3237,
+        57647,
+        24474
+      ],
+      "uwTick": 94050,
+      "now": 94047410,
+      "g_heap_used": 620,
+      "g_irq_lock_depth": 1,
+      "g_app_jd_diag_rx_complete": 983,
+      "g_app_jd_diag_crc_ok": 757,
+      "nextAnnounce": 94500000,
+      "lastMax": 94012084,
+      "g_app_jd_rx_hw_rxne_count": 19651,
+      "g_app_jd_rx_hw_fe_count": 320,
+      "g_app_jd_rx_hw_ore_count": 0,
+      "packets_since_announce": 2,
+      "service_sample": [
+        -57647,
+        -3237,
+        -24474
+      ],
+      "runtime_flags": {
+        "g_runtime_ready": 1,
+        "g_uart_rx_active": 0,
+        "g_uart_tx_active": 0,
+        "g_tx_complete_pending": 0
+      }
+    },
+    {
+      "seconds": 10.343,
+      "probe": {
+        "ready": 2,
+        "match": 2,
+        "mismatch": 0,
+        "addr": 107,
+        "part_id": 5,
+        "id_valid": 1,
+        "config_attempted": 1,
+        "write_ok": 1,
+        "config_ok": 1,
+        "motion_ok": 1,
+        "status": 0,
+        "accel": [
+          247,
+          1164,
+          -4066
+        ],
+        "gyro": [
+          465,
+          -89,
+          -27
+        ]
+      },
+      "valid": 1,
+      "stage": 14,
+      "cal_count": 81,
+      "cal_phase": 3,
+      "still_elapsed_ms": 610,
+      "reading": [
+        167077,
+        155951,
+        40858
+      ],
+      "uwTick": 94359,
+      "now": 94355667,
+      "g_heap_used": 620,
+      "g_irq_lock_depth": 1,
+      "g_app_jd_diag_rx_complete": 984,
+      "g_app_jd_diag_crc_ok": 757,
+      "nextAnnounce": 94500000,
+      "lastMax": 94012084,
+      "g_app_jd_rx_hw_rxne_count": 19653,
+      "g_app_jd_rx_hw_fe_count": 321,
+      "g_app_jd_rx_hw_ore_count": 0,
+      "packets_since_announce": 8,
+      "service_sample": [
+        -8495,
+        258907,
+        -57242
+      ],
+      "runtime_flags": {
+        "g_runtime_ready": 1,
+        "g_uart_rx_active": 0,
+        "g_uart_tx_active": 0,
+        "g_tx_complete_pending": 0
+      }
+    },
+    {
+      "seconds": 10.64,
+      "probe": {
+        "ready": 2,
+        "match": 2,
+        "mismatch": 0,
+        "addr": 107,
+        "part_id": 5,
+        "id_valid": 1,
+        "config_attempted": 1,
+        "write_ok": 1,
+        "config_ok": 1,
+        "motion_ok": 1,
+        "status": 0,
+        "accel": [
+          252,
+          1154,
+          -4069
+        ],
+        "gyro": [
+          493,
+          -80,
+          -39
+        ]
+      },
+      "valid": 1,
+      "stage": 14,
+      "cal_count": 81,
+      "cal_phase": 3,
+      "still_elapsed_ms": 610,
+      "reading": [
+        -13147,
+        -40657,
+        -57446
+      ],
+      "uwTick": 94656,
+      "now": 94652466,
+      "g_heap_used": 620,
+      "g_irq_lock_depth": 0,
+      "g_app_jd_diag_rx_complete": 987,
+      "g_app_jd_diag_crc_ok": 758,
+      "nextAnnounce": 95000000,
+      "lastMax": 94512271,
+      "g_app_jd_rx_hw_rxne_count": 19690,
+      "g_app_jd_rx_hw_fe_count": 323,
+      "g_app_jd_rx_hw_ore_count": 0,
+      "packets_since_announce": 4,
+      "service_sample": [
+        -155951,
+        -199845,
+        139366
+      ],
+      "runtime_flags": {
+        "g_runtime_ready": 1,
+        "g_uart_rx_active": 0,
+        "g_uart_tx_active": 0,
+        "g_tx_complete_pending": 0
+      }
+    },
+    {
+      "seconds": 10.953,
+      "probe": {
+        "ready": 2,
+        "match": 2,
+        "mismatch": 0,
+        "addr": 107,
+        "part_id": 5,
+        "id_valid": 1,
+        "config_attempted": 1,
+        "write_ok": 1,
+        "config_ok": 1,
+        "motion_ok": 1,
+        "status": 0,
+        "accel": [
+          233,
+          1158,
+          -4071
+        ],
+        "gyro": [
+          481,
+          -84,
+          -30
+        ]
+      },
+      "valid": 1,
+      "stage": 14,
+      "cal_count": 81,
+      "cal_phase": 3,
+      "still_elapsed_ms": 610,
+      "reading": [
+        232613,
+        41263,
+        -41062
+      ],
+      "uwTick": 94965,
+      "now": 94962410,
+      "g_heap_used": 620,
+      "g_irq_lock_depth": 0,
+      "g_app_jd_diag_rx_complete": 988,
+      "g_app_jd_diag_crc_ok": 759,
+      "nextAnnounce": 95000000,
+      "lastMax": 94512271,
+      "g_app_jd_rx_hw_rxne_count": 19715,
+      "g_app_jd_rx_hw_fe_count": 324,
+      "g_app_jd_rx_hw_ore_count": 0,
+      "packets_since_announce": 10,
+      "service_sample": [
+        -90415,
+        -3237,
+        -8090
+      ],
+      "runtime_flags": {
+        "g_runtime_ready": 1,
+        "g_uart_rx_active": 0,
+        "g_uart_tx_active": 0,
+        "g_tx_complete_pending": 0
+      }
+    },
+    {
+      "seconds": 11.265,
+      "probe": {
+        "ready": 2,
+        "match": 2,
+        "mismatch": 0,
+        "addr": 107,
+        "part_id": 5,
+        "id_valid": 1,
+        "config_attempted": 1,
+        "write_ok": 1,
+        "config_ok": 1,
+        "motion_ok": 1,
+        "status": 0,
+        "accel": [
+          237,
+          1149,
+          -4067
+        ],
+        "gyro": [
+          475,
+          -88,
+          -40
+        ]
+      },
+      "valid": 1,
+      "stage": 15,
+      "cal_count": 81,
+      "cal_phase": 3,
+      "still_elapsed_ms": 610,
+      "reading": [
+        -95067,
+        24879,
+        -155750
+      ],
+      "uwTick": 95274,
+      "now": 95270603,
+      "g_heap_used": 620,
+      "g_irq_lock_depth": 1,
+      "g_app_jd_diag_rx_complete": 992,
+      "g_app_jd_diag_crc_ok": 761,
+      "nextAnnounce": 95500000,
+      "lastMax": 95012102,
+      "g_app_jd_rx_hw_rxne_count": 19770,
+      "g_app_jd_rx_hw_fe_count": 326,
+      "g_app_jd_rx_hw_ore_count": 0,
+      "packets_since_announce": 6,
+      "service_sample": [
+        -24879,
+        95067,
+        155750
+      ],
+      "runtime_flags": {
+        "g_runtime_ready": 1,
+        "g_uart_rx_active": 0,
+        "g_uart_tx_active": 0,
+        "g_tx_complete_pending": 0
+      }
+    },
+    {
+      "seconds": 11.562,
+      "probe": {
+        "ready": 2,
+        "match": 2,
+        "mismatch": 0,
+        "addr": 107,
+        "part_id": 5,
+        "id_valid": 1,
+        "config_attempted": 1,
+        "write_ok": 1,
+        "config_ok": 1,
+        "motion_ok": 1,
+        "status": 0,
+        "accel": [
+          240,
+          1159,
+          -4059
+        ],
+        "gyro": [
+          491,
+          -115,
+          -19
+        ]
+      },
+      "valid": 0,
+      "stage": 15,
+      "cal_count": 81,
+      "cal_phase": 3,
+      "still_elapsed_ms": 610,
+      "reading": [
+        167077,
+        -417489,
+        188314
+      ],
+      "uwTick": 95568,
+      "now": 95565174,
+      "g_heap_used": 620,
+      "g_irq_lock_depth": 1,
+      "g_app_jd_diag_rx_complete": 996,
+      "g_app_jd_diag_crc_ok": 764,
+      "nextAnnounce": 96000000,
+      "lastMax": 95512081,
+      "g_app_jd_rx_hw_rxne_count": 19852,
+      "g_app_jd_rx_hw_fe_count": 327,
+      "g_app_jd_rx_hw_ore_count": 0,
+      "packets_since_announce": 2,
+      "service_sample": [
+        417489,
+        -167077,
+        -188314
+      ],
+      "runtime_flags": {
+        "g_runtime_ready": 1,
+        "g_uart_rx_active": 0,
+        "g_uart_tx_active": 0,
+        "g_tx_complete_pending": 0
+      }
+    },
+    {
+      "seconds": 11.859,
+      "probe": {
+        "ready": 2,
+        "match": 2,
+        "mismatch": 0,
+        "addr": 107,
+        "part_id": 5,
+        "id_valid": 1,
+        "config_attempted": 1,
+        "write_ok": 1,
+        "config_ok": 1,
+        "motion_ok": 1,
+        "status": 0,
+        "accel": [
+          244,
+          1165,
+          -4073
+        ],
+        "gyro": [
+          486,
+          -82,
+          -21
+        ]
+      },
+      "valid": 1,
+      "stage": 15,
+      "cal_count": 81,
+      "cal_phase": 3,
+      "still_elapsed_ms": 610,
+      "reading": [
+        85157,
+        123183,
+        155546
+      ],
+      "uwTick": 95864,
+      "now": 95860971,
+      "g_heap_used": 620,
+      "g_irq_lock_depth": 0,
+      "g_app_jd_diag_rx_complete": 998,
+      "g_app_jd_diag_crc_ok": 766,
+      "nextAnnounce": 96000000,
+      "lastMax": 95512081,
+      "g_app_jd_rx_hw_rxne_count": 19894,
+      "g_app_jd_rx_hw_fe_count": 328,
+      "g_app_jd_rx_hw_ore_count": 0,
+      "packets_since_announce": 8,
+      "service_sample": [
+        -123183,
+        -85157,
+        -155546
+      ],
+      "runtime_flags": {
+        "g_runtime_ready": 1,
+        "g_uart_rx_active": 0,
+        "g_uart_tx_active": 0,
+        "g_tx_complete_pending": 0
+      }
+    },
+    {
+      "seconds": 12.156,
+      "probe": {
+        "ready": 2,
+        "match": 2,
+        "mismatch": 0,
+        "addr": 107,
+        "part_id": 5,
+        "id_valid": 1,
+        "config_attempted": 1,
+        "write_ok": 1,
+        "config_ok": 1,
+        "motion_ok": 1,
+        "status": 0,
+        "accel": [
+          239,
+          1164,
+          -4057
+        ],
+        "gyro": [
+          475,
+          -88,
+          -27
+        ]
+      },
+      "valid": 1,
+      "stage": 11,
+      "cal_count": 81,
+      "cal_phase": 3,
+      "still_elapsed_ms": 610,
+      "reading": [
+        -95067,
+        24879,
+        57242
+      ],
+      "uwTick": 96161,
+      "now": 96157896,
+      "g_heap_used": 620,
+      "g_irq_lock_depth": 0,
+      "g_app_jd_diag_rx_complete": 1002,
+      "g_app_jd_diag_crc_ok": 770,
+      "nextAnnounce": 96500000,
+      "lastMax": 96012206,
+      "g_app_jd_rx_hw_rxne_count": 19991,
+      "g_app_jd_rx_hw_fe_count": 328,
+      "g_app_jd_rx_hw_ore_count": 0,
+      "packets_since_announce": 4,
+      "service_sample": [
+        -24879,
+        95067,
+        -57242
+      ],
+      "runtime_flags": {
+        "g_runtime_ready": 1,
+        "g_uart_rx_active": 0,
+        "g_uart_tx_active": 0,
+        "g_tx_complete_pending": 0
+      }
+    },
+    {
+      "seconds": 12.453,
+      "probe": {
+        "ready": 2,
+        "match": 2,
+        "mismatch": 0,
+        "addr": 107,
+        "part_id": 5,
+        "id_valid": 1,
+        "config_attempted": 1,
+        "write_ok": 1,
+        "config_ok": 1,
+        "motion_ok": 1,
+        "status": 0,
+        "accel": [
+          236,
+          1164,
+          -4064
+        ],
+        "gyro": [
+          479,
+          -81,
+          -34
+        ]
+      },
+      "valid": 1,
+      "stage": 11,
+      "cal_count": 81,
+      "cal_phase": 3,
+      "still_elapsed_ms": 610,
+      "reading": [
+        -29531,
+        139567,
+        -57446
+      ],
+      "uwTick": 96456,
+      "now": 96453426,
+      "g_heap_used": 620,
+      "g_irq_lock_depth": 0,
+      "g_app_jd_diag_rx_complete": 1003,
+      "g_app_jd_diag_crc_ok": 770,
+      "nextAnnounce": 96500000,
+      "lastMax": 96012206,
+      "g_app_jd_rx_hw_rxne_count": 19993,
+      "g_app_jd_rx_hw_fe_count": 329,
+      "g_app_jd_rx_hw_ore_count": 0,
+      "packets_since_announce": 10,
+      "service_sample": [
+        -139567,
+        29531,
+        57446
+      ],
+      "runtime_flags": {
+        "g_runtime_ready": 1,
+        "g_uart_rx_active": 0,
+        "g_uart_tx_active": 0,
+        "g_tx_complete_pending": 0
+      }
+    },
+    {
+      "seconds": 12.75,
+      "probe": {
+        "ready": 2,
+        "match": 2,
+        "mismatch": 0,
+        "addr": 107,
+        "part_id": 5,
+        "id_valid": 1,
+        "config_attempted": 1,
+        "write_ok": 1,
+        "config_ok": 1,
+        "motion_ok": 1,
+        "status": 0,
+        "accel": [
+          243,
+          1165,
+          -4054
+        ],
+        "gyro": [
+          486,
+          -83,
+          -13
+        ]
+      },
+      "valid": 0,
+      "stage": 11,
+      "cal_count": 81,
+      "cal_phase": 3,
+      "still_elapsed_ms": 610,
+      "reading": [
+        85157,
+        106799,
+        286618
+      ],
+      "uwTick": 96766,
+      "now": 96762927,
+      "g_heap_used": 620,
+      "g_irq_lock_depth": 1,
+      "g_app_jd_diag_rx_complete": 1006,
+      "g_app_jd_diag_crc_ok": 773,
+      "nextAnnounce": 97000000,
+      "lastMax": 96512346,
+      "g_app_jd_rx_hw_rxne_count": 20073,
+      "g_app_jd_rx_hw_fe_count": 329,
+      "g_app_jd_rx_hw_ore_count": 0,
+      "packets_since_announce": 6,
+      "service_sample": [
+        -106799,
+        -85157,
+        -286618
+      ],
+      "runtime_flags": {
+        "g_runtime_ready": 1,
+        "g_uart_rx_active": 0,
+        "g_uart_tx_active": 0,
+        "g_tx_complete_pending": 0
+      }
+    },
+    {
+      "seconds": 13.062,
+      "probe": {
+        "ready": 2,
+        "match": 2,
+        "mismatch": 0,
+        "addr": 107,
+        "part_id": 5,
+        "id_valid": 1,
+        "config_attempted": 1,
+        "write_ok": 1,
+        "config_ok": 1,
+        "motion_ok": 1,
+        "status": 0,
+        "accel": [
+          238,
+          1165,
+          -4058
+        ],
+        "gyro": [
+          484,
+          -89,
+          -31
+        ]
+      },
+      "valid": 1,
+      "stage": 12,
+      "cal_count": 81,
+      "cal_phase": 3,
+      "still_elapsed_ms": 610,
+      "reading": [
+        68773,
+        90415,
+        -122982
+      ],
+      "uwTick": 97076,
+      "now": 97072794,
+      "g_heap_used": 620,
+      "g_irq_lock_depth": 1,
+      "g_app_jd_diag_rx_complete": 1010,
+      "g_app_jd_diag_crc_ok": 777,
+      "nextAnnounce": 97500000,
+      "lastMax": 97012227,
+      "g_app_jd_rx_hw_rxne_count": 20178,
+      "g_app_jd_rx_hw_fe_count": 330,
+      "g_app_jd_rx_hw_ore_count": 0,
+      "packets_since_announce": 3,
+      "service_sample": [
+        -8495,
+        -52389,
+        8294
+      ],
+      "runtime_flags": {
+        "g_runtime_ready": 1,
+        "g_uart_rx_active": 0,
+        "g_uart_tx_active": 0,
+        "g_tx_complete_pending": 0
+      }
+    },
+    {
+      "seconds": 13.375,
+      "probe": {
+        "ready": 2,
+        "match": 2,
+        "mismatch": 0,
+        "addr": 107,
+        "part_id": 5,
+        "id_valid": 1,
+        "config_attempted": 1,
+        "write_ok": 1,
+        "config_ok": 1,
+        "motion_ok": 0,
+        "status": 0,
+        "accel": [
+          253,
+          1151,
+          -4068
+        ],
+        "gyro": [
+          487,
+          -90,
+          -28
+        ]
+      },
+      "valid": 1,
+      "stage": 12,
+      "cal_count": 81,
+      "cal_phase": 3,
+      "still_elapsed_ms": 610,
+      "reading": [
+        3237,
+        -57041,
+        -122982
+      ],
+      "uwTick": 97374,
+      "now": 97371234,
+      "g_heap_used": 620,
+      "g_irq_lock_depth": 1,
+      "g_app_jd_diag_rx_complete": 1011,
+      "g_app_jd_diag_crc_ok": 778,
+      "nextAnnounce": 97500000,
+      "lastMax": 97012227,
+      "g_app_jd_rx_hw_rxne_count": 20203,
+      "g_app_jd_rx_hw_fe_count": 331,
+      "g_app_jd_rx_hw_ore_count": 0,
+      "packets_since_announce": 9,
+      "service_sample": [
+        57041,
+        -3237,
+        122982
+      ],
+      "runtime_flags": {
+        "g_runtime_ready": 1,
+        "g_uart_rx_active": 0,
+        "g_uart_tx_active": 0,
+        "g_tx_complete_pending": 0
+      }
+    },
+    {
+      "seconds": 13.671,
+      "probe": {
+        "ready": 2,
+        "match": 2,
+        "mismatch": 0,
+        "addr": 107,
+        "part_id": 5,
+        "id_valid": 1,
+        "config_attempted": 1,
+        "write_ok": 1,
+        "config_ok": 1,
+        "motion_ok": 1,
+        "status": 0,
+        "accel": [
+          228,
+          1159,
+          -4070
+        ],
+        "gyro": [
+          504,
+          -84,
+          -26
+        ]
+      },
+      "valid": 0,
+      "stage": 12,
+      "cal_count": 81,
+      "cal_phase": 3,
+      "still_elapsed_ms": 610,
+      "reading": [
+        380069,
+        90415,
+        73626
+      ],
+      "uwTick": 97671,
+      "now": 97667603,
+      "g_heap_used": 620,
+      "g_irq_lock_depth": 1,
+      "g_app_jd_diag_rx_complete": 1014,
+      "g_app_jd_diag_crc_ok": 781,
+      "nextAnnounce": 98000000,
+      "lastMax": 97512121,
+      "g_app_jd_rx_hw_rxne_count": 20283,
+      "g_app_jd_rx_hw_fe_count": 331,
+      "g_app_jd_rx_hw_ore_count": 0,
+      "packets_since_announce": 5,
+      "service_sample": [
+        -90415,
+        -380069,
+        -73626
+      ],
+      "runtime_flags": {
+        "g_runtime_ready": 1,
+        "g_uart_rx_active": 0,
+        "g_uart_tx_active": 0,
+        "g_tx_complete_pending": 0
+      }
+    },
+    {
+      "seconds": 13.984,
+      "probe": {
+        "ready": 2,
+        "match": 2,
+        "mismatch": 0,
+        "addr": 107,
+        "part_id": 5,
+        "id_valid": 1,
+        "config_attempted": 1,
+        "write_ok": 1,
+        "config_ok": 1,
+        "motion_ok": 1,
+        "status": 0,
+        "accel": [
+          245,
+          1164,
+          -4073
+        ],
+        "gyro": [
+          478,
+          -106,
+          -26
+        ]
+      },
+      "valid": 1,
+      "stage": 12,
+      "cal_count": 81,
+      "cal_phase": 3,
+      "still_elapsed_ms": 610,
+      "reading": [
+        52389,
+        -40657,
+        139162
+      ],
+      "uwTick": 97980,
+      "now": 97977196,
+      "g_heap_used": 620,
+      "g_irq_lock_depth": 0,
+      "g_app_jd_diag_rx_complete": 1015,
+      "g_app_jd_diag_crc_ok": 781,
+      "nextAnnounce": 98000000,
+      "lastMax": 97512121,
+      "g_app_jd_rx_hw_rxne_count": 20285,
+      "g_app_jd_rx_hw_fe_count": 332,
+      "g_app_jd_rx_hw_ore_count": 0,
+      "packets_since_announce": 11,
+      "service_sample": [
+        270033,
+        45915,
+        -73626
+      ],
+      "runtime_flags": {
+        "g_runtime_ready": 1,
+        "g_uart_rx_active": 0,
+        "g_uart_tx_active": 0,
+        "g_tx_complete_pending": 0
+      }
+    },
+    {
+      "seconds": 14.281,
+      "probe": {
+        "ready": 2,
+        "match": 2,
+        "mismatch": 0,
+        "addr": 107,
+        "part_id": 5,
+        "id_valid": 1,
+        "config_attempted": 1,
+        "write_ok": 1,
+        "config_ok": 1,
+        "motion_ok": 1,
+        "status": 0,
+        "accel": [
+          238,
+          1163,
+          -4061
+        ],
+        "gyro": [
+          489,
+          -89,
+          -28
+        ]
+      },
+      "valid": 1,
+      "stage": 13,
+      "cal_count": 81,
+      "cal_phase": 3,
+      "still_elapsed_ms": 610,
+      "reading": [
+        167077,
+        8495,
+        237466
+      ],
+      "uwTick": 98278,
+      "now": 98274556,
+      "g_heap_used": 620,
+      "g_irq_lock_depth": 1,
+      "g_app_jd_diag_rx_complete": 1018,
+      "g_app_jd_diag_crc_ok": 784,
+      "nextAnnounce": 98500000,
+      "lastMax": 98023765,
+      "g_app_jd_rx_hw_rxne_count": 20365,
+      "g_app_jd_rx_hw_fe_count": 332,
+      "g_app_jd_rx_hw_ore_count": 0,
+      "packets_since_announce": 7,
+      "service_sample": [
+        -8495,
+        -134309,
+        -40858
+      ],
+      "runtime_flags": {
+        "g_runtime_ready": 1,
+        "g_uart_rx_active": 0,
+        "g_uart_tx_active": 0,
+        "g_tx_complete_pending": 0
+      }
+    },
+    {
+      "seconds": 14.578,
+      "probe": {
+        "ready": 2,
+        "match": 2,
+        "mismatch": 0,
+        "addr": 107,
+        "part_id": 5,
+        "id_valid": 1,
+        "config_attempted": 1,
+        "write_ok": 1,
+        "config_ok": 1,
+        "motion_ok": 1,
+        "status": 0,
+        "accel": [
+          236,
+          1167,
+          -4072
+        ],
+        "gyro": [
+          494,
+          -107,
+          -35
+        ]
+      },
+      "valid": 1,
+      "stage": 13,
+      "cal_count": 81,
+      "cal_phase": 3,
+      "still_elapsed_ms": 610,
+      "reading": [
+        216229,
+        -286417,
+        -73830
+      ],
+      "uwTick": 98574,
+      "now": 98571077,
+      "g_heap_used": 620,
+      "g_irq_lock_depth": 0,
+      "g_app_jd_diag_rx_complete": 1023,
+      "g_app_jd_diag_crc_ok": 787,
+      "nextAnnounce": 99000000,
+      "lastMax": 98023765,
+      "g_app_jd_rx_hw_rxne_count": 20451,
+      "g_app_jd_rx_hw_fe_count": 334,
+      "g_app_jd_rx_hw_ore_count": 0,
+      "packets_since_announce": 3,
+      "service_sample": [
+        286417,
+        -216229,
+        73830
+      ],
+      "runtime_flags": {
+        "g_runtime_ready": 1,
+        "g_uart_rx_active": 0,
+        "g_uart_tx_active": 0,
+        "g_tx_complete_pending": 0
+      }
+    },
+    {
+      "seconds": 14.875,
+      "probe": {
+        "ready": 2,
+        "match": 2,
+        "mismatch": 0,
+        "addr": 107,
+        "part_id": 5,
+        "id_valid": 1,
+        "config_attempted": 1,
+        "write_ok": 1,
+        "config_ok": 1,
+        "motion_ok": 1,
+        "status": 0,
+        "accel": [
+          230,
+          1162,
+          -4078
+        ],
+        "gyro": [
+          475,
+          -94,
+          -32
+        ]
+      },
+      "valid": 0,
+      "stage": 13,
+      "cal_count": 81,
+      "cal_phase": 3,
+      "still_elapsed_ms": 610,
+      "reading": [
+        -95067,
+        -73425,
+        -24678
+      ],
+      "uwTick": 98869,
+      "now": 98866021,
+      "g_heap_used": 620,
+      "g_irq_lock_depth": 1,
+      "g_app_jd_diag_rx_complete": 1027,
+      "g_app_jd_diag_crc_ok": 791,
+      "nextAnnounce": 99000000,
+      "lastMax": 98023765,
+      "g_app_jd_rx_hw_rxne_count": 20523,
+      "g_app_jd_rx_hw_fe_count": 334,
+      "g_app_jd_rx_hw_ore_count": 0,
+      "packets_since_announce": 9,
+      "service_sample": [
+        73425,
+        95067,
+        24678
+      ],
+      "runtime_flags": {
+        "g_runtime_ready": 1,
+        "g_uart_rx_active": 0,
+        "g_uart_tx_active": 0,
+        "g_tx_complete_pending": 0
+      }
+    },
+    {
+      "seconds": 15.171,
+      "probe": {
+        "ready": 2,
+        "match": 2,
+        "mismatch": 0,
+        "addr": 107,
+        "part_id": 5,
+        "id_valid": 1,
+        "config_attempted": 1,
+        "write_ok": 1,
+        "config_ok": 1,
+        "motion_ok": 1,
+        "status": 0,
+        "accel": [
+          239,
+          1151,
+          -4077
+        ],
+        "gyro": [
+          480,
+          -93,
+          -11
+        ]
+      },
+      "valid": 0,
+      "stage": 14,
+      "cal_count": 81,
+      "cal_phase": 3,
+      "still_elapsed_ms": 610,
+      "reading": [
+        -13147,
+        -57041,
+        319386
+      ],
+      "uwTick": 99164,
+      "now": 99161069,
+      "g_heap_used": 620,
+      "g_irq_lock_depth": 1,
+      "g_app_jd_diag_rx_complete": 1031,
+      "g_app_jd_diag_crc_ok": 794,
+      "nextAnnounce": 99500000,
+      "lastMax": 99030711,
+      "g_app_jd_rx_hw_rxne_count": 20601,
+      "g_app_jd_rx_hw_fe_count": 336,
+      "g_app_jd_rx_hw_ore_count": 0,
+      "packets_since_announce": 5,
+      "service_sample": [
+        57041,
+        13147,
+        -319386
+      ],
+      "runtime_flags": {
+        "g_runtime_ready": 1,
+        "g_uart_rx_active": 0,
+        "g_uart_tx_active": 0,
+        "g_tx_complete_pending": 0
+      }
+    },
+    {
+      "seconds": 15.468,
+      "probe": {
+        "ready": 2,
+        "match": 2,
+        "mismatch": 0,
+        "addr": 107,
+        "part_id": 5,
+        "id_valid": 1,
+        "config_attempted": 1,
+        "write_ok": 1,
+        "config_ok": 1,
+        "motion_ok": 1,
+        "status": 0,
+        "accel": [
+          248,
+          1161,
+          -4073
+        ],
+        "gyro": [
+          485,
+          -82,
+          -27
+        ]
+      },
+      "valid": 1,
+      "stage": 14,
+      "cal_count": 81,
+      "cal_phase": 3,
+      "still_elapsed_ms": 610,
+      "reading": [
+        -45915,
+        106799,
+        106394
+      ],
+      "uwTick": 99471,
+      "now": 99468204,
+      "g_heap_used": 620,
+      "g_irq_lock_depth": 0,
+      "g_app_jd_diag_rx_complete": 1032,
+      "g_app_jd_diag_crc_ok": 795,
+      "nextAnnounce": 99500000,
+      "lastMax": 99030711,
+      "g_app_jd_rx_hw_rxne_count": 20626,
+      "g_app_jd_rx_hw_fe_count": 337,
+      "g_app_jd_rx_hw_ore_count": 0,
+      "packets_since_announce": 11,
+      "service_sample": [
+        -123183,
+        -68773,
+        -57242
+      ],
+      "runtime_flags": {
+        "g_runtime_ready": 1,
+        "g_uart_rx_active": 0,
+        "g_uart_tx_active": 0,
+        "g_tx_complete_pending": 0
+      }
+    },
+    {
+      "seconds": 15.765,
+      "probe": {
+        "ready": 2,
+        "match": 2,
+        "mismatch": 0,
+        "addr": 107,
+        "part_id": 5,
+        "id_valid": 1,
+        "config_attempted": 1,
+        "write_ok": 1,
+        "config_ok": 1,
+        "motion_ok": 1,
+        "status": 0,
+        "accel": [
+          244,
+          1162,
+          -4064
+        ],
+        "gyro": [
+          485,
+          -86,
+          -26
+        ]
+      },
+      "valid": 1,
+      "stage": 14,
+      "cal_count": 81,
+      "cal_phase": 3,
+      "still_elapsed_ms": 610,
+      "reading": [
+        36005,
+        -106193,
+        90010
+      ],
+      "uwTick": 99768,
+      "now": 99764543,
+      "g_heap_used": 620,
+      "g_irq_lock_depth": 0,
+      "g_app_jd_diag_rx_complete": 1035,
+      "g_app_jd_diag_crc_ok": 796,
+      "nextAnnounce": 100000000,
+      "lastMax": 99030711,
+      "g_app_jd_rx_hw_rxne_count": 20650,
+      "g_app_jd_rx_hw_fe_count": 339,
+      "g_app_jd_rx_hw_ore_count": 0,
+      "packets_since_announce": 7,
+      "service_sample": [
+        -57647,
+        -68773,
+        -73626
+      ],
+      "runtime_flags": {
+        "g_runtime_ready": 1,
+        "g_uart_rx_active": 0,
+        "g_uart_tx_active": 0,
+        "g_tx_complete_pending": 0
+      }
+    },
+    {
+      "seconds": 16.062,
+      "probe": {
+        "ready": 2,
+        "match": 2,
+        "mismatch": 0,
+        "addr": 107,
+        "part_id": 5,
+        "id_valid": 1,
+        "config_attempted": 1,
+        "write_ok": 1,
+        "config_ok": 1,
+        "motion_ok": 1,
+        "status": 0,
+        "accel": [
+          232,
+          1160,
+          -4069
+        ],
+        "gyro": [
+          472,
+          -90,
+          -36
+        ]
+      },
+      "valid": 1,
+      "stage": 14,
+      "cal_count": 81,
+      "cal_phase": 3,
+      "still_elapsed_ms": 610,
+      "reading": [
+        -62299,
+        336175,
+        139162
+      ],
+      "uwTick": 100063,
+      "now": 100059727,
+      "g_heap_used": 620,
+      "g_irq_lock_depth": 1,
+      "g_app_jd_diag_rx_complete": 1039,
+      "g_app_jd_diag_crc_ok": 800,
+      "nextAnnounce": 100500000,
+      "lastMax": 100038258,
+      "g_app_jd_rx_hw_rxne_count": 20755,
+      "g_app_jd_rx_hw_fe_count": 340,
+      "g_app_jd_rx_hw_ore_count": 0,
+      "packets_since_announce": 2,
+      "service_sample": [
+        7889,
+        144219,
+        90214
+      ],
+      "runtime_flags": {
+        "g_runtime_ready": 1,
+        "g_uart_rx_active": 0,
+        "g_uart_tx_active": 0,
+        "g_tx_complete_pending": 0
+      }
+    },
+    {
+      "seconds": 16.359,
+      "probe": {
+        "ready": 2,
+        "match": 2,
+        "mismatch": 0,
+        "addr": 107,
+        "part_id": 5,
+        "id_valid": 1,
+        "config_attempted": 1,
+        "write_ok": 1,
+        "config_ok": 1,
+        "motion_ok": 1,
+        "status": 0,
+        "accel": [
+          225,
+          1153,
+          -4067
+        ],
+        "gyro": [
+          482,
+          -81,
+          -26
+        ]
+      },
+      "valid": 1,
+      "stage": 15,
+      "cal_count": 81,
+      "cal_phase": 3,
+      "still_elapsed_ms": 610,
+      "reading": [
+        -226139,
+        -188113,
+        221082
+      ],
+      "uwTick": 100358,
+      "now": 100355041,
+      "g_heap_used": 620,
+      "g_irq_lock_depth": 1,
+      "g_app_jd_diag_rx_complete": 1039,
+      "g_app_jd_diag_crc_ok": 800,
+      "nextAnnounce": 100500000,
+      "lastMax": 100038258,
+      "g_app_jd_rx_hw_rxne_count": 20755,
+      "g_app_jd_rx_hw_fe_count": 340,
+      "g_app_jd_rx_hw_ore_count": 0,
+      "packets_since_announce": 8,
+      "service_sample": [
+        -139567,
+        -19621,
+        -73626
+      ],
+      "runtime_flags": {
+        "g_runtime_ready": 1,
+        "g_uart_rx_active": 0,
+        "g_uart_tx_active": 0,
+        "g_tx_complete_pending": 0
+      }
+    },
+    {
+      "seconds": 16.656,
+      "probe": {
+        "ready": 2,
+        "match": 2,
+        "mismatch": 0,
+        "addr": 107,
+        "part_id": 5,
+        "id_valid": 1,
+        "config_attempted": 1,
+        "write_ok": 1,
+        "config_ok": 1,
+        "motion_ok": 1,
+        "status": 0,
+        "accel": [
+          240,
+          1155,
+          -4066
+        ],
+        "gyro": [
+          483,
+          -92,
+          -39
+        ]
+      },
+      "valid": 0,
+      "stage": 15,
+      "cal_count": 81,
+      "cal_phase": 3,
+      "still_elapsed_ms": 610,
+      "reading": [
+        36005,
+        -40657,
+        -139366
+      ],
+      "uwTick": 100656,
+      "now": 100653266,
+      "g_heap_used": 620,
+      "g_irq_lock_depth": 1,
+      "g_app_jd_diag_rx_complete": 1043,
+      "g_app_jd_diag_crc_ok": 804,
+      "nextAnnounce": 101000000,
+      "lastMax": 100544594,
+      "g_app_jd_rx_hw_rxne_count": 20860,
+      "g_app_jd_rx_hw_fe_count": 341,
+      "g_app_jd_rx_hw_ore_count": 0,
+      "packets_since_announce": 4,
+      "service_sample": [
+        40657,
+        -36005,
+        139366
+      ],
+      "runtime_flags": {
+        "g_runtime_ready": 1,
+        "g_uart_rx_active": 0,
+        "g_uart_tx_active": 0,
+        "g_tx_complete_pending": 0
+      }
+    },
+    {
+      "seconds": 16.953,
+      "probe": {
+        "ready": 2,
+        "match": 2,
+        "mismatch": 0,
+        "addr": 107,
+        "part_id": 5,
+        "id_valid": 1,
+        "config_attempted": 1,
+        "write_ok": 1,
+        "config_ok": 1,
+        "motion_ok": 1,
+        "status": 0,
+        "accel": [
+          223,
+          1164,
+          -4063
+        ],
+        "gyro": [
+          487,
+          -106,
+          -42
+        ]
+      },
+      "valid": 1,
+      "stage": 15,
+      "cal_count": 81,
+      "cal_phase": 3,
+      "still_elapsed_ms": 610,
+      "reading": [
+        101541,
+        -270033,
+        -188518
+      ],
+      "uwTick": 100953,
+      "now": 100949038,
+      "g_heap_used": 620,
+      "g_irq_lock_depth": 0,
+      "g_app_jd_diag_rx_complete": 1043,
+      "g_app_jd_diag_crc_ok": 804,
+      "nextAnnounce": 101000000,
+      "lastMax": 100544594,
+      "g_app_jd_rx_hw_rxne_count": 20860,
+      "g_app_jd_rx_hw_fe_count": 341,
+      "g_app_jd_rx_hw_ore_count": 0,
+      "packets_since_announce": 10,
+      "service_sample": [
+        270033,
+        -101541,
+        188518
+      ],
+      "runtime_flags": {
+        "g_runtime_ready": 1,
+        "g_uart_rx_active": 0,
+        "g_uart_tx_active": 0,
+        "g_tx_complete_pending": 0
+      }
+    },
+    {
+      "seconds": 17.265,
+      "probe": {
+        "ready": 2,
+        "match": 2,
+        "mismatch": 0,
+        "addr": 107,
+        "part_id": 5,
+        "id_valid": 1,
+        "config_attempted": 1,
+        "write_ok": 1,
+        "config_ok": 1,
+        "motion_ok": 1,
+        "status": 0,
+        "accel": [
+          258,
+          1161,
+          -4069
+        ],
+        "gyro": [
+          476,
+          -87,
+          -27
+        ]
+      },
+      "valid": 1,
+      "stage": 11,
+      "cal_count": 81,
+      "cal_phase": 3,
+      "still_elapsed_ms": 610,
+      "reading": [
+        -78683,
+        41263,
+        57242
+      ],
+      "uwTick": 101249,
+      "now": 101245991,
+      "g_heap_used": 620,
+      "g_irq_lock_depth": 0,
+      "g_app_jd_diag_rx_complete": 1048,
+      "g_app_jd_diag_crc_ok": 807,
+      "nextAnnounce": 101500000,
+      "lastMax": 101045916,
+      "g_app_jd_rx_hw_rxne_count": 20953,
+      "g_app_jd_rx_hw_fe_count": 342,
+      "g_app_jd_rx_hw_ore_count": 0,
+      "packets_since_announce": 6,
+      "service_sample": [
+        -41263,
+        78683,
+        -57242
+      ],
+      "runtime_flags": {
+        "g_runtime_ready": 1,
+        "g_uart_rx_active": 0,
+        "g_uart_tx_active": 0,
+        "g_tx_complete_pending": 0
+      }
+    },
+    {
+      "seconds": 17.562,
+      "probe": {
+        "ready": 2,
+        "match": 2,
+        "mismatch": 0,
+        "addr": 107,
+        "part_id": 5,
+        "id_valid": 1,
+        "config_attempted": 1,
+        "write_ok": 1,
+        "config_ok": 1,
+        "motion_ok": 1,
+        "status": 0,
+        "accel": [
+          252,
+          1141,
+          -4068
+        ],
+        "gyro": [
+          485,
+          -89,
+          -20
+        ]
+      },
+      "valid": 1,
+      "stage": 11,
+      "cal_count": 81,
+      "cal_phase": 3,
+      "still_elapsed_ms": 610,
+      "reading": [
+        68773,
+        8495,
+        90010
+      ],
+      "uwTick": 101545,
+      "now": 101542089,
+      "g_heap_used": 620,
+      "g_irq_lock_depth": 0,
+      "g_app_jd_diag_rx_complete": 1050,
+      "g_app_jd_diag_crc_ok": 808,
+      "nextAnnounce": 102000000,
+      "lastMax": 101045916,
+      "g_app_jd_rx_hw_rxne_count": 20983,
+      "g_app_jd_rx_hw_fe_count": 343,
+      "g_app_jd_rx_hw_ore_count": 0,
+      "packets_since_announce": 2,
+      "service_sample": [
+        -8495,
+        -68773,
+        -171930
+      ],
+      "runtime_flags": {
+        "g_runtime_ready": 1,
+        "g_uart_rx_active": 0,
+        "g_uart_tx_active": 0,
+        "g_tx_complete_pending": 0
+      }
+    },
+    {
+      "seconds": 17.859,
+      "probe": {
+        "ready": 2,
+        "match": 2,
+        "mismatch": 0,
+        "addr": 107,
+        "part_id": 5,
+        "id_valid": 1,
+        "config_attempted": 1,
+        "write_ok": 1,
+        "config_ok": 1,
+        "motion_ok": 1,
+        "status": 0,
+        "accel": [
+          240,
+          1152,
+          -4056
+        ],
+        "gyro": [
+          470,
+          -85,
+          -23
+        ]
+      },
+      "valid": 1,
+      "stage": 11,
+      "cal_count": 81,
+      "cal_phase": 3,
+      "still_elapsed_ms": 610,
+      "reading": [
+        -62299,
+        -204497,
+        155546
+      ],
+      "uwTick": 101845,
+      "now": 101842410,
+      "g_heap_used": 620,
+      "g_irq_lock_depth": 1,
+      "g_app_jd_diag_rx_complete": 1052,
+      "g_app_jd_diag_crc_ok": 810,
+      "nextAnnounce": 102000000,
+      "lastMax": 101550907,
+      "g_app_jd_rx_hw_rxne_count": 21035,
+      "g_app_jd_rx_hw_fe_count": 343,
+      "g_app_jd_rx_hw_ore_count": 0,
+      "packets_since_announce": 8,
+      "service_sample": [
+        -74031,
+        176987,
+        -122778
+      ],
+      "runtime_flags": {
+        "g_runtime_ready": 1,
+        "g_uart_rx_active": 0,
+        "g_uart_tx_active": 0,
+        "g_tx_complete_pending": 0
+      }
+    },
+    {
+      "seconds": 18.156,
+      "probe": {
+        "ready": 2,
+        "match": 2,
+        "mismatch": 0,
+        "addr": 107,
+        "part_id": 5,
+        "id_valid": 1,
+        "config_attempted": 1,
+        "write_ok": 1,
+        "config_ok": 1,
+        "motion_ok": 1,
+        "status": 0,
+        "accel": [
+          235,
+          1166,
+          -4044
+        ],
+        "gyro": [
+          470,
+          -104,
+          -34
+        ]
+      },
+      "valid": 1,
+      "stage": 12,
+      "cal_count": 81,
+      "cal_phase": 3,
+      "still_elapsed_ms": 610,
+      "reading": [
+        117925,
+        -319185,
+        -73830
+      ],
+      "uwTick": 102145,
+      "now": 102142266,
+      "g_heap_used": 620,
+      "g_irq_lock_depth": 1,
+      "g_app_jd_diag_rx_complete": 1057,
+      "g_app_jd_diag_crc_ok": 813,
+      "nextAnnounce": 102500000,
+      "lastMax": 102051616,
+      "g_app_jd_rx_hw_rxne_count": 21118,
+      "g_app_jd_rx_hw_fe_count": 345,
+      "g_app_jd_rx_hw_ore_count": 0,
+      "packets_since_announce": 5,
+      "service_sample": [
+        319185,
+        -117925,
+        73830
+      ],
+      "runtime_flags": {
+        "g_runtime_ready": 1,
+        "g_uart_rx_active": 0,
+        "g_uart_tx_active": 0,
+        "g_tx_complete_pending": 0
+      }
+    },
+    {
+      "seconds": 18.453,
+      "probe": {
+        "ready": 2,
+        "match": 2,
+        "mismatch": 0,
+        "addr": 107,
+        "part_id": 5,
+        "id_valid": 1,
+        "config_attempted": 1,
+        "write_ok": 1,
+        "config_ok": 1,
+        "motion_ok": 0,
+        "status": 0,
+        "accel": [
+          197,
+          1173,
+          -4062
+        ],
+        "gyro": [
+          465,
+          -103,
+          -43
+        ]
+      },
+      "valid": 1,
+      "stage": 12,
+      "cal_count": 81,
+      "cal_phase": 3,
+      "still_elapsed_ms": 610,
+      "reading": [
+        -45915,
+        -319185,
+        -155750
+      ],
+      "uwTick": 102441,
+      "now": 102438234,
+      "g_heap_used": 620,
+      "g_irq_lock_depth": 1,
+      "g_app_jd_diag_rx_complete": 1057,
+      "g_app_jd_diag_crc_ok": 813,
+      "nextAnnounce": 102500000,
+      "lastMax": 102051616,
+      "g_app_jd_rx_hw_rxne_count": 21118,
+      "g_app_jd_rx_hw_fe_count": 345,
+      "g_app_jd_rx_hw_ore_count": 0,
+      "packets_since_announce": 11,
+      "service_sample": [
+        319185,
+        45915,
+        155750
+      ],
+      "runtime_flags": {
+        "g_runtime_ready": 1,
+        "g_uart_rx_active": 0,
+        "g_uart_tx_active": 0,
+        "g_tx_complete_pending": 0
+      }
+    },
+    {
+      "seconds": 18.765,
+      "probe": {
+        "ready": 2,
+        "match": 2,
+        "mismatch": 0,
+        "addr": 107,
+        "part_id": 5,
+        "id_valid": 1,
+        "config_attempted": 1,
+        "write_ok": 1,
+        "config_ok": 1,
+        "motion_ok": 1,
+        "status": 0,
+        "accel": [
+          231,
+          1151,
+          -4061
+        ],
+        "gyro": [
+          465,
+          -78,
+          -37
+        ]
+      },
+      "valid": 1,
+      "stage": 12,
+      "cal_count": 81,
+      "cal_phase": 3,
+      "still_elapsed_ms": 610,
+      "reading": [
+        19621,
+        74031,
+        -188518
+      ],
+      "uwTick": 102750,
+      "now": 102746791,
+      "g_heap_used": 620,
+      "g_irq_lock_depth": 1,
+      "g_app_jd_diag_rx_complete": 1061,
+      "g_app_jd_diag_crc_ok": 817,
+      "nextAnnounce": 103000000,
+      "lastMax": 102555232,
+      "g_app_jd_rx_hw_rxne_count": 21223,
+      "g_app_jd_rx_hw_fe_count": 346,
+      "g_app_jd_rx_hw_ore_count": 0,
+      "packets_since_announce": 6,
+      "service_sample": [
+        -188719,
+        258907,
+        106598
+      ],
+      "runtime_flags": {
+        "g_runtime_ready": 1,
+        "g_uart_rx_active": 0,
+        "g_uart_tx_active": 0,
+        "g_tx_complete_pending": 0
+      }
+    },
+    {
+      "seconds": 19.062,
+      "probe": {
+        "ready": 2,
+        "match": 2,
+        "mismatch": 0,
+        "addr": 107,
+        "part_id": 5,
+        "id_valid": 1,
+        "config_attempted": 1,
+        "write_ok": 1,
+        "config_ok": 1,
+        "motion_ok": 1,
+        "status": 0,
+        "accel": [
+          220,
+          1168,
+          -4105
+        ],
+        "gyro": [
+          482,
+          -84,
+          -39
+        ]
+      },
+      "valid": 1,
+      "stage": 12,
+      "cal_count": 81,
+      "cal_phase": 3,
+      "still_elapsed_ms": 610,
+      "reading": [
+        -13147,
+        -24273,
+        8090
+      ],
+      "uwTick": 103046,
+      "now": 103042711,
+      "g_heap_used": 620,
+      "g_irq_lock_depth": 0,
+      "g_app_jd_diag_rx_complete": 1062,
+      "g_app_jd_diag_crc_ok": 818,
+      "nextAnnounce": 103500000,
+      "lastMax": 102555232,
+      "g_app_jd_rx_hw_rxne_count": 21251,
+      "g_app_jd_rx_hw_fe_count": 346,
+      "g_app_jd_rx_hw_ore_count": 0,
+      "packets_since_announce": 2,
+      "service_sample": [
+        -90415,
+        -19621,
+        139366
+      ],
+      "runtime_flags": {
+        "g_runtime_ready": 1,
+        "g_uart_rx_active": 0,
+        "g_uart_tx_active": 0,
+        "g_tx_complete_pending": 0
+      }
+    },
+    {
+      "seconds": 19.359,
+      "probe": {
+        "ready": 2,
+        "match": 2,
+        "mismatch": 0,
+        "addr": 107,
+        "part_id": 5,
+        "id_valid": 1,
+        "config_attempted": 1,
+        "write_ok": 1,
+        "config_ok": 1,
+        "motion_ok": 1,
+        "status": 0,
+        "accel": [
+          235,
+          1123,
+          -3973
+        ],
+        "gyro": [
+          480,
+          -80,
+          -41
+        ]
+      },
+      "valid": 1,
+      "stage": 13,
+      "cal_count": 81,
+      "cal_phase": 3,
+      "still_elapsed_ms": 610,
+      "reading": [
+        117925,
+        74031,
+        -155750
+      ],
+      "uwTick": 103343,
+      "now": 103339482,
+      "g_heap_used": 620,
+      "g_irq_lock_depth": 0,
+      "g_app_jd_diag_rx_complete": 1065,
+      "g_app_jd_diag_crc_ok": 821,
+      "nextAnnounce": 103500000,
+      "lastMax": 103057776,
+      "g_app_jd_rx_hw_rxne_count": 21328,
+      "g_app_jd_rx_hw_fe_count": 347,
+      "g_app_jd_rx_hw_ore_count": 0,
+      "packets_since_announce": 8,
+      "service_sample": [
+        -74031,
+        -117925,
+        155750
+      ],
+      "runtime_flags": {
+        "g_runtime_ready": 1,
+        "g_uart_rx_active": 0,
+        "g_uart_tx_active": 0,
+        "g_tx_complete_pending": 0
+      }
+    },
+    {
+      "seconds": 19.656,
+      "probe": {
+        "ready": 2,
+        "match": 2,
+        "mismatch": 0,
+        "addr": 107,
+        "part_id": 5,
+        "id_valid": 1,
+        "config_attempted": 1,
+        "write_ok": 1,
+        "config_ok": 1,
+        "motion_ok": 1,
+        "status": 0,
+        "accel": [
+          249,
+          1162,
+          -4072
+        ],
+        "gyro": [
+          480,
+          -89,
+          -15
+        ]
+      },
+      "valid": 0,
+      "stage": 13,
+      "cal_count": 81,
+      "cal_phase": 3,
+      "still_elapsed_ms": 610,
+      "reading": [
+        -13147,
+        8495,
+        253850
+      ],
+      "uwTick": 103641,
+      "now": 103638218,
+      "g_heap_used": 620,
+      "g_irq_lock_depth": 0,
+      "g_app_jd_diag_rx_complete": 1074,
+      "g_app_jd_diag_crc_ok": 827,
+      "nextAnnounce": 104000000,
+      "lastMax": 103057776,
+      "g_app_jd_rx_hw_rxne_count": 21463,
+      "g_app_jd_rx_hw_fe_count": 349,
+      "g_app_jd_rx_hw_ore_count": 0,
+      "packets_since_announce": 3,
+      "service_sample": [
+        -8495,
+        13147,
+        -253850
+      ],
+      "runtime_flags": {
+        "g_runtime_ready": 1,
+        "g_uart_rx_active": 0,
+        "g_uart_tx_active": 0,
+        "g_tx_complete_pending": 0
+      }
+    },
+    {
+      "seconds": 19.968,
+      "probe": {
+        "ready": 2,
+        "match": 2,
+        "mismatch": 0,
+        "addr": 107,
+        "part_id": 5,
+        "id_valid": 1,
+        "config_attempted": 1,
+        "write_ok": 1,
+        "config_ok": 1,
+        "motion_ok": 1,
+        "status": 0,
+        "accel": [
+          245,
+          1163,
+          -4072
+        ],
+        "gyro": [
+          481,
+          -77,
+          -20
+        ]
+      },
+      "valid": 1,
+      "stage": 13,
+      "cal_count": 81,
+      "cal_phase": 3,
+      "still_elapsed_ms": 610,
+      "reading": [
+        -29531,
+        -73425,
+        -41062
+      ],
+      "uwTick": 103949,
+      "now": 103945852,
+      "g_heap_used": 620,
+      "g_irq_lock_depth": 1,
+      "g_app_jd_diag_rx_complete": 1074,
+      "g_app_jd_diag_crc_ok": 827,
+      "nextAnnounce": 104000000,
+      "lastMax": 103057776,
+      "g_app_jd_rx_hw_rxne_count": 21463,
+      "g_app_jd_rx_hw_fe_count": 349,
+      "g_app_jd_rx_hw_ore_count": 0,
+      "packets_since_announce": 10,
+      "service_sample": [
+        -205103,
+        -3237,
+        -171930
+      ],
+      "runtime_flags": {
+        "g_runtime_ready": 1,
+        "g_uart_rx_active": 0,
+        "g_uart_tx_active": 0,
+        "g_tx_complete_pending": 0
+      }
+    },
+    {
+      "seconds": 20.265,
+      "probe": {
+        "ready": 2,
+        "match": 2,
+        "mismatch": 0,
+        "addr": 107,
+        "part_id": 5,
+        "id_valid": 1,
+        "config_attempted": 1,
+        "write_ok": 1,
+        "config_ok": 1,
+        "motion_ok": 1,
+        "status": 0,
+        "accel": [
+          237,
+          1161,
+          -4079
+        ],
+        "gyro": [
+          470,
+          -97,
+          -44
+        ]
+      },
+      "valid": 1,
+      "stage": 14,
+      "cal_count": 81,
+      "cal_phase": 3,
+      "still_elapsed_ms": 610,
+      "reading": [
+        -29531,
+        -89809,
+        40858
+      ],
+      "uwTick": 104245,
+      "now": 104241788,
+      "g_heap_used": 620,
+      "g_irq_lock_depth": 0,
+      "g_app_jd_diag_rx_complete": 1078,
+      "g_app_jd_diag_crc_ok": 830,
+      "nextAnnounce": 104500000,
+      "lastMax": 104066187,
+      "g_app_jd_rx_hw_rxne_count": 21541,
+      "g_app_jd_rx_hw_fe_count": 351,
+      "g_app_jd_rx_hw_ore_count": 0,
+      "packets_since_announce": 6,
+      "service_sample": [
+        89809,
+        29531,
+        -40858
+      ],
+      "runtime_flags": {
+        "g_runtime_ready": 1,
+        "g_uart_rx_active": 0,
+        "g_uart_tx_active": 0,
+        "g_tx_complete_pending": 0
+      }
+    },
+    {
+      "seconds": 20.562,
+      "probe": {
+        "ready": 2,
+        "match": 2,
+        "mismatch": 0,
+        "addr": 107,
+        "part_id": 5,
+        "id_valid": 1,
+        "config_attempted": 1,
+        "write_ok": 1,
+        "config_ok": 1,
+        "motion_ok": 1,
+        "status": 0,
+        "accel": [
+          236,
+          1161,
+          -4067
+        ],
+        "gyro": [
+          469,
+          -91,
+          -37
+        ]
+      },
+      "valid": 1,
+      "stage": 14,
+      "cal_count": 81,
+      "cal_phase": 3,
+      "still_elapsed_ms": 610,
+      "reading": [
+        150693,
+        -138961,
+        24474
+      ],
+      "uwTick": 104540,
+      "now": 104536594,
+      "g_heap_used": 620,
+      "g_irq_lock_depth": 1,
+      "g_app_jd_diag_rx_complete": 1079,
+      "g_app_jd_diag_crc_ok": 831,
+      "nextAnnounce": 105000000,
+      "lastMax": 104066187,
+      "g_app_jd_rx_hw_rxne_count": 21569,
+      "g_app_jd_rx_hw_fe_count": 351,
+      "g_app_jd_rx_hw_ore_count": 0,
+      "packets_since_announce": 2,
+      "service_sample": [
+        138961,
+        -150693,
+        -24474
+      ],
+      "runtime_flags": {
+        "g_runtime_ready": 1,
+        "g_uart_rx_active": 0,
+        "g_uart_tx_active": 0,
+        "g_tx_complete_pending": 0
+      }
+    },
+    {
+      "seconds": 20.859,
+      "probe": {
+        "ready": 2,
+        "match": 2,
+        "mismatch": 0,
+        "addr": 107,
+        "part_id": 5,
+        "id_valid": 1,
+        "config_attempted": 1,
+        "write_ok": 1,
+        "config_ok": 1,
+        "motion_ok": 1,
+        "status": 0,
+        "accel": [
+          244,
+          1157,
+          -4076
+        ],
+        "gyro": [
+          485,
+          -101,
+          -30
+        ]
+      },
+      "valid": 1,
+      "stage": 14,
+      "cal_count": 81,
+      "cal_phase": 3,
+      "still_elapsed_ms": 610,
+      "reading": [
+        68773,
+        -188113,
+        8090
+      ],
+      "uwTick": 104839,
+      "now": 104836187,
+      "g_heap_used": 620,
+      "g_irq_lock_depth": 0,
+      "g_app_jd_diag_rx_complete": 1082,
+      "g_app_jd_diag_crc_ok": 832,
+      "nextAnnounce": 105000000,
+      "lastMax": 104066187,
+      "g_app_jd_rx_hw_rxne_count": 21600,
+      "g_app_jd_rx_hw_fe_count": 354,
+      "g_app_jd_rx_hw_ore_count": 0,
+      "packets_since_announce": 7,
+      "service_sample": [
+        188113,
+        -68773,
+        -8090
+      ],
+      "runtime_flags": {
+        "g_runtime_ready": 1,
+        "g_uart_rx_active": 0,
+        "g_uart_tx_active": 0,
+        "g_tx_complete_pending": 0
+      }
+    },
+    {
+      "seconds": 21.156,
+      "probe": {
+        "ready": 2,
+        "match": 2,
+        "mismatch": 0,
+        "addr": 107,
+        "part_id": 5,
+        "id_valid": 1,
+        "config_attempted": 1,
+        "write_ok": 1,
+        "config_ok": 1,
+        "motion_ok": 1,
+        "status": 0,
+        "accel": [
+          232,
+          1172,
+          -4071
+        ],
+        "gyro": [
+          484,
+          -97,
+          -18
+        ]
+      },
+      "valid": 1,
+      "stage": 15,
+      "cal_count": 81,
+      "cal_phase": 3,
+      "still_elapsed_ms": 610,
+      "reading": [
+        52389,
+        -122577,
+        204698
+      ],
+      "uwTick": 105138,
+      "now": 105134028,
+      "g_heap_used": 620,
+      "g_irq_lock_depth": 0,
+      "g_app_jd_diag_rx_complete": 1086,
+      "g_app_jd_diag_crc_ok": 835,
+      "nextAnnounce": 105500000,
+      "lastMax": 105073642,
+      "g_app_jd_rx_hw_rxne_count": 21678,
+      "g_app_jd_rx_hw_fe_count": 356,
+      "g_app_jd_rx_hw_ore_count": 0,
+      "packets_since_announce": 4,
+      "service_sample": [
+        122577,
+        -52389,
+        -204698
+      ],
+      "runtime_flags": {
+        "g_runtime_ready": 1,
+        "g_uart_rx_active": 0,
+        "g_uart_tx_active": 0,
+        "g_tx_complete_pending": 0
+      }
+    },
+    {
+      "seconds": 21.468,
+      "probe": {
+        "ready": 2,
+        "match": 2,
+        "mismatch": 0,
+        "addr": 107,
+        "part_id": 5,
+        "id_valid": 1,
+        "config_attempted": 1,
+        "write_ok": 1,
+        "config_ok": 1,
+        "motion_ok": 1,
+        "status": 0,
+        "accel": [
+          244,
+          1165,
+          -4076
+        ],
+        "gyro": [
+          492,
+          -90,
+          -33
+        ]
+      },
+      "valid": 1,
+      "stage": 15,
+      "cal_count": 81,
+      "cal_phase": 3,
+      "still_elapsed_ms": 610,
+      "reading": [
+        -176987,
+        155951,
+        -139366
+      ],
+      "uwTick": 105446,
+      "now": 105443242,
+      "g_heap_used": 620,
+      "g_irq_lock_depth": 0,
+      "g_app_jd_diag_rx_complete": 1086,
+      "g_app_jd_diag_crc_ok": 835,
+      "nextAnnounce": 105500000,
+      "lastMax": 105073642,
+      "g_app_jd_rx_hw_rxne_count": 21678,
+      "g_app_jd_rx_hw_fe_count": 356,
+      "g_app_jd_rx_hw_ore_count": 0,
+      "packets_since_announce": 10,
+      "service_sample": [
+        -155951,
+        176987,
+        139366
+      ],
+      "runtime_flags": {
+        "g_runtime_ready": 1,
+        "g_uart_rx_active": 0,
+        "g_uart_tx_active": 0,
+        "g_tx_complete_pending": 0
+      }
+    },
+    {
+      "seconds": 21.781,
+      "probe": {
+        "ready": 2,
+        "match": 2,
+        "mismatch": 0,
+        "addr": 107,
+        "part_id": 5,
+        "id_valid": 1,
+        "config_attempted": 1,
+        "write_ok": 1,
+        "config_ok": 1,
+        "motion_ok": 1,
+        "status": 0,
+        "accel": [
+          243,
+          1164,
+          -4067
+        ],
+        "gyro": [
+          474,
+          -97,
+          -30
+        ]
+      },
+      "valid": 1,
+      "stage": 15,
+      "cal_count": 81,
+      "cal_phase": 3,
+      "still_elapsed_ms": 610,
+      "reading": [
+        68773,
+        106799,
+        -122982
+      ],
+      "uwTick": 105754,
+      "now": 105751486,
+      "g_heap_used": 620,
+      "g_irq_lock_depth": 0,
+      "g_app_jd_diag_rx_complete": 1090,
+      "g_app_jd_diag_crc_ok": 839,
+      "nextAnnounce": 106000000,
+      "lastMax": 105577279,
+      "g_app_jd_rx_hw_rxne_count": 21783,
+      "g_app_jd_rx_hw_fe_count": 357,
+      "g_app_jd_rx_hw_ore_count": 0,
+      "packets_since_announce": 6,
+      "service_sample": [
+        122577,
+        111451,
+        -8090
+      ],
+      "runtime_flags": {
+        "g_runtime_ready": 1,
+        "g_uart_rx_active": 0,
+        "g_uart_tx_active": 0,
+        "g_tx_complete_pending": 0
+      }
+    },
+    {
+      "seconds": 22.078,
+      "probe": {
+        "ready": 2,
+        "match": 2,
+        "mismatch": 0,
+        "addr": 107,
+        "part_id": 5,
+        "id_valid": 1,
+        "config_attempted": 1,
+        "write_ok": 1,
+        "config_ok": 1,
+        "motion_ok": 1,
+        "status": 0,
+        "accel": [
+          244,
+          1158,
+          -4081
+        ],
+        "gyro": [
+          484,
+          -83,
+          -29
+        ]
+      },
+      "valid": 1,
+      "stage": 15,
+      "cal_count": 81,
+      "cal_phase": 3,
+      "still_elapsed_ms": 610,
+      "reading": [
+        -13147,
+        -89809,
+        237466
+      ],
+      "uwTick": 106052,
+      "now": 106049223,
+      "g_heap_used": 620,
+      "g_irq_lock_depth": 0,
+      "g_app_jd_diag_rx_complete": 1092,
+      "g_app_jd_diag_crc_ok": 840,
+      "nextAnnounce": 106500000,
+      "lastMax": 105577279,
+      "g_app_jd_rx_hw_rxne_count": 21822,
+      "g_app_jd_rx_hw_fe_count": 357,
+      "g_app_jd_rx_hw_ore_count": 0,
+      "packets_since_announce": 2,
+      "service_sample": [
+        -106799,
+        -52389,
+        -24474
+      ],
+      "runtime_flags": {
+        "g_runtime_ready": 1,
+        "g_uart_rx_active": 0,
+        "g_uart_tx_active": 0,
+        "g_tx_complete_pending": 0
+      }
+    },
+    {
+      "seconds": 22.39,
+      "probe": {
+        "ready": 2,
+        "match": 2,
+        "mismatch": 0,
+        "addr": 107,
+        "part_id": 5,
+        "id_valid": 1,
+        "config_attempted": 1,
+        "write_ok": 1,
+        "config_ok": 1,
+        "motion_ok": 1,
+        "status": 0,
+        "accel": [
+          233,
+          1162,
+          -4055
+        ],
+        "gyro": [
+          478,
+          -100,
+          -22
+        ]
+      },
+      "valid": 1,
+      "stage": 11,
+      "cal_count": 81,
+      "cal_phase": 3,
+      "still_elapsed_ms": 610,
+      "reading": [
+        -45915,
+        -171729,
+        139162
+      ],
+      "uwTick": 106361,
+      "now": 106357515,
+      "g_heap_used": 620,
+      "g_irq_lock_depth": 0,
+      "g_app_jd_diag_rx_complete": 1095,
+      "g_app_jd_diag_crc_ok": 842,
+      "nextAnnounce": 106500000,
+      "lastMax": 106082850,
+      "g_app_jd_rx_hw_rxne_count": 21879,
+      "g_app_jd_rx_hw_fe_count": 358,
+      "g_app_jd_rx_hw_ore_count": 0,
+      "packets_since_announce": 8,
+      "service_sample": [
+        171729,
+        45915,
+        -139162
+      ],
+      "runtime_flags": {
+        "g_runtime_ready": 1,
+        "g_uart_rx_active": 0,
+        "g_uart_tx_active": 0,
+        "g_tx_complete_pending": 0
+      }
+    },
+    {
+      "seconds": 22.703,
+      "probe": {
+        "ready": 2,
+        "match": 2,
+        "mismatch": 0,
+        "addr": 107,
+        "part_id": 5,
+        "id_valid": 1,
+        "config_attempted": 1,
+        "write_ok": 1,
+        "config_ok": 1,
+        "motion_ok": 0,
+        "status": 0,
+        "accel": [
+          250,
+          1168,
+          -4070
+        ],
+        "gyro": [
+          482,
+          -84,
+          -36
+        ]
+      },
+      "valid": 1,
+      "stage": 11,
+      "cal_count": 81,
+      "cal_phase": 3,
+      "still_elapsed_ms": 610,
+      "reading": [
+        19621,
+        90415,
+        -90214
+      ],
+      "uwTick": 106670,
+      "now": 106666912,
+      "g_heap_used": 620,
+      "g_irq_lock_depth": 1,
+      "g_app_jd_diag_rx_complete": 1098,
+      "g_app_jd_diag_crc_ok": 845,
+      "nextAnnounce": 107000000,
+      "lastMax": 106584768,
+      "g_app_jd_rx_hw_rxne_count": 21959,
+      "g_app_jd_rx_hw_fe_count": 358,
+      "g_app_jd_rx_hw_ore_count": 0,
+      "packets_since_announce": 4,
+      "service_sample": [
+        -90415,
+        -19621,
+        90214
+      ],
+      "runtime_flags": {
+        "g_runtime_ready": 1,
+        "g_uart_rx_active": 0,
+        "g_uart_tx_active": 0,
+        "g_tx_complete_pending": 0
+      }
+    },
+    {
+      "seconds": 23.015,
+      "probe": {
+        "ready": 2,
+        "match": 2,
+        "mismatch": 0,
+        "addr": 107,
+        "part_id": 5,
+        "id_valid": 1,
+        "config_attempted": 1,
+        "write_ok": 1,
+        "config_ok": 1,
+        "motion_ok": 1,
+        "status": 0,
+        "accel": [
+          243,
+          1179,
+          -4065
+        ],
+        "gyro": [
+          468,
+          -83,
+          -40
+        ]
+      },
+      "valid": 1,
+      "stage": 11,
+      "cal_count": 81,
+      "cal_phase": 3,
+      "still_elapsed_ms": 610,
+      "reading": [
+        -45915,
+        205103,
+        -122982
+      ],
+      "uwTick": 106979,
+      "now": 106975872,
+      "g_heap_used": 620,
+      "g_irq_lock_depth": 1,
+      "g_app_jd_diag_rx_complete": 1100,
+      "g_app_jd_diag_crc_ok": 847,
+      "nextAnnounce": 107000000,
+      "lastMax": 106584768,
+      "g_app_jd_rx_hw_rxne_count": 22012,
+      "g_app_jd_rx_hw_fe_count": 359,
+      "g_app_jd_rx_hw_ore_count": 0,
+      "packets_since_announce": 10,
+      "service_sample": [
+        -106799,
+        209755,
+        155750
+      ],
+      "runtime_flags": {
+        "g_runtime_ready": 1,
+        "g_uart_rx_active": 0,
+        "g_uart_tx_active": 0,
+        "g_tx_complete_pending": 0
+      }
+    },
+    {
+      "seconds": 23.312,
+      "probe": {
+        "ready": 2,
+        "match": 2,
+        "mismatch": 0,
+        "addr": 107,
+        "part_id": 5,
+        "id_valid": 1,
+        "config_attempted": 1,
+        "write_ok": 1,
+        "config_ok": 1,
+        "motion_ok": 1,
+        "status": 0,
+        "accel": [
+          235,
+          1160,
+          -4058
+        ],
+        "gyro": [
+          476,
+          -91,
+          -33
+        ]
+      },
+      "valid": 1,
+      "stage": 12,
+      "cal_count": 81,
+      "cal_phase": 3,
+      "still_elapsed_ms": 610,
+      "reading": [
+        -176987,
+        -89809,
+        73626
+      ],
+      "uwTick": 107275,
+      "now": 107272325,
+      "g_heap_used": 620,
+      "g_irq_lock_depth": 0,
+      "g_app_jd_diag_rx_complete": 1103,
+      "g_app_jd_diag_crc_ok": 849,
+      "nextAnnounce": 107500000,
+      "lastMax": 106584768,
+      "g_app_jd_rx_hw_rxne_count": 22059,
+      "g_app_jd_rx_hw_fe_count": 361,
+      "g_app_jd_rx_hw_ore_count": 0,
+      "packets_since_announce": 6,
+      "service_sample": [
+        89809,
+        176987,
+        -73626
+      ],
+      "runtime_flags": {
+        "g_runtime_ready": 1,
+        "g_uart_rx_active": 0,
+        "g_uart_tx_active": 0,
+        "g_tx_complete_pending": 0
+      }
+    },
+    {
+      "seconds": 23.609,
+      "probe": {
+        "ready": 2,
+        "match": 2,
+        "mismatch": 0,
+        "addr": 107,
+        "part_id": 5,
+        "id_valid": 1,
+        "config_attempted": 1,
+        "write_ok": 1,
+        "config_ok": 1,
+        "motion_ok": 1,
+        "status": 0,
+        "accel": [
+          237,
+          1170,
+          -4060
+        ],
+        "gyro": [
+          475,
+          -93,
+          -29
+        ]
+      },
+      "valid": 1,
+      "stage": 12,
+      "cal_count": 81,
+      "cal_phase": 3,
+      "still_elapsed_ms": 610,
+      "reading": [
+        -95067,
+        -57041,
+        24474
+      ],
+      "uwTick": 107576,
+      "now": 107573410,
+      "g_heap_used": 620,
+      "g_irq_lock_depth": 0,
+      "g_app_jd_diag_rx_complete": 1104,
+      "g_app_jd_diag_crc_ok": 850,
+      "nextAnnounce": 108000000,
+      "lastMax": 106584768,
+      "g_app_jd_rx_hw_rxne_count": 22087,
+      "g_app_jd_rx_hw_fe_count": 361,
+      "g_app_jd_rx_hw_ore_count": 0,
+      "packets_since_announce": 2,
+      "service_sample": [
+        57041,
+        95067,
+        -24474
+      ],
+      "runtime_flags": {
+        "g_runtime_ready": 1,
+        "g_uart_rx_active": 0,
+        "g_uart_tx_active": 0,
+        "g_tx_complete_pending": 0
+      }
+    },
+    {
+      "seconds": 23.921,
+      "probe": {
+        "ready": 2,
+        "match": 2,
+        "mismatch": 0,
+        "addr": 107,
+        "part_id": 5,
+        "id_valid": 1,
+        "config_attempted": 1,
+        "write_ok": 1,
+        "config_ok": 1,
+        "motion_ok": 1,
+        "status": 0,
+        "accel": [
+          235,
+          1155,
+          -4066
+        ],
+        "gyro": [
+          487,
+          -87,
+          -26
+        ]
+      },
+      "valid": 1,
+      "stage": 12,
+      "cal_count": 81,
+      "cal_phase": 3,
+      "still_elapsed_ms": 610,
+      "reading": [
+        85157,
+        188719,
+        73626
+      ],
+      "uwTick": 107885,
+      "now": 107882276,
+      "g_heap_used": 620,
+      "g_irq_lock_depth": 0,
+      "g_app_jd_diag_rx_complete": 1107,
+      "g_app_jd_diag_crc_ok": 853,
+      "nextAnnounce": 108000000,
+      "lastMax": 107599637,
+      "g_app_jd_rx_hw_rxne_count": 22164,
+      "g_app_jd_rx_hw_fe_count": 362,
+      "g_app_jd_rx_hw_ore_count": 0,
+      "packets_since_announce": 8,
+      "service_sample": [
+        -188719,
+        -85157,
+        -73626
+      ],
+      "runtime_flags": {
+        "g_runtime_ready": 1,
+        "g_uart_rx_active": 0,
+        "g_uart_tx_active": 0,
+        "g_tx_complete_pending": 0
+      }
+    },
+    {
+      "seconds": 24.218,
+      "probe": {
+        "ready": 2,
+        "match": 2,
+        "mismatch": 0,
+        "addr": 107,
+        "part_id": 5,
+        "id_valid": 1,
+        "config_attempted": 1,
+        "write_ok": 1,
+        "config_ok": 1,
+        "motion_ok": 1,
+        "status": 0,
+        "accel": [
+          235,
+          1173,
+          -4060
+        ],
+        "gyro": [
+          474,
+          -91,
+          -33
+        ]
+      },
+      "valid": 1,
+      "stage": 13,
+      "cal_count": 81,
+      "cal_phase": 3,
+      "still_elapsed_ms": 610,
+      "reading": [
+        167077,
+        -89809,
+        24474
+      ],
+      "uwTick": 108180,
+      "now": 108177312,
+      "g_heap_used": 620,
+      "g_irq_lock_depth": 1,
+      "g_app_jd_diag_rx_complete": 1110,
+      "g_app_jd_diag_crc_ok": 856,
+      "nextAnnounce": 108500000,
+      "lastMax": 108103158,
+      "g_app_jd_rx_hw_rxne_count": 22244,
+      "g_app_jd_rx_hw_fe_count": 362,
+      "g_app_jd_rx_hw_ore_count": 0,
+      "packets_since_announce": 4,
+      "service_sample": [
+        89809,
+        -167077,
+        -24474
+      ],
+      "runtime_flags": {
+        "g_runtime_ready": 1,
+        "g_uart_rx_active": 0,
+        "g_uart_tx_active": 0,
+        "g_tx_complete_pending": 0
+      }
+    },
+    {
+      "seconds": 24.515,
+      "probe": {
+        "ready": 2,
+        "match": 2,
+        "mismatch": 0,
+        "addr": 107,
+        "part_id": 5,
+        "id_valid": 1,
+        "config_attempted": 1,
+        "write_ok": 1,
+        "config_ok": 1,
+        "motion_ok": 0,
+        "status": 0,
+        "accel": [
+          225,
+          1159,
+          -4064
+        ],
+        "gyro": [
+          482,
+          -92,
+          -37
+        ]
+      },
+      "valid": 1,
+      "stage": 13,
+      "cal_count": 81,
+      "cal_phase": 3,
+      "still_elapsed_ms": 610,
+      "reading": [
+        -45915,
+        -171729,
+        24474
+      ],
+      "uwTick": 108477,
+      "now": 108474432,
+      "g_heap_used": 620,
+      "g_irq_lock_depth": 0,
+      "g_app_jd_diag_rx_complete": 1114,
+      "g_app_jd_diag_crc_ok": 860,
+      "nextAnnounce": 108500000,
+      "lastMax": 108103158,
+      "g_app_jd_rx_hw_rxne_count": 22331,
+      "g_app_jd_rx_hw_fe_count": 363,
+      "g_app_jd_rx_hw_ore_count": 0,
+      "packets_since_announce": 11,
+      "service_sample": [
+        171729,
+        45915,
+        -24474
+      ],
+      "runtime_flags": {
+        "g_runtime_ready": 1,
+        "g_uart_rx_active": 0,
+        "g_uart_tx_active": 0,
+        "g_tx_complete_pending": 0
+      }
+    },
+    {
+      "seconds": 24.812,
+      "probe": {
+        "ready": 2,
+        "match": 2,
+        "mismatch": 0,
+        "addr": 107,
+        "part_id": 5,
+        "id_valid": 1,
+        "config_attempted": 1,
+        "write_ok": 1,
+        "config_ok": 1,
+        "motion_ok": 0,
+        "status": 0,
+        "accel": [
+          225,
+          1165,
+          -4075
+        ],
+        "gyro": [
+          481,
+          -87,
+          -39
+        ]
+      },
+      "valid": 1,
+      "stage": 13,
+      "cal_count": 81,
+      "cal_phase": 3,
+      "still_elapsed_ms": 610,
+      "reading": [
+        199845,
+        155951,
+        -303206
+      ],
+      "uwTick": 108773,
+      "now": 108769666,
+      "g_heap_used": 620,
+      "g_irq_lock_depth": 0,
+      "g_app_jd_diag_rx_complete": 1120,
+      "g_app_jd_diag_crc_ok": 865,
+      "nextAnnounce": 109000000,
+      "lastMax": 108608238,
+      "g_app_jd_rx_hw_rxne_count": 22452,
+      "g_app_jd_rx_hw_fe_count": 364,
+      "g_app_jd_rx_hw_ore_count": 0,
+      "packets_since_announce": 7,
+      "service_sample": [
+        -155951,
+        -199845,
+        303206
+      ],
+      "runtime_flags": {
+        "g_runtime_ready": 1,
+        "g_uart_rx_active": 0,
+        "g_uart_tx_active": 0,
+        "g_tx_complete_pending": 0
+      }
+    },
+    {
+      "seconds": 25.109,
+      "probe": {
+        "ready": 2,
+        "match": 2,
+        "mismatch": 0,
+        "addr": 107,
+        "part_id": 5,
+        "id_valid": 1,
+        "config_attempted": 1,
+        "write_ok": 1,
+        "config_ok": 1,
+        "motion_ok": 0,
+        "status": 0,
+        "accel": [
+          243,
+          1161,
+          -4061
+        ],
+        "gyro": [
+          486,
+          -91,
+          -15
+        ]
+      },
+      "valid": 1,
+      "stage": 13,
+      "cal_count": 81,
+      "cal_phase": 3,
+      "still_elapsed_ms": 610,
+      "reading": [
+        -29531,
+        24879,
+        -41062
+      ],
+      "uwTick": 109068,
+      "now": 109064518,
+      "g_heap_used": 620,
+      "g_irq_lock_depth": 0,
+      "g_app_jd_diag_rx_complete": 1122,
+      "g_app_jd_diag_crc_ok": 866,
+      "nextAnnounce": 109500000,
+      "lastMax": 108608238,
+      "g_app_jd_rx_hw_rxne_count": 22480,
+      "g_app_jd_rx_hw_fe_count": 364,
+      "g_app_jd_rx_hw_ore_count": 0,
+      "packets_since_announce": 3,
+      "service_sample": [
+        -24879,
+        29531,
+        41062
+      ],
+      "runtime_flags": {
+        "g_runtime_ready": 1,
+        "g_uart_rx_active": 0,
+        "g_uart_tx_active": 0,
+        "g_tx_complete_pending": 0
+      }
+    },
+    {
+      "seconds": 25.406,
+      "probe": {
+        "ready": 2,
+        "match": 2,
+        "mismatch": 0,
+        "addr": 107,
+        "part_id": 5,
+        "id_valid": 1,
+        "config_attempted": 1,
+        "write_ok": 1,
+        "config_ok": 1,
+        "motion_ok": 1,
+        "status": 0,
+        "accel": [
+          224,
+          1158,
+          -4051
+        ],
+        "gyro": [
+          484,
+          -100,
+          -25
+        ]
+      },
+      "valid": 1,
+      "stage": 14,
+      "cal_count": 81,
+      "cal_phase": 3,
+      "still_elapsed_ms": 610,
+      "reading": [
+        36005,
+        237871,
+        -139366
+      ],
+      "uwTick": 109362,
+      "now": 109358968,
+      "g_heap_used": 620,
+      "g_irq_lock_depth": 0,
+      "g_app_jd_diag_rx_complete": 1125,
+      "g_app_jd_diag_crc_ok": 869,
+      "nextAnnounce": 109500000,
+      "lastMax": 109112288,
+      "g_app_jd_rx_hw_rxne_count": 22557,
+      "g_app_jd_rx_hw_fe_count": 365,
+      "g_app_jd_rx_hw_ore_count": 0,
+      "packets_since_announce": 8,
+      "service_sample": [
+        -237871,
+        -36005,
+        139366
+      ],
+      "runtime_flags": {
+        "g_runtime_ready": 1,
+        "g_uart_rx_active": 0,
+        "g_uart_tx_active": 0,
+        "g_tx_complete_pending": 0
+      }
+    },
+    {
+      "seconds": 25.703,
+      "probe": {
+        "ready": 2,
+        "match": 2,
+        "mismatch": 0,
+        "addr": 107,
+        "part_id": 5,
+        "id_valid": 1,
+        "config_attempted": 1,
+        "write_ok": 1,
+        "config_ok": 1,
+        "motion_ok": 1,
+        "status": 0,
+        "accel": [
+          238,
+          1170,
+          -4050
+        ],
+        "gyro": [
+          476,
+          -87,
+          -23
+        ]
+      },
+      "valid": 1,
+      "stage": 14,
+      "cal_count": 81,
+      "cal_phase": 3,
+      "still_elapsed_ms": 610,
+      "reading": [
+        -78683,
+        41263,
+        122778
+      ],
+      "uwTick": 109659,
+      "now": 109655520,
+      "g_heap_used": 620,
+      "g_irq_lock_depth": 1,
+      "g_app_jd_diag_rx_complete": 1128,
+      "g_app_jd_diag_crc_ok": 872,
+      "nextAnnounce": 110000000,
+      "lastMax": 109623199,
+      "g_app_jd_rx_hw_rxne_count": 22637,
+      "g_app_jd_rx_hw_fe_count": 365,
+      "g_app_jd_rx_hw_ore_count": 0,
+      "packets_since_announce": 4,
+      "service_sample": [
+        -41263,
+        78683,
+        -122778
+      ],
+      "runtime_flags": {
+        "g_runtime_ready": 1,
+        "g_uart_rx_active": 0,
+        "g_uart_tx_active": 0,
+        "g_tx_complete_pending": 0
+      }
+    },
+    {
+      "seconds": 26.0,
+      "probe": {
+        "ready": 2,
+        "match": 2,
+        "mismatch": 0,
+        "addr": 107,
+        "part_id": 5,
+        "id_valid": 1,
+        "config_attempted": 1,
+        "write_ok": 1,
+        "config_ok": 1,
+        "motion_ok": 1,
+        "status": 0,
+        "accel": [
+          246,
+          1161,
+          -4069
+        ],
+        "gyro": [
+          489,
+          -101,
+          -29
+        ]
+      },
+      "valid": 1,
+      "stage": 14,
+      "cal_count": 81,
+      "cal_phase": 3,
+      "still_elapsed_ms": 610,
+      "reading": [
+        134309,
+        -188113,
+        24474
+      ],
+      "uwTick": 109955,
+      "now": 109951958,
+      "g_heap_used": 620,
+      "g_irq_lock_depth": 0,
+      "g_app_jd_diag_rx_complete": 1129,
+      "g_app_jd_diag_crc_ok": 873,
+      "nextAnnounce": 110000000,
+      "lastMax": 109623199,
+      "g_app_jd_rx_hw_rxne_count": 22665,
+      "g_app_jd_rx_hw_fe_count": 365,
+      "g_app_jd_rx_hw_ore_count": 0,
+      "packets_since_announce": 10,
+      "service_sample": [
+        188113,
+        -134309,
+        -24474
+      ],
+      "runtime_flags": {
+        "g_runtime_ready": 1,
+        "g_uart_rx_active": 0,
+        "g_uart_tx_active": 0,
+        "g_tx_complete_pending": 0
+      }
+    },
+    {
+      "seconds": 26.312,
+      "probe": {
+        "ready": 2,
+        "match": 2,
+        "mismatch": 0,
+        "addr": 107,
+        "part_id": 5,
+        "id_valid": 1,
+        "config_attempted": 1,
+        "write_ok": 1,
+        "config_ok": 1,
+        "motion_ok": 1,
+        "status": 0,
+        "accel": [
+          243,
+          1161,
+          -4067
+        ],
+        "gyro": [
+          485,
+          -80,
+          -22
+        ]
+      },
+      "valid": 1,
+      "stage": 15,
+      "cal_count": 81,
+      "cal_phase": 3,
+      "still_elapsed_ms": 610,
+      "reading": [
+        68773,
+        -188113,
+        106394
+      ],
+      "uwTick": 110264,
+      "now": 110261067,
+      "g_heap_used": 620,
+      "g_irq_lock_depth": 1,
+      "g_app_jd_diag_rx_complete": 1148,
+      "g_app_jd_diag_crc_ok": 889,
+      "nextAnnounce": 110500000,
+      "lastMax": 110149245,
+      "g_app_jd_rx_hw_rxne_count": 23005,
+      "g_app_jd_rx_hw_fe_count": 373,
+      "g_app_jd_rx_hw_ore_count": 0,
+      "packets_since_announce": 6,
+      "service_sample": [
+        -155951,
+        -68773,
+        -139162
+      ],
+      "runtime_flags": {
+        "g_runtime_ready": 1,
+        "g_uart_rx_active": 0,
+        "g_uart_tx_active": 0,
+        "g_tx_complete_pending": 0
+      }
+    },
+    {
+      "seconds": 26.625,
+      "probe": {
+        "ready": 2,
+        "match": 2,
+        "mismatch": 0,
+        "addr": 107,
+        "part_id": 5,
+        "id_valid": 1,
+        "config_attempted": 1,
+        "write_ok": 1,
+        "config_ok": 1,
+        "motion_ok": 1,
+        "status": 0,
+        "accel": [
+          230,
+          1160,
+          -4067
+        ],
+        "gyro": [
+          496,
+          -101,
+          -42
+        ]
+      },
+      "valid": 1,
+      "stage": 15,
+      "cal_count": 81,
+      "cal_phase": 3,
+      "still_elapsed_ms": 610,
+      "reading": [
+        -13147,
+        -270033,
+        -57446
+      ],
+      "uwTick": 110572,
+      "now": 110568912,
+      "g_heap_used": 620,
+      "g_irq_lock_depth": 0,
+      "g_app_jd_diag_rx_complete": 1149,
+      "g_app_jd_diag_crc_ok": 890,
+      "nextAnnounce": 111000000,
+      "lastMax": 110149245,
+      "g_app_jd_rx_hw_rxne_count": 23033,
+      "g_app_jd_rx_hw_fe_count": 373,
+      "g_app_jd_rx_hw_ore_count": 0,
+      "packets_since_announce": 3,
+      "service_sample": [
+        188113,
+        -248997,
+        188518
+      ],
+      "runtime_flags": {
+        "g_runtime_ready": 1,
+        "g_uart_rx_active": 0,
+        "g_uart_tx_active": 0,
+        "g_tx_complete_pending": 0
+      }
+    },
+    {
+      "seconds": 26.921,
+      "probe": {
+        "ready": 2,
+        "match": 2,
+        "mismatch": 0,
+        "addr": 107,
+        "part_id": 5,
+        "id_valid": 1,
+        "config_attempted": 1,
+        "write_ok": 1,
+        "config_ok": 1,
+        "motion_ok": 1,
+        "status": 0,
+        "accel": [
+          250,
+          1166,
+          -4065
+        ],
+        "gyro": [
+          491,
+          -127,
+          -29
+        ]
+      },
+      "valid": 1,
+      "stage": 15,
+      "cal_count": 81,
+      "cal_phase": 3,
+      "still_elapsed_ms": 610,
+      "reading": [
+        -62299,
+        57647,
+        -204902
+      ],
+      "uwTick": 110868,
+      "now": 110864764,
+      "g_heap_used": 620,
+      "g_irq_lock_depth": 1,
+      "g_app_jd_diag_rx_complete": 1152,
+      "g_app_jd_diag_crc_ok": 892,
+      "nextAnnounce": 111000000,
+      "lastMax": 110650701,
+      "g_app_jd_rx_hw_rxne_count": 23086,
+      "g_app_jd_rx_hw_fe_count": 374,
+      "g_app_jd_rx_hw_ore_count": 0,
+      "packets_since_announce": 9,
+      "service_sample": [
+        614097,
+        -167077,
+        -24474
+      ],
+      "runtime_flags": {
+        "g_runtime_ready": 1,
+        "g_uart_rx_active": 0,
+        "g_uart_tx_active": 0,
+        "g_tx_complete_pending": 0
+      }
+    },
+    {
+      "seconds": 27.218,
+      "probe": {
+        "ready": 2,
+        "match": 2,
+        "mismatch": 0,
+        "addr": 107,
+        "part_id": 5,
+        "id_valid": 1,
+        "config_attempted": 1,
+        "write_ok": 1,
+        "config_ok": 1,
+        "motion_ok": 1,
+        "status": 0,
+        "accel": [
+          228,
+          1148,
+          -4068
+        ],
+        "gyro": [
+          494,
+          -86,
+          -41
+        ]
+      },
+      "valid": 1,
+      "stage": 15,
+      "cal_count": 81,
+      "cal_phase": 3,
+      "still_elapsed_ms": 610,
+      "reading": [
+        265381,
+        -171729,
+        -90214
+      ],
+      "uwTick": 111164,
+      "now": 111161193,
+      "g_heap_used": 620,
+      "g_irq_lock_depth": 1,
+      "g_app_jd_diag_rx_complete": 1157,
+      "g_app_jd_diag_crc_ok": 897,
+      "nextAnnounce": 111500000,
+      "lastMax": 111157015,
+      "g_app_jd_rx_hw_rxne_count": 23208,
+      "g_app_jd_rx_hw_fe_count": 375,
+      "g_app_jd_rx_hw_ore_count": 0,
+      "packets_since_announce": 5,
+      "service_sample": [
+        -57647,
+        -216229,
+        172134
+      ],
+      "runtime_flags": {
+        "g_runtime_ready": 1,
+        "g_uart_rx_active": 0,
+        "g_uart_tx_active": 0,
+        "g_tx_complete_pending": 0
+      }
+    },
+    {
+      "seconds": 27.531,
+      "probe": {
+        "ready": 2,
+        "match": 2,
+        "mismatch": 0,
+        "addr": 107,
+        "part_id": 5,
+        "id_valid": 1,
+        "config_attempted": 1,
+        "write_ok": 1,
+        "config_ok": 1,
+        "motion_ok": 1,
+        "status": 0,
+        "accel": [
+          240,
+          1163,
+          -4062
+        ],
+        "gyro": [
+          486,
+          -109,
+          -33
+        ]
+      },
+      "valid": 1,
+      "stage": 11,
+      "cal_count": 81,
+      "cal_phase": 3,
+      "still_elapsed_ms": 610,
+      "reading": [
+        -242523,
+        -188113,
+        -57446
+      ],
+      "uwTick": 111474,
+      "now": 111471225,
+      "g_heap_used": 620,
+      "g_irq_lock_depth": 0,
+      "g_app_jd_diag_rx_complete": 1158,
+      "g_app_jd_diag_crc_ok": 898,
+      "nextAnnounce": 111500000,
+      "lastMax": 111157015,
+      "g_app_jd_rx_hw_rxne_count": 23236,
+      "g_app_jd_rx_hw_fe_count": 375,
+      "g_app_jd_rx_hw_ore_count": 0,
+      "packets_since_announce": 11,
+      "service_sample": [
+        319185,
+        -85157,
+        41062
+      ],
+      "runtime_flags": {
+        "g_runtime_ready": 1,
+        "g_uart_rx_active": 0,
+        "g_uart_tx_active": 0,
+        "g_tx_complete_pending": 0
+      }
+    },
+    {
+      "seconds": 27.843,
+      "probe": {
+        "ready": 2,
+        "match": 2,
+        "mismatch": 0,
+        "addr": 107,
+        "part_id": 5,
+        "id_valid": 1,
+        "config_attempted": 1,
+        "write_ok": 1,
+        "config_ok": 1,
+        "motion_ok": 1,
+        "status": 0,
+        "accel": [
+          240,
+          1153,
+          -4055
+        ],
+        "gyro": [
+          484,
+          -89,
+          -24
+        ]
+      },
+      "valid": 0,
+      "stage": 11,
+      "cal_count": 81,
+      "cal_phase": 3,
+      "still_elapsed_ms": 610,
+      "reading": [
+        52389,
+        8495,
+        106394
+      ],
+      "uwTick": 111784,
+      "now": 111780732,
+      "g_heap_used": 620,
+      "g_irq_lock_depth": 1,
+      "g_app_jd_diag_rx_complete": 1161,
+      "g_app_jd_diag_crc_ok": 900,
+      "nextAnnounce": 112000000,
+      "lastMax": 111659507,
+      "g_app_jd_rx_hw_rxne_count": 23293,
+      "g_app_jd_rx_hw_fe_count": 376,
+      "g_app_jd_rx_hw_ore_count": 0,
+      "packets_since_announce": 7,
+      "service_sample": [
+        -8495,
+        -52389,
+        -106394
+      ],
+      "runtime_flags": {
+        "g_runtime_ready": 1,
+        "g_uart_rx_active": 0,
+        "g_uart_tx_active": 0,
+        "g_tx_complete_pending": 0
+      }
+    },
+    {
+      "seconds": 28.125,
+      "probe": {
+        "ready": 2,
+        "match": 2,
+        "mismatch": 0,
+        "addr": 107,
+        "part_id": 5,
+        "id_valid": 1,
+        "config_attempted": 1,
+        "write_ok": 1,
+        "config_ok": 1,
+        "motion_ok": 1,
+        "status": 0,
+        "accel": [
+          238,
+          1156,
+          -4062
+        ],
+        "gyro": [
+          477,
+          -103,
+          -32
+        ]
+      },
+      "valid": 0,
+      "stage": 11,
+      "cal_count": 81,
+      "cal_phase": 3,
+      "still_elapsed_ms": 610,
+      "reading": [
+        -62299,
+        -220881,
+        -24678
+      ],
+      "uwTick": 112078,
+      "now": 112075061,
+      "g_heap_used": 620,
+      "g_irq_lock_depth": 0,
+      "g_app_jd_diag_rx_complete": 1162,
+      "g_app_jd_diag_crc_ok": 900,
+      "nextAnnounce": 112500000,
+      "lastMax": 111659507,
+      "g_app_jd_rx_hw_rxne_count": 23294,
+      "g_app_jd_rx_hw_fe_count": 377,
+      "g_app_jd_rx_hw_ore_count": 0,
+      "packets_since_announce": 3,
+      "service_sample": [
+        220881,
+        62299,
+        24678
+      ],
+      "runtime_flags": {
+        "g_runtime_ready": 1,
+        "g_uart_rx_active": 0,
+        "g_uart_tx_active": 0,
+        "g_tx_complete_pending": 0
+      }
+    },
+    {
+      "seconds": 28.437,
+      "probe": {
+        "ready": 2,
+        "match": 2,
+        "mismatch": 0,
+        "addr": 107,
+        "part_id": 5,
+        "id_valid": 1,
+        "config_attempted": 1,
+        "write_ok": 1,
+        "config_ok": 1,
+        "motion_ok": 1,
+        "status": 0,
+        "accel": [
+          233,
+          1167,
+          -4060
+        ],
+        "gyro": [
+          470,
+          -110,
+          -18
+        ]
+      },
+      "valid": 1,
+      "stage": 12,
+      "cal_count": 81,
+      "cal_phase": 3,
+      "still_elapsed_ms": 610,
+      "reading": [
+        -176987,
+        -335569,
+        204698
+      ],
+      "uwTick": 112375,
+      "now": 112371968,
+      "g_heap_used": 620,
+      "g_irq_lock_depth": 1,
+      "g_app_jd_diag_rx_complete": 1165,
+      "g_app_jd_diag_crc_ok": 902,
+      "nextAnnounce": 112500000,
+      "lastMax": 112168204,
+      "g_app_jd_rx_hw_rxne_count": 23366,
+      "g_app_jd_rx_hw_fe_count": 378,
+      "g_app_jd_rx_hw_ore_count": 0,
+      "packets_since_announce": 9,
+      "service_sample": [
+        335569,
+        176987,
+        -204698
+      ],
+      "runtime_flags": {
+        "g_runtime_ready": 1,
+        "g_uart_rx_active": 0,
+        "g_uart_tx_active": 0,
+        "g_tx_complete_pending": 0
+      }
+    },
+    {
+      "seconds": 28.734,
+      "probe": {
+        "ready": 2,
+        "match": 2,
+        "mismatch": 0,
+        "addr": 107,
+        "part_id": 5,
+        "id_valid": 1,
+        "config_attempted": 1,
+        "write_ok": 1,
+        "config_ok": 1,
+        "motion_ok": 1,
+        "status": 0,
+        "accel": [
+          238,
+          1164,
+          -4057
+        ],
+        "gyro": [
+          489,
+          -67,
+          -40
+        ]
+      },
+      "valid": 1,
+      "stage": 12,
+      "cal_count": 81,
+      "cal_phase": 3,
+      "still_elapsed_ms": 610,
+      "reading": [
+        134309,
+        368943,
+        -155750
+      ],
+      "uwTick": 112671,
+      "now": 112666996,
+      "g_heap_used": 620,
+      "g_irq_lock_depth": 0,
+      "g_app_jd_diag_rx_complete": 1166,
+      "g_app_jd_diag_crc_ok": 903,
+      "nextAnnounce": 113000000,
+      "lastMax": 112168204,
+      "g_app_jd_rx_hw_rxne_count": 23394,
+      "g_app_jd_rx_hw_fe_count": 378,
+      "g_app_jd_rx_hw_ore_count": 0,
+      "packets_since_announce": 5,
+      "service_sample": [
+        -368943,
+        -134309,
+        155750
+      ],
+      "runtime_flags": {
+        "g_runtime_ready": 1,
+        "g_uart_rx_active": 0,
+        "g_uart_tx_active": 0,
+        "g_tx_complete_pending": 0
+      }
+    },
+    {
+      "seconds": 29.031,
+      "probe": {
+        "ready": 2,
+        "match": 2,
+        "mismatch": 0,
+        "addr": 107,
+        "part_id": 5,
+        "id_valid": 1,
+        "config_attempted": 1,
+        "write_ok": 1,
+        "config_ok": 1,
+        "motion_ok": 1,
+        "status": 0,
+        "accel": [
+          239,
+          1158,
+          -4089
+        ],
+        "gyro": [
+          481,
+          -101,
+          -19
+        ]
+      },
+      "valid": 1,
+      "stage": 12,
+      "cal_count": 81,
+      "cal_phase": 3,
+      "still_elapsed_ms": 610,
+      "reading": [
+        3237,
+        -188113,
+        188314
+      ],
+      "uwTick": 112967,
+      "now": 112963968,
+      "g_heap_used": 620,
+      "g_irq_lock_depth": 0,
+      "g_app_jd_diag_rx_complete": 1170,
+      "g_app_jd_diag_crc_ok": 906,
+      "nextAnnounce": 113000000,
+      "lastMax": 112168204,
+      "g_app_jd_rx_hw_rxne_count": 23469,
+      "g_app_jd_rx_hw_fe_count": 380,
+      "g_app_jd_rx_hw_ore_count": 0,
+      "packets_since_announce": 11,
+      "service_sample": [
+        188113,
+        -3237,
+        -188314
+      ],
+      "runtime_flags": {
+        "g_runtime_ready": 1,
+        "g_uart_rx_active": 0,
+        "g_uart_tx_active": 0,
+        "g_tx_complete_pending": 0
+      }
+    },
+    {
+      "seconds": 29.328,
+      "probe": {
+        "ready": 2,
+        "match": 2,
+        "mismatch": 0,
+        "addr": 107,
+        "part_id": 5,
+        "id_valid": 1,
+        "config_attempted": 1,
+        "write_ok": 1,
+        "config_ok": 1,
+        "motion_ok": 1,
+        "status": 0,
+        "accel": [
+          245,
+          1162,
+          -4073
+        ],
+        "gyro": [
+          475,
+          -85,
+          -15
+        ]
+      },
+      "valid": 1,
+      "stage": 13,
+      "cal_count": 81,
+      "cal_phase": 3,
+      "still_elapsed_ms": 610,
+      "reading": [
+        216229,
+        155951,
+        434074
+      ],
+      "uwTick": 113267,
+      "now": 113263754,
+      "g_heap_used": 620,
+      "g_irq_lock_depth": 1,
+      "g_app_jd_diag_rx_complete": 1173,
+      "g_app_jd_diag_crc_ok": 909,
+      "nextAnnounce": 113500000,
+      "lastMax": 113178481,
+      "g_app_jd_rx_hw_rxne_count": 23546,
+      "g_app_jd_rx_hw_fe_count": 381,
+      "g_app_jd_rx_hw_ore_count": 0,
+      "packets_since_announce": 7,
+      "service_sample": [
+        -74031,
+        95067,
+        -253850
+      ],
+      "runtime_flags": {
+        "g_runtime_ready": 1,
+        "g_uart_rx_active": 0,
+        "g_uart_tx_active": 0,
+        "g_tx_complete_pending": 0
+      }
+    },
+    {
+      "seconds": 29.625,
+      "probe": {
+        "ready": 2,
+        "match": 2,
+        "mismatch": 0,
+        "addr": 107,
+        "part_id": 5,
+        "id_valid": 1,
+        "config_attempted": 1,
+        "write_ok": 1,
+        "config_ok": 1,
+        "motion_ok": 1,
+        "status": 0,
+        "accel": [
+          240,
+          1162,
+          -4052
+        ],
+        "gyro": [
+          480,
+          -94,
+          -43
+        ]
+      },
+      "valid": 1,
+      "stage": 13,
+      "cal_count": 81,
+      "cal_phase": 3,
+      "still_elapsed_ms": 610,
+      "reading": [
+        19621,
+        123183,
+        122778
+      ],
+      "uwTick": 113565,
+      "now": 113562067,
+      "g_heap_used": 620,
+      "g_irq_lock_depth": 0,
+      "g_app_jd_diag_rx_complete": 1175,
+      "g_app_jd_diag_crc_ok": 909,
+      "nextAnnounce": 114000000,
+      "lastMax": 113178481,
+      "g_app_jd_rx_hw_rxne_count": 23558,
+      "g_app_jd_rx_hw_fe_count": 382,
+      "g_app_jd_rx_hw_ore_count": 0,
+      "packets_since_announce": 3,
+      "service_sample": [
+        -123183,
+        -19621,
+        -122778
+      ],
+      "runtime_flags": {
+        "g_runtime_ready": 1,
+        "g_uart_rx_active": 0,
+        "g_uart_tx_active": 0,
+        "g_tx_complete_pending": 0
+      }
+    },
+    {
+      "seconds": 29.937,
+      "probe": {
+        "ready": 2,
+        "match": 2,
+        "mismatch": 0,
+        "addr": 107,
+        "part_id": 5,
+        "id_valid": 1,
+        "config_attempted": 1,
+        "write_ok": 1,
+        "config_ok": 1,
+        "motion_ok": 1,
+        "status": 0,
+        "accel": [
+          227,
+          1157,
+          -4059
+        ],
+        "gyro": [
+          473,
+          -96,
+          -22
+        ]
+      },
+      "valid": 1,
+      "stage": 13,
+      "cal_count": 81,
+      "cal_phase": 3,
+      "still_elapsed_ms": 610,
+      "reading": [
+        -29531,
+        -302801,
+        188314
+      ],
+      "uwTick": 113874,
+      "now": 113871419,
+      "g_heap_used": 620,
+      "g_irq_lock_depth": 1,
+      "g_app_jd_diag_rx_complete": 1182,
+      "g_app_jd_diag_crc_ok": 914,
+      "nextAnnounce": 114000000,
+      "lastMax": 113680183,
+      "g_app_jd_rx_hw_rxne_count": 23696,
+      "g_app_jd_rx_hw_fe_count": 383,
+      "g_app_jd_rx_hw_ore_count": 0,
+      "packets_since_announce": 9,
+      "service_sample": [
+        106193,
+        127835,
+        -139162
+      ],
+      "runtime_flags": {
+        "g_runtime_ready": 1,
+        "g_uart_rx_active": 0,
+        "g_uart_tx_active": 0,
+        "g_tx_complete_pending": 0
+      }
+    }
+  ],
+  "initial_state": "State.RUNNING",
+  "flash_sha256": "66ef8147d871a1d5393e7e2072c2dc9a047f6b912b79d919653ab582418cdc40",
+  "image_matches": true,
+  "axf_sha256": "faeb81d1fe10951adbe2f4f3dc4abcc2eed94c36bb7919165b7ab68e17438a07",
+  "core": {
+    "pc": 134217996,
+    "lr": 134219237,
+    "sp": 536873876,
+    "xpsr": 553648128,
+    "primask": 1
+  },
+  "i2c": {
+    "0x0": 1,
+    "0x4": 24,
+    "0x18": 0,
+    "0x14": 0,
+    "0x1c": 120,
+    "0x20": 25
+  },
+  "ram_hex": "00366e015c01002028ba01000d00000002000000000000000100000000000001181819006c020000fc00000000000000ddaa12000000000000000000d348ce06180000009f04000092030000b40000000100000000000000a1040000a1040000a10400000000000000000000fc000000060000001800000018000000a01480019400e570ffff00000000000000000000000000000000000000000000a1040000f673e57011030000ffffffff000300008f020000030000009004000011000000110000001f702a714571f6730100000000000000915c000080010000000000000000000057010000431100000000000005be010001000000010000005802000090e34150102700009f0400009f04000001000000000000000000000000000000000000000000000000000000bff8cd06fc030020020f0500379fc606a021d306d80100200000004a06be010003000000010000001c0900200100000000540040a086010000400000000000000000000000000000b00b0020000000000000ffff000000000020000000000000000000000000000000000000000000000202006b050101010101020500000000f0008e041af0e201a5ffe8ff0000000000000000e14c00080000000000000000000000000100000000000000de9700002946f732443450410c010111d19e03005b7300006660ffff79726f2d626561636f6e426561636f6e0401048201000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000079e510002946f732443450410c010111d15efdff5b33ffff6620faff01000000040104820100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000006c500008000000009850000801008b07320000000c5000087dacce06d15e00005bb3ffff6660feffb066ce06d0030020d803002003b5050004810483000000006017010004810482010000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000a54c00002fa1ffff9a9f01005b337800d19ee9ff6660f8ff220a0000e5009f0412f0ea019bffdcff5103620200000000a50000000000000068000000000000000000000000000000030000008f0300009d040000e80000001400000014000000b7adb7ad0800010380100810b7ad08006f4cb9b4a4c68b92010380109e040000e9000000130000007300000000002345678903000063031023456789abcdef0800000018030000639f040000fc000000000000000c000000000000000000000000000100000000000000000000000000000000009c040000f20000000a000000b00000000000b9b4a4c600000000030ab9b4a4c68b920003801000000000000000000000000000000000000000000000a27314ffe54e3c10ca1fdc12667e4b1e001c73fa0068b7fb080000003f070100f2061b1e0c010111004a15ff001c73fa0068b7fb080000003f070100f2061b1e0c010111004a15ff001c73fa0068b7fb080000003f070100f2061b1e0c010111004a15ff001c73fa0068b7fb080000003f070100f2061b1e0c010111004a15ff001c73fa0068b7fb080000003f070100f2061b1e0c010111004a15ff001c73fa0068b7fb080000003f070100f2061b1e0c010111004a15ff001c73fa0068b7fb080000003f070100f2061b1e0c010111004a15ff001c73fa0068b7fb080000003f070100f2061b1e0000000000000000000000006800000002000000000000009203000003000000b7ad08006f4cb9b4a4c68b920103801001ffffffe54e3c10ca1fdc12667e4b1e001c73fa0068b7fb080000003f070100f2061b1e0c010111004a15ff001c73fa0068b7fb080000003f070100f2061b1e0c010111004a15ff001c73fa0068b7fb080000003f070100f2061b1e0c010111004a15ff001c73fa0068b7fb080000003f070100f2061b1e0c010111004a15ff001c73fa0068b7fb080000003f070100f2061b1e0c010111004a15ff001c73fa0068b7fb080000003f070100f2061b1e0c010111004a15ff001c73fa0068b7fb080000003f070100f2061b1e0c010111004a15ff001c73fa0068b7fb080000003f070100f2061b1e0000000004040020952e0008000003000000cf06d5a88d0428c0ca0600000000000000020000000000000000000101fa000000000002024c00000000000303dd00000000f8ffffff00000000f2061b1e00000000e8ffffff00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000850d0008000000001800000000000000a014000010000000fc00000010000000fc00000010000000bf0b000800000000850d0008000000001800000000000000a01400001c000000fc0000001c000000fc00000000000000850d000800000000850d000800000000850d0008000000001800000000000000a014000014000000fc00000014000000fc00000014000000bf0b000801000000563f000000000000850d0008f00000001800000000000000a014000014000000fc00000014000000fc00000014000000bf0b000802000000fffa000000000000850d0008f00000001800000000000000a014000000000000fc00000000000000fc00000000000000bf0b00083d000000e28d000080010000a0140000f0000000180000001800000000000000f6730000038900005c010020f9ffffff000000000100000000000000140000009f644416232900086e2900080000008104be01005c0100203b00000004be0100d6000000a327000804be01005c010020d60000003b000000140000005c01002004be010014000000d60000004b22000804be010004be0100030000005c010020d60000003b00000001000000aa0b00205c0100206b0000000600000055180008aa0b002006000000140000005c0100206b0000003b000000aa0b0020000000000100000006be010006be0100e5050008c05d0000e13400000000000010270000e14c000850510008805722018b4d0008000000000100000050510008b74b0008e14c000801000000505100080b4d0008e14c0008f108000850510008990c000850510008b14300080000000000000000"
+}

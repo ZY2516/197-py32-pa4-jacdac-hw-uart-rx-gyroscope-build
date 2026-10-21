@@ -2,17 +2,26 @@
 setlocal
 
 set "ROOT=%~dp0"
-set "UVISION=C:\soft\Keil_v5\UV4\uVision.com"
+if not defined UVISION (
+  for %%K in ("D:\Keil_v5\UV4\uVision.com" "C:\Keil_v5\UV4\uVision.com" "C:\soft\Keil_v5\UV4\uVision.com") do (
+    if not defined UVISION if exist "%%~K" set "UVISION=%%~K"
+  )
+)
 set "PROJECT=%ROOT%MDK-ARM\Project.uvprojx"
 set "TARGET_NAME=py32f002b_qmi8656_jacdac_clean_hybrid_phy_build"
 set "HEX=%ROOT%MDK-ARM\Output\%TARGET_NAME%.hex"
 set "BUILD_LOG=%TEMP%\%TARGET_NAME%_build.log"
-set "PACK=%ROOT%..\\PY32F0xx_Keil_DFP_V1.2.19\\Puya.PY32F0xx_DFP.1.2.19.pack"
+set "PACK=%ROOT%validation-tools\Puya.PY32F0xx_DFP.1.2.19.pack"
 set "TARGET=py32f002bx5"
 set "PROBE_UID=006000133900001456314D43"
 set "FREQUENCY=1M"
 
 echo [1/2] Building %TARGET_NAME%
+
+if not defined UVISION (
+  echo ERROR: Keil command-line tool not found. Set UVISION to the path of uVision.com.
+  goto fail
+)
 
 if not exist "%UVISION%" (
   echo ERROR: Keil command-line tool not found:
@@ -45,6 +54,7 @@ if not exist "%HEX%" (
 
 echo Build succeeded:
 echo   %HEX%
+if /I "%~1"=="--build-only" exit /b 0
 echo.
 echo [2/2] Flashing %TARGET%
 

@@ -3,10 +3,10 @@
 .\output\event_queue.o: ..\third_party\jacdac-c\inc\jd_control.h
 .\output\event_queue.o: ..\third_party\jacdac-c\inc\jd_config.h
 .\output\event_queue.o: ..\Inc\jd_user_config.h
-.\output\event_queue.o: C:\soft\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
-.\output\event_queue.o: C:\soft\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
-.\output\event_queue.o: C:\soft\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
-.\output\event_queue.o: C:\soft\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+.\output\event_queue.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\output\event_queue.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+.\output\event_queue.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
+.\output\event_queue.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
 .\output\event_queue.o: ..\third_party\jacdac-c\inc\jd_physical.h
 .\output\event_queue.o: ..\third_party\jacdac-c\inc\jd_service_framework.h
 .\output\event_queue.o: ..\third_party\jacdac-c\inc\jd_service_classes.h
@@ -17,7 +17,7 @@
 .\output\event_queue.o: ..\third_party\jacdac-c\inc\jd_srvcfg.h
 .\output\event_queue.o: ..\third_party\jacdac-c\inc\jd_dcfg.h
 .\output\event_queue.o: ..\third_party\jacdac-c\inc\jd_util.h
-.\output\event_queue.o: C:\soft\Keil_v5\ARM\ARMCC\Bin\..\include\stdarg.h
+.\output\event_queue.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdarg.h
 .\output\event_queue.o: ..\third_party\jacdac-c\inc\jd_io.h
 .\output\event_queue.o: ..\third_party\jacdac-c\inc\jd_dmesg.h
 .\output\event_queue.o: ..\third_party\jacdac-c\inc\interfaces/jd_tx.h

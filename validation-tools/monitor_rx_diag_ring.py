@@ -1,17 +1,44 @@
 import argparse
 import json
+import re
 import struct
 import time
 from pathlib import Path
 
-from pyocd.core.helpers import ConnectHelper
-from pyocd.core.target import Target
-
-
-RING_HEAD_ADDRESS = 0x20000100
-RING_ADDRESS = 0x20000618
 RING_RECORD_SIZE = 44
 RING_RECORD_COUNT = 4
+DEFAULT_MAP = Path(__file__).resolve().parents[1] / (
+    "MDK-ARM/Output/py32f002b_qmi8656_jacdac_clean_hybrid_phy_build.map"
+)
+COUNTER_SYMBOLS = {
+    "rx_complete": "g_app_jd_diag_rx_complete",
+    "crc_ok": "g_app_jd_diag_crc_ok",
+    "control_packet": "g_app_jd_diag_control_packet",
+    "product_id_get": "g_app_jd_diag_product_id_get",
+    "rxne": "g_app_jd_rx_hw_rxne_count",
+    "fe": "g_app_jd_rx_hw_fe_count",
+    "ne": "g_app_jd_rx_hw_ne_count",
+    "ore": "g_app_jd_rx_hw_ore_count",
+    "quiet_rearm": "g_app_jd_rx_hw_quiet_rearm_count",
+    "quiet_guard_abort": "g_app_jd_rx_hw_quiet_guard_abort_count",
+}
+
+
+def read_symbols(map_path: Path) -> dict:
+    """Require the MAP matching the firmware on the device; addresses can move."""
+    symbols = {
+        name: int(address, 16)
+        for name, address in re.findall(
+            r"^\s*(\w+)\s+0x([0-9a-fA-F]+)\s+Data\s", map_path.read_text(), re.MULTILINE
+        )
+    }
+    required = set(COUNTER_SYMBOLS.values()) | {
+        "g_app_jd_rx_diag_ring_head", "g_app_jd_rx_diag_ring"
+    }
+    missing = required - symbols.keys()
+    if missing:
+        raise ValueError(f"Missing diagnostic symbols in {map_path}: {sorted(missing)}")
+    return symbols
 
 
 def decode_record(slot: int, data: bytes) -> dict:
@@ -34,31 +61,26 @@ def decode_record(slot: int, data: bytes) -> dict:
     }
 
 
-def read_counters(target) -> dict:
-    words = target.read_memory_block32(0x2000003C, 4)
-    uart = target.read_memory_block32(0x200000CC, 7)
-    return {
-        "rx_complete": words[0],
-        "crc_ok": words[1],
-        "control_packet": words[2],
-        "product_id_get": words[3],
-        "rxne": uart[0],
-        "fe": uart[1],
-        "ne": uart[2],
-        "ore": uart[3],
-        "quiet_rearm": uart[5],
-        "quiet_guard_abort": uart[6],
-    }
+def read_counters(target, symbols) -> dict:
+    return {key: target.read32(symbols[name]) for key, name in COUNTER_SYMBOLS.items()}
 
 
 def main() -> None:
+    from pyocd.core.helpers import ConnectHelper
+    from pyocd.core.target import Target
+
     parser = argparse.ArgumentParser()
     parser.add_argument("--pack", required=True)
     parser.add_argument("--ready", required=True)
     parser.add_argument("--output", required=True)
     parser.add_argument("--duration", type=float, default=8.0)
     parser.add_argument("--uid", default="006000133900001456314D43")
+    parser.add_argument("--map", type=Path, default=DEFAULT_MAP,
+                        help="Keil MAP matching the firmware currently flashed on the device")
     args = parser.parse_args()
+    symbols = read_symbols(args.map)
+    ring_head_address = symbols["g_app_jd_rx_diag_ring_head"]
+    ring_address = symbols["g_app_jd_rx_diag_ring"]
 
     ready_path = Path(args.ready)
     output_path = Path(args.output)
@@ -84,8 +106,8 @@ def main() -> None:
         if target.get_state() == Target.State.HALTED:
             target.resume()
 
-        initial_head = target.read32(RING_HEAD_ADDRESS)
-        before = read_counters(target)
+        initial_head = target.read32(ring_head_address)
+        before = read_counters(target, symbols)
         ready_path.write_text(
             json.dumps({"initial_head": initial_head, "before": before}),
             encoding="utf-8",
@@ -94,9 +116,9 @@ def main() -> None:
         started = time.monotonic()
         while time.monotonic() - started < args.duration:
             ring = bytes(target.read_memory_block8(
-                RING_ADDRESS, RING_RECORD_SIZE * RING_RECORD_COUNT
+                ring_address, RING_RECORD_SIZE * RING_RECORD_COUNT
             ))
-            committed_head = target.read32(RING_HEAD_ADDRESS)
+            committed_head = target.read32(ring_head_address)
             for slot in range(RING_RECORD_COUNT):
                 offset = slot * RING_RECORD_SIZE
                 record = decode_record(slot, ring[offset:offset + RING_RECORD_SIZE])
@@ -106,8 +128,8 @@ def main() -> None:
                     records.setdefault(seq, record)
             time.sleep(0.01)
 
-        after = read_counters(target)
-        final_head = target.read32(RING_HEAD_ADDRESS)
+        after = read_counters(target, symbols)
+        final_head = target.read32(ring_head_address)
         if target.get_state() == Target.State.HALTED:
             target.resume()
 

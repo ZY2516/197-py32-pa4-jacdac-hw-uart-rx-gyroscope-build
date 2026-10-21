@@ -57,6 +57,9 @@ HAL_StatusTypeDef APP_QmiProbeWriteReg(I2C_HandleTypeDef *hi2c,
 void APP_QmiProbeScan(I2C_HandleTypeDef *hi2c, APP_QmiProbeResult *result);
 const APP_QmiProbeResult *APP_QmiProbeGetLastResult(void);
 HAL_StatusTypeDef APP_QmiProbeEnsureConfigured(void);
+/* One acquisition attempt. HAL_BUSY while scheduled configuration/recovery is
+ * pending; diagnostic raw vectors change only on a complete successful pair. */
+HAL_StatusTypeDef APP_QmiProbeReadMotionRaw(void);
 HAL_StatusTypeDef APP_QmiProbeReadMotionFixed20(int32_t accel_out[3], int32_t gyro_out[3]);
 
 #ifdef __cplusplus

@@ -1,0 +1,955 @@
+{
+  "uid": "004400564A00001156313848",
+  "samples": [
+    {
+      "seconds": 0.375,
+      "probe": {
+        "ready": 2,
+        "match": 2,
+        "mismatch": 0,
+        "addr": 107,
+        "part_id": 5,
+        "id_valid": 1,
+        "config_attempted": 1,
+        "write_ok": 0,
+        "config_ok": 0,
+        "motion_ok": 0,
+        "status": 2,
+        "accel": [
+          0,
+          0,
+          0
+        ],
+        "gyro": [
+          0,
+          0,
+          0
+        ]
+      },
+      "valid": 0,
+      "stage": 0,
+      "cal_count": 0,
+      "reading": [
+        0,
+        0,
+        0
+      ],
+      "uwTick": 409912,
+      "now": 409880780,
+      "g_heap_used": 620,
+      "g_irq_lock_depth": 0,
+      "g_app_jd_diag_rx_complete": 11595,
+      "g_app_jd_diag_crc_ok": 9363,
+      "g_app_jd_rx_hw_rxne_count": 277602,
+      "g_app_jd_rx_hw_fe_count": 8428,
+      "g_app_jd_rx_hw_ore_count": 0,
+      "runtime_flags": {
+        "g_runtime_ready": 1,
+        "g_uart_rx_active": 0,
+        "g_uart_tx_active": 0,
+        "g_tx_complete_pending": 0
+      }
+    },
+    {
+      "seconds": 1.016,
+      "probe": {
+        "ready": 2,
+        "match": 2,
+        "mismatch": 0,
+        "addr": 106,
+        "part_id": 5,
+        "id_valid": 0,
+        "config_attempted": 1,
+        "write_ok": 0,
+        "config_ok": 0,
+        "motion_ok": 0,
+        "status": 1,
+        "accel": [
+          0,
+          0,
+          0
+        ],
+        "gyro": [
+          0,
+          0,
+          0
+        ]
+      },
+      "valid": 0,
+      "stage": 0,
+      "cal_count": 0,
+      "reading": [
+        0,
+        0,
+        0
+      ],
+      "uwTick": 410547,
+      "now": 410515162,
+      "g_heap_used": 620,
+      "g_irq_lock_depth": 0,
+      "g_app_jd_diag_rx_complete": 11604,
+      "g_app_jd_diag_crc_ok": 9370,
+      "g_app_jd_rx_hw_rxne_count": 277737,
+      "g_app_jd_rx_hw_fe_count": 8430,
+      "g_app_jd_rx_hw_ore_count": 0,
+      "runtime_flags": {
+        "g_runtime_ready": 1,
+        "g_uart_rx_active": 0,
+        "g_uart_tx_active": 0,
+        "g_tx_complete_pending": 0
+      }
+    },
+    {
+      "seconds": 1.641,
+      "probe": {
+        "ready": 2,
+        "match": 2,
+        "mismatch": 0,
+        "addr": 107,
+        "part_id": 5,
+        "id_valid": 1,
+        "config_attempted": 1,
+        "write_ok": 0,
+        "config_ok": 0,
+        "motion_ok": 0,
+        "status": 2,
+        "accel": [
+          0,
+          0,
+          0
+        ],
+        "gyro": [
+          0,
+          0,
+          0
+        ]
+      },
+      "valid": 0,
+      "stage": 0,
+      "cal_count": 0,
+      "reading": [
+        0,
+        0,
+        0
+      ],
+      "uwTick": 411172,
+      "now": 411140749,
+      "g_heap_used": 620,
+      "g_irq_lock_depth": 1,
+      "g_app_jd_diag_rx_complete": 11610,
+      "g_app_jd_diag_crc_ok": 9376,
+      "g_app_jd_rx_hw_rxne_count": 277935,
+      "g_app_jd_rx_hw_fe_count": 8432,
+      "g_app_jd_rx_hw_ore_count": 0,
+      "runtime_flags": {
+        "g_runtime_ready": 1,
+        "g_uart_rx_active": 0,
+        "g_uart_tx_active": 0,
+        "g_tx_complete_pending": 0
+      }
+    },
+    {
+      "seconds": 2.281,
+      "probe": {
+        "ready": 2,
+        "match": 2,
+        "mismatch": 0,
+        "addr": 106,
+        "part_id": 5,
+        "id_valid": 0,
+        "config_attempted": 1,
+        "write_ok": 0,
+        "config_ok": 0,
+        "motion_ok": 0,
+        "status": 1,
+        "accel": [
+          0,
+          0,
+          0
+        ],
+        "gyro": [
+          0,
+          0,
+          0
+        ]
+      },
+      "valid": 0,
+      "stage": 0,
+      "cal_count": 0,
+      "reading": [
+        0,
+        0,
+        0
+      ],
+      "uwTick": 411810,
+      "now": 411778430,
+      "g_heap_used": 620,
+      "g_irq_lock_depth": 1,
+      "g_app_jd_diag_rx_complete": 11618,
+      "g_app_jd_diag_crc_ok": 9383,
+      "g_app_jd_rx_hw_rxne_count": 278058,
+      "g_app_jd_rx_hw_fe_count": 8434,
+      "g_app_jd_rx_hw_ore_count": 0,
+      "runtime_flags": {
+        "g_runtime_ready": 1,
+        "g_uart_rx_active": 0,
+        "g_uart_tx_active": 0,
+        "g_tx_complete_pending": 0
+      }
+    },
+    {
+      "seconds": 2.906,
+      "probe": {
+        "ready": 2,
+        "match": 2,
+        "mismatch": 0,
+        "addr": 107,
+        "part_id": 5,
+        "id_valid": 1,
+        "config_attempted": 1,
+        "write_ok": 0,
+        "config_ok": 0,
+        "motion_ok": 0,
+        "status": 2,
+        "accel": [
+          0,
+          0,
+          0
+        ],
+        "gyro": [
+          0,
+          0,
+          0
+        ]
+      },
+      "valid": 0,
+      "stage": 11,
+      "cal_count": 0,
+      "reading": [
+        0,
+        0,
+        0
+      ],
+      "uwTick": 412434,
+      "now": 412402602,
+      "g_heap_used": 620,
+      "g_irq_lock_depth": 1,
+      "g_app_jd_diag_rx_complete": 11627,
+      "g_app_jd_diag_crc_ok": 9389,
+      "g_app_jd_rx_hw_rxne_count": 278180,
+      "g_app_jd_rx_hw_fe_count": 8437,
+      "g_app_jd_rx_hw_ore_count": 0,
+      "runtime_flags": {
+        "g_runtime_ready": 1,
+        "g_uart_rx_active": 0,
+        "g_uart_tx_active": 0,
+        "g_tx_complete_pending": 0
+      }
+    },
+    {
+      "seconds": 3.547,
+      "probe": {
+        "ready": 2,
+        "match": 2,
+        "mismatch": 0,
+        "addr": 106,
+        "part_id": 5,
+        "id_valid": 0,
+        "config_attempted": 1,
+        "write_ok": 0,
+        "config_ok": 0,
+        "motion_ok": 0,
+        "status": 1,
+        "accel": [
+          0,
+          0,
+          0
+        ],
+        "gyro": [
+          0,
+          0,
+          0
+        ]
+      },
+      "valid": 0,
+      "stage": 0,
+      "cal_count": 0,
+      "reading": [
+        0,
+        0,
+        0
+      ],
+      "uwTick": 413071,
+      "now": 413039749,
+      "g_heap_used": 620,
+      "g_irq_lock_depth": 1,
+      "g_app_jd_diag_rx_complete": 11631,
+      "g_app_jd_diag_crc_ok": 9393,
+      "g_app_jd_rx_hw_rxne_count": 278285,
+      "g_app_jd_rx_hw_fe_count": 8438,
+      "g_app_jd_rx_hw_ore_count": 0,
+      "runtime_flags": {
+        "g_runtime_ready": 1,
+        "g_uart_rx_active": 0,
+        "g_uart_tx_active": 0,
+        "g_tx_complete_pending": 0
+      }
+    },
+    {
+      "seconds": 4.187,
+      "probe": {
+        "ready": 2,
+        "match": 2,
+        "mismatch": 0,
+        "addr": 107,
+        "part_id": 5,
+        "id_valid": 1,
+        "config_attempted": 1,
+        "write_ok": 1,
+        "config_ok": 1,
+        "motion_ok": 0,
+        "status": 2,
+        "accel": [
+          0,
+          0,
+          0
+        ],
+        "gyro": [
+          0,
+          0,
+          0
+        ]
+      },
+      "valid": 0,
+      "stage": 9,
+      "cal_count": 0,
+      "reading": [
+        0,
+        0,
+        0
+      ],
+      "uwTick": 413697,
+      "now": 413665334,
+      "g_heap_used": 620,
+      "g_irq_lock_depth": 0,
+      "g_app_jd_diag_rx_complete": 11639,
+      "g_app_jd_diag_crc_ok": 9401,
+      "g_app_jd_rx_hw_rxne_count": 278484,
+      "g_app_jd_rx_hw_fe_count": 8440,
+      "g_app_jd_rx_hw_ore_count": 0,
+      "runtime_flags": {
+        "g_runtime_ready": 1,
+        "g_uart_rx_active": 0,
+        "g_uart_tx_active": 0,
+        "g_tx_complete_pending": 0
+      }
+    },
+    {
+      "seconds": 4.812,
+      "probe": {
+        "ready": 2,
+        "match": 2,
+        "mismatch": 0,
+        "addr": 106,
+        "part_id": 5,
+        "id_valid": 0,
+        "config_attempted": 1,
+        "write_ok": 0,
+        "config_ok": 0,
+        "motion_ok": 0,
+        "status": 1,
+        "accel": [
+          0,
+          0,
+          0
+        ],
+        "gyro": [
+          0,
+          0,
+          0
+        ]
+      },
+      "valid": 0,
+      "stage": 0,
+      "cal_count": 0,
+      "reading": [
+        0,
+        0,
+        0
+      ],
+      "uwTick": 414332,
+      "now": 414300405,
+      "g_heap_used": 620,
+      "g_irq_lock_depth": 0,
+      "g_app_jd_diag_rx_complete": 11649,
+      "g_app_jd_diag_crc_ok": 9409,
+      "g_app_jd_rx_hw_rxne_count": 278660,
+      "g_app_jd_rx_hw_fe_count": 8443,
+      "g_app_jd_rx_hw_ore_count": 0,
+      "runtime_flags": {
+        "g_runtime_ready": 1,
+        "g_uart_rx_active": 0,
+        "g_uart_tx_active": 0,
+        "g_tx_complete_pending": 0
+      }
+    },
+    {
+      "seconds": 5.437,
+      "probe": {
+        "ready": 2,
+        "match": 2,
+        "mismatch": 0,
+        "addr": 107,
+        "part_id": 5,
+        "id_valid": 1,
+        "config_attempted": 1,
+        "write_ok": 1,
+        "config_ok": 0,
+        "motion_ok": 0,
+        "status": 0,
+        "accel": [
+          0,
+          0,
+          0
+        ],
+        "gyro": [
+          0,
+          0,
+          0
+        ]
+      },
+      "valid": 0,
+      "stage": 7,
+      "cal_count": 0,
+      "reading": [
+        0,
+        0,
+        0
+      ],
+      "uwTick": 414957,
+      "now": 414925282,
+      "g_heap_used": 620,
+      "g_irq_lock_depth": 1,
+      "g_app_jd_diag_rx_complete": 11653,
+      "g_app_jd_diag_crc_ok": 9413,
+      "g_app_jd_rx_hw_rxne_count": 278765,
+      "g_app_jd_rx_hw_fe_count": 8444,
+      "g_app_jd_rx_hw_ore_count": 0,
+      "runtime_flags": {
+        "g_runtime_ready": 1,
+        "g_uart_rx_active": 0,
+        "g_uart_tx_active": 0,
+        "g_tx_complete_pending": 0
+      }
+    },
+    {
+      "seconds": 6.078,
+      "probe": {
+        "ready": 2,
+        "match": 2,
+        "mismatch": 0,
+        "addr": 106,
+        "part_id": 5,
+        "id_valid": 0,
+        "config_attempted": 1,
+        "write_ok": 0,
+        "config_ok": 0,
+        "motion_ok": 0,
+        "status": 1,
+        "accel": [
+          0,
+          0,
+          0
+        ],
+        "gyro": [
+          0,
+          0,
+          0
+        ]
+      },
+      "valid": 0,
+      "stage": 0,
+      "cal_count": 0,
+      "reading": [
+        0,
+        0,
+        0
+      ],
+      "uwTick": 415592,
+      "now": 415560634,
+      "g_heap_used": 620,
+      "g_irq_lock_depth": 1,
+      "g_app_jd_diag_rx_complete": 11657,
+      "g_app_jd_diag_crc_ok": 9415,
+      "g_app_jd_rx_hw_rxne_count": 278813,
+      "g_app_jd_rx_hw_fe_count": 8447,
+      "g_app_jd_rx_hw_ore_count": 0,
+      "runtime_flags": {
+        "g_runtime_ready": 1,
+        "g_uart_rx_active": 0,
+        "g_uart_tx_active": 0,
+        "g_tx_complete_pending": 0
+      }
+    },
+    {
+      "seconds": 6.719,
+      "probe": {
+        "ready": 2,
+        "match": 2,
+        "mismatch": 0,
+        "addr": 107,
+        "part_id": 5,
+        "id_valid": 1,
+        "config_attempted": 1,
+        "write_ok": 1,
+        "config_ok": 0,
+        "motion_ok": 0,
+        "status": 0,
+        "accel": [
+          0,
+          0,
+          0
+        ],
+        "gyro": [
+          0,
+          0,
+          0
+        ]
+      },
+      "valid": 0,
+      "stage": 6,
+      "cal_count": 0,
+      "reading": [
+        0,
+        0,
+        0
+      ],
+      "uwTick": 416219,
+      "now": 416187201,
+      "g_heap_used": 620,
+      "g_irq_lock_depth": 0,
+      "g_app_jd_diag_rx_complete": 11674,
+      "g_app_jd_diag_crc_ok": 9429,
+      "g_app_jd_rx_hw_rxne_count": 279132,
+      "g_app_jd_rx_hw_fe_count": 8449,
+      "g_app_jd_rx_hw_ore_count": 0,
+      "runtime_flags": {
+        "g_runtime_ready": 1,
+        "g_uart_rx_active": 0,
+        "g_uart_tx_active": 0,
+        "g_tx_complete_pending": 0
+      }
+    },
+    {
+      "seconds": 7.344,
+      "probe": {
+        "ready": 2,
+        "match": 2,
+        "mismatch": 0,
+        "addr": 106,
+        "part_id": 5,
+        "id_valid": 0,
+        "config_attempted": 1,
+        "write_ok": 0,
+        "config_ok": 0,
+        "motion_ok": 0,
+        "status": 1,
+        "accel": [
+          0,
+          0,
+          0
+        ],
+        "gyro": [
+          0,
+          0,
+          0
+        ]
+      },
+      "valid": 0,
+      "stage": 0,
+      "cal_count": 0,
+      "reading": [
+        0,
+        0,
+        0
+      ],
+      "uwTick": 416845,
+      "now": 416813687,
+      "g_heap_used": 620,
+      "g_irq_lock_depth": 1,
+      "g_app_jd_diag_rx_complete": 11680,
+      "g_app_jd_diag_crc_ok": 9433,
+      "g_app_jd_rx_hw_rxne_count": 279240,
+      "g_app_jd_rx_hw_fe_count": 8453,
+      "g_app_jd_rx_hw_ore_count": 0,
+      "runtime_flags": {
+        "g_runtime_ready": 1,
+        "g_uart_rx_active": 0,
+        "g_uart_tx_active": 0,
+        "g_tx_complete_pending": 0
+      }
+    },
+    {
+      "seconds": 7.984,
+      "probe": {
+        "ready": 2,
+        "match": 2,
+        "mismatch": 0,
+        "addr": 107,
+        "part_id": 5,
+        "id_valid": 1,
+        "config_attempted": 1,
+        "write_ok": 1,
+        "config_ok": 0,
+        "motion_ok": 0,
+        "status": 0,
+        "accel": [
+          0,
+          0,
+          0
+        ],
+        "gyro": [
+          0,
+          0,
+          0
+        ]
+      },
+      "valid": 0,
+      "stage": 6,
+      "cal_count": 0,
+      "reading": [
+        0,
+        0,
+        0
+      ],
+      "uwTick": 417479,
+      "now": 417447358,
+      "g_heap_used": 620,
+      "g_irq_lock_depth": 0,
+      "g_app_jd_diag_rx_complete": 11691,
+      "g_app_jd_diag_crc_ok": 9440,
+      "g_app_jd_rx_hw_rxne_count": 279388,
+      "g_app_jd_rx_hw_fe_count": 8456,
+      "g_app_jd_rx_hw_ore_count": 0,
+      "runtime_flags": {
+        "g_runtime_ready": 1,
+        "g_uart_rx_active": 0,
+        "g_uart_tx_active": 0,
+        "g_tx_complete_pending": 0
+      }
+    },
+    {
+      "seconds": 8.609,
+      "probe": {
+        "ready": 2,
+        "match": 2,
+        "mismatch": 0,
+        "addr": 106,
+        "part_id": 5,
+        "id_valid": 0,
+        "config_attempted": 1,
+        "write_ok": 0,
+        "config_ok": 0,
+        "motion_ok": 0,
+        "status": 1,
+        "accel": [
+          0,
+          0,
+          0
+        ],
+        "gyro": [
+          0,
+          0,
+          0
+        ]
+      },
+      "valid": 0,
+      "stage": 0,
+      "cal_count": 0,
+      "reading": [
+        0,
+        0,
+        0
+      ],
+      "uwTick": 418116,
+      "now": 418084739,
+      "g_heap_used": 620,
+      "g_irq_lock_depth": 0,
+      "g_app_jd_diag_rx_complete": 11695,
+      "g_app_jd_diag_crc_ok": 9443,
+      "g_app_jd_rx_hw_rxne_count": 279463,
+      "g_app_jd_rx_hw_fe_count": 8458,
+      "g_app_jd_rx_hw_ore_count": 0,
+      "runtime_flags": {
+        "g_runtime_ready": 1,
+        "g_uart_rx_active": 0,
+        "g_uart_tx_active": 0,
+        "g_tx_complete_pending": 0
+      }
+    },
+    {
+      "seconds": 9.25,
+      "probe": {
+        "ready": 2,
+        "match": 2,
+        "mismatch": 0,
+        "addr": 107,
+        "part_id": 5,
+        "id_valid": 1,
+        "config_attempted": 1,
+        "write_ok": 1,
+        "config_ok": 0,
+        "motion_ok": 0,
+        "status": 0,
+        "accel": [
+          0,
+          0,
+          0
+        ],
+        "gyro": [
+          0,
+          0,
+          0
+        ]
+      },
+      "valid": 0,
+      "stage": 6,
+      "cal_count": 0,
+      "reading": [
+        0,
+        0,
+        0
+      ],
+      "uwTick": 418752,
+      "now": 418720589,
+      "g_heap_used": 620,
+      "g_irq_lock_depth": 1,
+      "g_app_jd_diag_rx_complete": 11713,
+      "g_app_jd_diag_crc_ok": 9453,
+      "g_app_jd_rx_hw_rxne_count": 279723,
+      "g_app_jd_rx_hw_fe_count": 8463,
+      "g_app_jd_rx_hw_ore_count": 0,
+      "runtime_flags": {
+        "g_runtime_ready": 1,
+        "g_uart_rx_active": 0,
+        "g_uart_tx_active": 0,
+        "g_tx_complete_pending": 0
+      }
+    },
+    {
+      "seconds": 9.891,
+      "probe": {
+        "ready": 2,
+        "match": 2,
+        "mismatch": 0,
+        "addr": 107,
+        "part_id": 5,
+        "id_valid": 1,
+        "config_attempted": 1,
+        "write_ok": 0,
+        "config_ok": 0,
+        "motion_ok": 0,
+        "status": 2,
+        "accel": [
+          0,
+          0,
+          0
+        ],
+        "gyro": [
+          0,
+          0,
+          0
+        ]
+      },
+      "valid": 0,
+      "stage": 0,
+      "cal_count": 0,
+      "reading": [
+        0,
+        0,
+        0
+      ],
+      "uwTick": 419375,
+      "now": 419342992,
+      "g_heap_used": 620,
+      "g_irq_lock_depth": 1,
+      "g_app_jd_diag_rx_complete": 11718,
+      "g_app_jd_diag_crc_ok": 9458,
+      "g_app_jd_rx_hw_rxne_count": 280073,
+      "g_app_jd_rx_hw_fe_count": 8465,
+      "g_app_jd_rx_hw_ore_count": 0,
+      "runtime_flags": {
+        "g_runtime_ready": 1,
+        "g_uart_rx_active": 0,
+        "g_uart_tx_active": 0,
+        "g_tx_complete_pending": 0
+      }
+    },
+    {
+      "seconds": 10.516,
+      "probe": {
+        "ready": 2,
+        "match": 2,
+        "mismatch": 0,
+        "addr": 107,
+        "part_id": 5,
+        "id_valid": 1,
+        "config_attempted": 1,
+        "write_ok": 1,
+        "config_ok": 0,
+        "motion_ok": 0,
+        "status": 0,
+        "accel": [
+          0,
+          0,
+          0
+        ],
+        "gyro": [
+          0,
+          0,
+          0
+        ]
+      },
+      "valid": 0,
+      "stage": 3,
+      "cal_count": 0,
+      "reading": [
+        0,
+        0,
+        0
+      ],
+      "uwTick": 420006,
+      "now": 419974912,
+      "g_heap_used": 620,
+      "g_irq_lock_depth": 1,
+      "g_app_jd_diag_rx_complete": 11723,
+      "g_app_jd_diag_crc_ok": 9461,
+      "g_app_jd_rx_hw_rxne_count": 280156,
+      "g_app_jd_rx_hw_fe_count": 8468,
+      "g_app_jd_rx_hw_ore_count": 0,
+      "runtime_flags": {
+        "g_runtime_ready": 1,
+        "g_uart_rx_active": 0,
+        "g_uart_tx_active": 0,
+        "g_tx_complete_pending": 0
+      }
+    },
+    {
+      "seconds": 11.141,
+      "probe": {
+        "ready": 2,
+        "match": 2,
+        "mismatch": 0,
+        "addr": 107,
+        "part_id": 5,
+        "id_valid": 1,
+        "config_attempted": 1,
+        "write_ok": 0,
+        "config_ok": 0,
+        "motion_ok": 0,
+        "status": 2,
+        "accel": [
+          0,
+          0,
+          0
+        ],
+        "gyro": [
+          0,
+          0,
+          0
+        ]
+      },
+      "valid": 0,
+      "stage": 0,
+      "cal_count": 0,
+      "reading": [
+        0,
+        0,
+        0
+      ],
+      "uwTick": 420632,
+      "now": 420600158,
+      "g_heap_used": 620,
+      "g_irq_lock_depth": 1,
+      "g_app_jd_diag_rx_complete": 11727,
+      "g_app_jd_diag_crc_ok": 9464,
+      "g_app_jd_rx_hw_rxne_count": 280237,
+      "g_app_jd_rx_hw_fe_count": 8470,
+      "g_app_jd_rx_hw_ore_count": 0,
+      "runtime_flags": {
+        "g_runtime_ready": 1,
+        "g_uart_rx_active": 0,
+        "g_uart_tx_active": 0,
+        "g_tx_complete_pending": 0
+      }
+    },
+    {
+      "seconds": 11.766,
+      "probe": {
+        "ready": 2,
+        "match": 2,
+        "mismatch": 0,
+        "addr": 107,
+        "part_id": 5,
+        "id_valid": 1,
+        "config_attempted": 1,
+        "write_ok": 0,
+        "config_ok": 0,
+        "motion_ok": 0,
+        "status": 0,
+        "accel": [
+          0,
+          0,
+          0
+        ],
+        "gyro": [
+          0,
+          0,
+          0
+        ]
+      },
+      "valid": 0,
+      "stage": 1,
+      "cal_count": 0,
+      "reading": [
+        0,
+        0,
+        0
+      ],
+      "uwTick": 421257,
+      "now": 421225758,
+      "g_heap_used": 620,
+      "g_irq_lock_depth": 0,
+      "g_app_jd_diag_rx_complete": 11739,
+      "g_app_jd_diag_crc_ok": 9475,
+      "g_app_jd_rx_hw_rxne_count": 280475,
+      "g_app_jd_rx_hw_fe_count": 8472,
+      "g_app_jd_rx_hw_ore_count": 0,
+      "runtime_flags": {
+        "g_runtime_ready": 1,
+        "g_uart_rx_active": 0,
+        "g_uart_tx_active": 0,
+        "g_tx_complete_pending": 0
+      }
+    }
+  ],
+  "initial_state": "State.RUNNING",
+  "flash_sha256": "81272f27ad5a756eb95f037e36e33a32ac3d888dc4e2efa05174af7472b5f6bf",
+  "image_matches": true,
+  "core": {
+    "pc": 134222356,
+    "lr": 134219143,
+    "sp": 536873920,
+    "xpsr": 553648128,
+    "primask": 1
+  },
+  "i2c": {
+    "0x0": 1,
+    "0x4": 24,
+    "0x18": 0,
+    "0x14": 0,
+    "0x1c": 120,
+    "0x20": 25
+  },
+  "ram_hex": "00366e015c010020856e06000000000001000000000000000100000000000001181819006c020000ee00000000000000fba912000000000000000000d6fc241918000000df2d000006250000ad0200000100000000000000f52d0000f52d0000f52d00000e000000b6000000ee000000040000001800000018000000a01480015c00620b48040800ff000000000000000000aaaaaaaa043d7f000000f52d0000730e620b1103aa0f3701480401060000c003000014000000ea2d00000b0000000b000000d40aa70bc20b730e0100000000000000fe470400192100000100000000000000270200007f84000000000000d96f06000000000001000000580200002090032010270000df2d0000df2d0000030000000000000000000000000000000000000000000000000000006f951f19fc030020020f01004883221980352719d80100200100004ade6f060003000000010000001c0900200100000000540040a086010000400000000000000000000000000000aa0b0020000000000000ffff000000000020000000000000000000000000000000000000000000000202006b0501010000000205000000000000000000000000000000000200000000000000754c000800000000fc21251900000000010000000000000050b90c002946f73244345041080000003f070200f2061b1e010000004779726f73636f706520426561636f6e04010482010000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000f0fc00002946f73244345041080000003f070300f2061b1e65322d6779726f2d626561636f6e0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000500008000000002c5000080100ff0332000000a04f000845861219000000000000000000000000e8062519d0030020d803002036180100048104820100000036180100048104820100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000aa0fac108e118a126c1368144a15461600000201e200fc00e200fc00e200fc009a109c117e127a135c1458153a1636171200f2ff0c00f2ff0c00f2ff0c00ffff0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001d05000000000000b503000007000000000000000000000007000000ff240000dd2d0000e00000001c0000001c000000e478e47810000c0000000810e47810009770307a596a70010c000000de2d0000dc0000002000000020000000ed3ded3d1400100000000810ed3d14006f4cb9b4a4c68b9210000000df2d0000ee0000000e000000b600000000000000aaaa00000000030e0000aaaaaaaa043d802080841e000000dc2d0000e400000018000000180000007d1b7d1b0c000800000008107d1b0c000123456789abcdef080000000000aaaaaaaa043d802080841e0000000f0f0000e54e3c10ca1fdc12667e4b1e0c010111004a15ff001c73fa0068b7fb080000003f070100f2061b1e0c010111004a15ff001c73fa0068b7fb080000003f070100f2061b1e0c010111004a15ff001c73fa0068b7fb080000003f070100f2061b1e0c010111004a15ff001c73fa0068b7fb080000003f070100f2061b1e0c010111004a15ff001c73fa0068b7fb080000003f070100f2061b1e0c010111004a15ff001c73fa0068b7fb080000003f070100f2061b1e0c010111004a15ff001c73fa0068b7fb080000003f070100f2061b1e0c010111004a15ff001c73fa0068b7fbf2061b1e000000000000000000000000bc03000016000000000000000625000007000000ed3d14006f4cb9b4a4c68b92100000000f0f0000e54e3c10ca1fdc12667e4b1e0c010111004a15ff001c73fa0068b7fb080000003f070100f2061b1e0c010111004a15ff001c73fa0068b7fb080000003f070100f2061b1e0c010111004a15ff001c73fa0068b7fb080000003f070100f2061b1e0c010111004a15ff001c73fa0068b7fb080000003f070100f2061b1e0c010111004a15ff001c73fa0068b7fb080000003f070100f2061b1e0c010111004a15ff001c73fa0068b7fb080000003f070100f2061b1e0c010111004a15ff001c73fa0068b7fb080000003f070100f2061b1e0c010111004a15ff001c73fa0068b7fbf2061b1e0000000004040020292e000800000200000025191291f4180da4261900000000000000020000000000000000000101fa000000000002024c00000000000303dd00000000f8ffffff00000000f2061b1e00000000e8ffffff00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000350d000800000000350d0008000000001800000000000000a014000018000000fc00000018000000fc000000180000006f0b000800000000a7b4000080010000a0140000f00000001800000018000000000000007c980000ceb200000600000018000000c8060020fc000000600a00201800000000000000350d0008fc0000001800000000000000a014000018000000fc00000000000000350d0008180000001800000000000000a014000014000000fc00000014000000fc000000140000006f0b000801000000a948000080010000a0140000f0000000180000001800000000000000f72f0000074600000400000014000000c8060020fc000000f00a00201800000000000000350d0008fc0000001800000000000000a014000011000000fc00000011000000fc000000596d06005c01002000000000596d060000000000350d0008000000001800000000000000a01400000e000000fc0000000e000000fc0000000e0000006f0b000801000000ea20000080010000a0140000f0000000180000001800000001000000730e0000481e000004000000b6000000c8060020fc000000980b00201800000018000000c8060020fc0000003f090008700b00200200000058020000171a0008800400000200000020000000020000000000000002000000020000000300000001000000a3360008030000000004005006000000f9ffffff01000000f9ffffff00000000fe5c000012000000180000009f6444169505000818000000de6f0600e80800200000000018000000de6f0600de6f0600d9010000de6f060087050008c05d0000532e0000000000000000000001000000e45000088057220175080008e4500008390c0008e4500008454300087ffdebedc03180b0"
+}

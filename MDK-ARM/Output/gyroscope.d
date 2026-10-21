@@ -5,10 +5,10 @@
 .\output\gyroscope.o: ..\third_party\jacdac-c\inc\jd_control.h
 .\output\gyroscope.o: ..\third_party\jacdac-c\inc\jd_config.h
 .\output\gyroscope.o: ..\Inc\jd_user_config.h
-.\output\gyroscope.o: C:\soft\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
-.\output\gyroscope.o: C:\soft\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
-.\output\gyroscope.o: C:\soft\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
-.\output\gyroscope.o: C:\soft\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+.\output\gyroscope.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\output\gyroscope.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+.\output\gyroscope.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
+.\output\gyroscope.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
 .\output\gyroscope.o: ..\third_party\jacdac-c\inc\jd_physical.h
 .\output\gyroscope.o: ..\third_party\jacdac-c\inc\jd_service_framework.h
 .\output\gyroscope.o: ..\third_party\jacdac-c\inc\jd_service_classes.h
@@ -19,7 +19,7 @@
 .\output\gyroscope.o: ..\third_party\jacdac-c\inc\jd_srvcfg.h
 .\output\gyroscope.o: ..\third_party\jacdac-c\inc\jd_dcfg.h
 .\output\gyroscope.o: ..\third_party\jacdac-c\inc\jd_util.h
-.\output\gyroscope.o: C:\soft\Keil_v5\ARM\ARMCC\Bin\..\include\stdarg.h
+.\output\gyroscope.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdarg.h
 .\output\gyroscope.o: ..\third_party\jacdac-c\inc\jd_io.h
 .\output\gyroscope.o: ..\third_party\jacdac-c\inc\jd_dmesg.h
 .\output\gyroscope.o: ..\third_party\jacdac-c\inc\interfaces/jd_tx.h

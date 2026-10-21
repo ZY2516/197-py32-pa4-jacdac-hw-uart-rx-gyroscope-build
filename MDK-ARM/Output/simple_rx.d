@@ -3,10 +3,10 @@
 .\output\simple_rx.o: ..\third_party\jacdac-c\inc\jd_control.h
 .\output\simple_rx.o: ..\third_party\jacdac-c\inc\jd_config.h
 .\output\simple_rx.o: ..\Inc\jd_user_config.h
-.\output\simple_rx.o: C:\soft\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
-.\output\simple_rx.o: C:\soft\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
-.\output\simple_rx.o: C:\soft\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
-.\output\simple_rx.o: C:\soft\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+.\output\simple_rx.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\output\simple_rx.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+.\output\simple_rx.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
+.\output\simple_rx.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
 .\output\simple_rx.o: ..\third_party\jacdac-c\inc\jd_physical.h
 .\output\simple_rx.o: ..\third_party\jacdac-c\inc\jd_service_framework.h
 .\output\simple_rx.o: ..\third_party\jacdac-c\inc\jd_service_classes.h
@@ -17,7 +17,7 @@
 .\output\simple_rx.o: ..\third_party\jacdac-c\inc\jd_srvcfg.h
 .\output\simple_rx.o: ..\third_party\jacdac-c\inc\jd_dcfg.h
 .\output\simple_rx.o: ..\third_party\jacdac-c\inc\jd_util.h
-.\output\simple_rx.o: C:\soft\Keil_v5\ARM\ARMCC\Bin\..\include\stdarg.h
+.\output\simple_rx.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdarg.h
 .\output\simple_rx.o: ..\third_party\jacdac-c\inc\jd_io.h
 .\output\simple_rx.o: ..\third_party\jacdac-c\inc\jd_dmesg.h
 .\output\simple_rx.o: ..\third_party\jacdac-c\inc\interfaces/jd_tx.h

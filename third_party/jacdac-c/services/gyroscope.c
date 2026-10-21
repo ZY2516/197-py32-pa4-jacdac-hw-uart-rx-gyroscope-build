@@ -31,6 +31,23 @@ static void gyroscope_force_streaming(srv_t *state) {
 }
 #endif
 
+/* Refresh for both streaming and direct GET. A NULL driver reading invalidates
+ * the cache immediately; the common sensor helper otherwise latches READY. */
+static bool gyroscope_refresh(srv_t *state) {
+    sensor_process(state);
+    void *tmp = sensor_get_reading(state);
+    if (!tmp) {
+        if (state->got_reading) {
+            state->got_reading = 0;
+            sensor_send_status(state);
+        }
+        return false;
+    }
+    memcpy(state->sample_arr, tmp, sizeof(state->sample_arr));
+    gyroscope_data_transform(state->sample_arr);
+    return true;
+}
+
 void gyroscope_process(srv_t *state) {
 #ifdef PIN_ACC_INT
     if (!gyroscope_pending && state->jd_inited)
@@ -45,17 +62,19 @@ void gyroscope_process(srv_t *state) {
     gyroscope_force_streaming(state);
 #endif
 
-    sensor_process(state);
-    void *tmp = sensor_get_reading(state);
-    if (tmp) {
-        memcpy(state->sample_arr, tmp, 3 * 4);
-        gyroscope_data_transform(state->sample_arr);
-    }
-
-    sensor_process_simple(state, &state->sample, sizeof(state->sample));
+    if (gyroscope_refresh(state) && sensor_should_stream(state))
+        jd_send(state->service_index, JD_GET(JD_REG_READING), &state->sample, sizeof(state->sample));
 }
 
 void gyroscope_handle_packet(srv_t *state, jd_packet_t *pkt) {
+    /* Checking status must also refresh validity, even between process ticks. */
+    if (pkt->service_command == JD_GET(JD_REG_READING) ||
+        pkt->service_command == JD_GET(JD_REG_STATUS_CODE)) {
+        if (pkt->service_command == JD_GET(JD_REG_READING))
+            state->got_query = 1;
+        if (!gyroscope_refresh(state) && pkt->service_command == JD_GET(JD_REG_READING))
+            return; /* no reading report until a fresh measurement is available */
+    }
     sensor_handle_packet_simple(state, pkt, &state->sample, sizeof(state->sample));
 }
 

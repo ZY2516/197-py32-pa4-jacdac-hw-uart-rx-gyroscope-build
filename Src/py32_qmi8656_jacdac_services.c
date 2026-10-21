@@ -4,24 +4,21 @@
 #include "interfaces/jd_sensor_api.h"
 #include "jdprofile.h"
 #include "qmi8656_probe.h"
+#include "gyro_calibration.h"
 
 enum
 {
   APP_JACDAC_PRODUCT_ID = 0x32516D56u,
-  APP_GYRO_UPDATE_INTERVAL_MS = 20u,
-  APP_GYRO_BIAS_SAMPLE_COUNT = 32u
+  APP_GYRO_FRESH_MS = 60u
 };
 
-static const char g_app_device_name[] = "PY32 Jacdac Gyroscope Beacon";
-static const char g_app_fw_version[] = "0.2.1-py32-gyro-beacon";
+static const char g_app_device_name[] = "Jacdac Gyroscope Sensor v1.0";
+static const char g_app_fw_version[] = "0.3.2-py32-gyro-beacon";
 
 static int32_t g_gyro_reading[3] = {0, 0, 0};
-static int64_t g_gyro_bias_sum[3];
-static int32_t g_gyro_bias[3];
-static uint32_t g_last_gyro_update_ms;
-static uint8_t g_gyro_has_sample;
-static uint8_t g_gyro_bias_sample_count;
-static uint8_t g_gyro_bias_ready;
+static APP_GyroCalibration g_gyro_calibration;
+static uint32_t g_last_gyro_attempt_ms;
+static uint8_t g_gyro_sample_valid;
 
 static void APP_MotionInit(void)
 {
@@ -29,54 +26,43 @@ static void APP_MotionInit(void)
 
 void APP_MotionReadingsUpdate(void)
 {
-  int32_t accel_unused[3];
-  int32_t gyro_sample[3];
+  const APP_QmiProbeResult *sample;
   uint32_t now_ms = HAL_GetTick();
   HAL_StatusTypeDef status;
+  unsigned i;
 
-  if ((g_gyro_has_sample != 0u) &&
-      ((uint32_t)(now_ms - g_last_gyro_update_ms) < APP_GYRO_UPDATE_INTERVAL_MS))
+  if ((uint32_t)(now_ms - g_last_gyro_attempt_ms) < APP_GYRO_SAMPLE_MS)
   {
     return;
   }
 
-  status = APP_QmiProbeReadMotionFixed20(accel_unused, gyro_sample);
-  if (status == HAL_OK)
-  {
-    g_last_gyro_update_ms = now_ms;
-    g_gyro_has_sample = 1u;
-
-    if (g_gyro_bias_ready == 0u)
-    {
-      g_gyro_bias_sum[0] += gyro_sample[0];
-      g_gyro_bias_sum[1] += gyro_sample[1];
-      g_gyro_bias_sum[2] += gyro_sample[2];
-      g_gyro_bias_sample_count++;
-
-      if (g_gyro_bias_sample_count >= APP_GYRO_BIAS_SAMPLE_COUNT)
-      {
-        g_gyro_bias[0] = (int32_t)(g_gyro_bias_sum[0] / (int64_t)APP_GYRO_BIAS_SAMPLE_COUNT);
-        g_gyro_bias[1] = (int32_t)(g_gyro_bias_sum[1] / (int64_t)APP_GYRO_BIAS_SAMPLE_COUNT);
-        g_gyro_bias[2] = (int32_t)(g_gyro_bias_sum[2] / (int64_t)APP_GYRO_BIAS_SAMPLE_COUNT);
-        g_gyro_bias_ready = 1u;
-      }
-
-      g_gyro_reading[0] = 0;
-      g_gyro_reading[1] = 0;
-      g_gyro_reading[2] = 0;
-    }
-    else
-    {
-      g_gyro_reading[0] = gyro_sample[0] - g_gyro_bias[0];
-      g_gyro_reading[1] = gyro_sample[1] - g_gyro_bias[1];
-      g_gyro_reading[2] = gyro_sample[2] - g_gyro_bias[2];
-    }
+  /* Throttle failed attempts too. No catch-up bursts after a stalled main loop. */
+  g_last_gyro_attempt_ms = now_ms;
+  g_gyro_sample_valid = 0;
+  status = APP_QmiProbeReadMotionRaw();
+  g_last_gyro_attempt_ms = HAL_GetTick();
+  if (status != HAL_OK ||
+      (uint32_t)(g_last_gyro_attempt_ms - now_ms) > APP_GYRO_FRESH_MS) {
+    APP_GyroCalibrationBreak(&g_gyro_calibration);
+    return;
   }
+  sample = APP_QmiProbeGetLastResult();
+  APP_GyroCalibrationUpdate(&g_gyro_calibration, g_last_gyro_attempt_ms,
+                              sample->accel_raw, sample->gyro_raw);
+  for (i = 0; i < 3; ++i) {
+    int32_t bias = g_gyro_calibration.phase == APP_GYRO_CAL_COMPLETE ?
+                     g_gyro_calibration.sum_or_bias[i] : 0;
+    g_gyro_reading[i] = (int32_t)sample->gyro_raw[i] * 16384 - bias;
+  }
+  g_gyro_sample_valid = 1;
 }
 
 static void *APP_GyroscopeGetReading(void)
 {
   APP_MotionReadingsUpdate();
+  if (!g_gyro_sample_valid ||
+      (uint32_t)(HAL_GetTick() - g_last_gyro_attempt_ms) > APP_GYRO_FRESH_MS)
+    return 0;
   return g_gyro_reading;
 }
 
@@ -104,8 +90,8 @@ void app_init_services(void)
   gyroscope_init(&g_gyroscope_api);
 }
 
-const char app_dev_class_name[] = "PY32 Jacdac Gyroscope Beacon";
-const char app_fw_version[] = "0.2.1-py32-gyro-beacon";
+const char app_dev_class_name[] = "Jacdac Gyroscope Sensor v1.0";
+const char app_fw_version[] = "0.3.2-py32-gyro-beacon";
 
 uint32_t app_get_device_class(void)
 {

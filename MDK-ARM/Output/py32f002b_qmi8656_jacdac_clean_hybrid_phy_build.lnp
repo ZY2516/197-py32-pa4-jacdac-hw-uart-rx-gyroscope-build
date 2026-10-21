@@ -3,6 +3,7 @@
 ".\output\system_py32f002b.o"
 ".\output\main.o"
 ".\output\qmi8656_probe.o"
+".\output\gyro_calibration.o"
 ".\output\py32f002b_hal_msp.o"
 ".\output\py32f002b_it.o"
 ".\output\py32_jacdac_runtime.o"

@@ -264,12 +264,12 @@ work --depend=.\output\py32_jacdac_rx_fastpath.d -o.\output\py32_jacdac_rx_fast
 ARM Macro Assembler    Page 5 
 
 
-path.o -I.\RTE\_py32f002b_qmi8656_jacdac_clean_hybrid_phy_build -IC:\soft\Keil_
-v5\pack\ARM\CMSIS\5.9.0\CMSIS\Core\Include -IC:\soft\Keil_v5\pack\Puya\PY32F0xx
-_DFP\1.2.19\Drivers\CMSIS\Device\PY32F0xx\Include -IC:\soft\Keil_v5\pack\Puya\P
-Y32F0xx_DFP\1.2.19\Device\Include --predefine="__MICROLIB SETA 1" --predefine="
-__UVISION_VERSION SETA 538" --predefine="_RTE_ SETA 1" --predefine="_RTE_ SETA 
-1" --list=.\output\py32_jacdac_rx_fastpath.lst py32_jacdac_rx_fastpath.s
+path.o -I.\RTE\_py32f002b_qmi8656_jacdac_clean_hybrid_phy_build -ID:\Keil_v5\AR
+M\CMSIS\5.8.0\CMSIS\Core\Include -ID:\Keil_v5\Puya\PY32F0xx_DFP\1.2.8\Drivers\C
+MSIS\Device\PY32F0xx\Include -ID:\Keil_v5\Puya\PY32F0xx_DFP\1.2.8\Device\Includ
+e --predefine="__MICROLIB SETA 1" --predefine="__UVISION_VERSION SETA 535" --pr
+edefine="_RTE_ SETA 1" --predefine="_RTE_ SETA 1" --list=.\output\py32_jacdac_r
+x_fastpath.lst py32_jacdac_rx_fastpath.s
 
 
 

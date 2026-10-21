@@ -10,13 +10,13 @@
       <TargetName>py32f002b_qmi8656_jacdac_clean_hybrid_phy_build</TargetName>
       <ToolsetNumber>0x4</ToolsetNumber>
       <ToolsetName>ARM-ADS</ToolsetName>
-      <pCCUsed>5060750::V5.06 update 6 (build 750)::ARMCC</pCCUsed>
+      <pCCUsed>5060960::V5.06 update 7 (build 960)::.\ARMCC</pCCUsed>
       <uAC6>0</uAC6>
       <TargetOption>
         <TargetCommonOption>
           <Device>PY32F002Bx5</Device>
           <Vendor>Puya</Vendor>
-          <PackID>Puya.PY32F0xx_DFP.1.2.19</PackID>
+          <PackID>Puya.PY32F0xx_DFP.1.2.8</PackID>
           <PackURL>https://www.puyasemi.com/uploadfiles/</PackURL>
           <Cpu>IRAM(0x20000000,0x00000C00) IROM(0x08000000,0x00006000) CPUTYPE("Cortex-M0+") CLOCK(12000000) ELITTLE</Cpu>
           <FlashUtilSpec></FlashUtilSpec>
@@ -185,6 +185,7 @@
             <uocXRam>0</uocXRam>
             <RvdsVP>0</RvdsVP>
             <RvdsMve>0</RvdsMve>
+            <RvdsCdeCp>0</RvdsCdeCp>
             <hadIRAM2>0</hadIRAM2>
             <hadIROM2>0</hadIROM2>
             <StupSel>8</StupSel>
@@ -338,7 +339,7 @@
               <MiscControls></MiscControls>
               <Define>USE_HAL_DRIVER,PY32F002Bx5</Define>
               <Undefine></Undefine>
-              <IncludePath>..\Inc;..\third_party\jacdac-c;..\third_party\jacdac-c\inc;..\third_party\jacdac-c\services;..\..\PY32F002B_Firmware_V1.2.1\Drivers\BSP\PY32F002Bxx_Start_Kit;..\..\PY32F002B_Firmware_V1.2.1\Drivers\CMSIS\Include;..\..\PY32F002B_Firmware_V1.2.1\Drivers\CMSIS\Device\PY32F0xx\Include;..\..\PY32F002B_Firmware_V1.2.1\Drivers\PY32F002B_HAL_Driver\Inc</IncludePath>
+              <IncludePath>..\Inc;..\third_party\jacdac-c;..\third_party\jacdac-c\inc;..\third_party\jacdac-c\services;..\third_party\py32f002b-firmware\Drivers\BSP\PY32F002Bxx_Start_Kit;..\third_party\py32f002b-firmware\Drivers\CMSIS\Include;..\third_party\py32f002b-firmware\Drivers\CMSIS\Device\PY32F0xx\Include;..\third_party\py32f002b-firmware\Drivers\PY32F002B_HAL_Driver\Inc</IncludePath>
             </VariousControls>
           </Cads>
           <Aads>
@@ -351,7 +352,7 @@
             <NoWarn>0</NoWarn>
             <uSurpInc>0</uSurpInc>
             <useXO>0</useXO>
-            <uClangAs>0</uClangAs>
+            <ClangAsOpt>4</ClangAsOpt>
             <VariousControls>
               <MiscControls></MiscControls>
               <Define></Define>
@@ -406,6 +407,11 @@
               <FileName>qmi8656_probe.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\Src\qmi8656_probe.c</FilePath>
+            </File>
+            <File>
+              <FileName>gyro_calibration.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Src\gyro_calibration.c</FilePath>
             </File>
             <File>
               <FileName>py32f002b_hal_msp.c</FileName>
@@ -525,7 +531,7 @@
             <File>
               <FileName>py32f002bxx_Start_Kit.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\PY32F002B_Firmware_V1.2.1\Drivers\BSP\PY32F002Bxx_Start_Kit\py32f002bxx_Start_Kit.c</FilePath>
+              <FilePath>..\third_party\py32f002b-firmware\Drivers\BSP\PY32F002Bxx_Start_Kit\py32f002bxx_Start_Kit.c</FilePath>
             </File>
           </Files>
         </Group>
@@ -535,42 +541,42 @@
             <File>
               <FileName>py32f002b_hal.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\PY32F002B_Firmware_V1.2.1\Drivers\PY32F002B_HAL_Driver\Src\py32f002b_hal.c</FilePath>
+              <FilePath>..\third_party\py32f002b-firmware\Drivers\PY32F002B_HAL_Driver\Src\py32f002b_hal.c</FilePath>
             </File>
             <File>
               <FileName>py32f002b_hal_rcc.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\PY32F002B_Firmware_V1.2.1\Drivers\PY32F002B_HAL_Driver\Src\py32f002b_hal_rcc.c</FilePath>
+              <FilePath>..\third_party\py32f002b-firmware\Drivers\PY32F002B_HAL_Driver\Src\py32f002b_hal_rcc.c</FilePath>
             </File>
             <File>
               <FileName>py32f002b_hal_rcc_ex.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\PY32F002B_Firmware_V1.2.1\Drivers\PY32F002B_HAL_Driver\Src\py32f002b_hal_rcc_ex.c</FilePath>
+              <FilePath>..\third_party\py32f002b-firmware\Drivers\PY32F002B_HAL_Driver\Src\py32f002b_hal_rcc_ex.c</FilePath>
             </File>
             <File>
               <FileName>py32f002b_hal_gpio.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\PY32F002B_Firmware_V1.2.1\Drivers\PY32F002B_HAL_Driver\Src\py32f002b_hal_gpio.c</FilePath>
+              <FilePath>..\third_party\py32f002b-firmware\Drivers\PY32F002B_HAL_Driver\Src\py32f002b_hal_gpio.c</FilePath>
             </File>
             <File>
               <FileName>py32f002b_hal_pwr.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\PY32F002B_Firmware_V1.2.1\Drivers\PY32F002B_HAL_Driver\Src\py32f002b_hal_pwr.c</FilePath>
+              <FilePath>..\third_party\py32f002b-firmware\Drivers\PY32F002B_HAL_Driver\Src\py32f002b_hal_pwr.c</FilePath>
             </File>
             <File>
               <FileName>py32f002b_hal_uart.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\PY32F002B_Firmware_V1.2.1\Drivers\PY32F002B_HAL_Driver\Src\py32f002b_hal_uart.c</FilePath>
+              <FilePath>..\third_party\py32f002b-firmware\Drivers\PY32F002B_HAL_Driver\Src\py32f002b_hal_uart.c</FilePath>
             </File>
             <File>
               <FileName>py32f002b_hal_i2c.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\PY32F002B_Firmware_V1.2.1\Drivers\PY32F002B_HAL_Driver\Src\py32f002b_hal_i2c.c</FilePath>
+              <FilePath>..\third_party\py32f002b-firmware\Drivers\PY32F002B_HAL_Driver\Src\py32f002b_hal_i2c.c</FilePath>
             </File>
             <File>
               <FileName>py32f002b_hal_cortex.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\PY32F002B_Firmware_V1.2.1\Drivers\PY32F002B_HAL_Driver\Src\py32f002b_hal_cortex.c</FilePath>
+              <FilePath>..\third_party\py32f002b-firmware\Drivers\PY32F002B_HAL_Driver\Src\py32f002b_hal_cortex.c</FilePath>
             </File>
           </Files>
         </Group>

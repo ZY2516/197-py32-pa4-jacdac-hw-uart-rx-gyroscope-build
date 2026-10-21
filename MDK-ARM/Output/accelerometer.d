@@ -5,10 +5,10 @@
 .\output\accelerometer.o: ..\third_party\jacdac-c\inc\jd_control.h
 .\output\accelerometer.o: ..\third_party\jacdac-c\inc\jd_config.h
 .\output\accelerometer.o: ..\Inc\jd_user_config.h
-.\output\accelerometer.o: C:\soft\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
-.\output\accelerometer.o: C:\soft\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
-.\output\accelerometer.o: C:\soft\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
-.\output\accelerometer.o: C:\soft\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+.\output\accelerometer.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\output\accelerometer.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+.\output\accelerometer.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
+.\output\accelerometer.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
 .\output\accelerometer.o: ..\third_party\jacdac-c\inc\jd_physical.h
 .\output\accelerometer.o: ..\third_party\jacdac-c\inc\jd_service_framework.h
 .\output\accelerometer.o: ..\third_party\jacdac-c\inc\jd_service_classes.h
@@ -19,7 +19,7 @@
 .\output\accelerometer.o: ..\third_party\jacdac-c\inc\jd_srvcfg.h
 .\output\accelerometer.o: ..\third_party\jacdac-c\inc\jd_dcfg.h
 .\output\accelerometer.o: ..\third_party\jacdac-c\inc\jd_util.h
-.\output\accelerometer.o: C:\soft\Keil_v5\ARM\ARMCC\Bin\..\include\stdarg.h
+.\output\accelerometer.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdarg.h
 .\output\accelerometer.o: ..\third_party\jacdac-c\inc\jd_io.h
 .\output\accelerometer.o: ..\third_party\jacdac-c\inc\jd_dmesg.h
 .\output\accelerometer.o: ..\third_party\jacdac-c\inc\interfaces/jd_tx.h

@@ -1,0 +1,45 @@
+Firmware: py32f002b_qmi8656_jacdac_clean_hybrid_phy_build.axf
+AXF SHA-256: faeb81d1fe10951adbe2f4f3dc4abcc2eed94c36bb7919165b7ab68e17438a07
+test_bias_correction_and_subthreshold_rotation_preserved (__main__.AcquisitionTests) ... ok
+test_boot_absent_then_device_appears_and_recovers (__main__.AcquisitionTests) ... ok
+test_boot_moving_is_reported_without_forced_zero (__main__.AcquisitionTests) ... ok
+test_config_readback_mismatch_does_not_publish (__main__.AcquisitionTests) ... ok
+test_config_writes_and_verification_are_spread_and_settle_without_delay (__main__.AcquisitionTests) ... ok
+test_failure_invalidates_output_without_partial_commit_or_busy_retry (__main__.AcquisitionTests) ... ok
+test_full_scale_signed_conversion (__main__.AcquisitionTests) ... ok
+test_healthy_periodic_checks_wrap_without_losing_readings (__main__.AcquisitionTests) ... ok
+test_jacdac_interrupt_sized_io_delay_keeps_reading_fresh (__main__.AcquisitionTests) ... ok
+test_mismatched_part_is_never_configured (__main__.AcquisitionTests) ... ok
+test_selected_address_identity_is_consistent_and_6b_is_preferred (__main__.AcquisitionTests) ... ok
+test_silent_sensor_reset_is_detected_by_periodic_config_check (__main__.AcquisitionTests) ... ok
+test_stop_tail_busy_does_not_break_probe_or_back_to_back_sampling (__main__.AcquisitionTests) ... ok
+test_stop_tail_busy_write_waits_without_retrying_transaction (__main__.AcquisitionTests) ... ok
+test_stuck_bus_skips_hal_wait (__main__.AcquisitionTests) ... ok
+test_transient_failure_recovers_and_preserves_trusted_bias (__main__.AcquisitionTests) ... ok
+test_unexpected_long_acquisition_is_not_published_as_fresh (__main__.AcquisitionTests) ... ok
+test_accepted_bias_survives_motion_and_failures (__main__.CalibrationTests) ... ok
+test_anchor_rejects_accumulated_slow_tilt (__main__.CalibrationTests) ... ok
+test_bias_average_retains_fractional_raw_count (__main__.CalibrationTests) ... ok
+test_excessive_rate_at_boot_never_becomes_bias (__main__.CalibrationTests) ... ok
+test_failure_break_and_long_gap_restart_candidate (__main__.CalibrationTests) ... ok
+test_gravity_magnitude_and_extreme_values_reject_motion (__main__.CalibrationTests) ... ok
+test_gyro_change_rejects_candidate (__main__.CalibrationTests) ... ok
+test_gyro_outlier_resets_window (__main__.CalibrationTests) ... ok
+test_handheld_tilt_with_large_bias_breaks_static_window (__main__.CalibrationTests) ... ok
+test_large_bias_signed_boundaries_do_not_overflow (__main__.CalibrationTests) ... ok
+test_motion_during_qualification_restarts_full_dwell (__main__.CalibrationTests) ... ok
+test_motion_during_sampling_discards_progress_and_requalifies (__main__.CalibrationTests) ... ok
+test_production_stationary_trace_accepts_measured_bias_and_noise (__main__.CalibrationTests) ... ok
+test_qualification_uses_600ms_elapsed_time_before_sampling (__main__.CalibrationTests) ... ok
+test_repeated_polls_cannot_shorten_window (__main__.CalibrationTests) ... ok
+test_rest_calibrates_only_after_full_window_at_any_orientation (__main__.CalibrationTests) ... ok
+test_uint32_tick_wrap_does_not_break_continuity (__main__.CalibrationTests) ... ok
+test_direct_get_and_stream_suppress_stale_data_and_status_changes (__main__.ProtocolTests) ... ok
+test_healthy_status_recovers_and_reports_resume (__main__.ProtocolTests) ... ok
+test_stream_and_direct_get_use_same_mapping_and_12_byte_payload (__main__.ProtocolTests) ... ok
+test_unknown_register_keeps_not_implemented_response (__main__.ProtocolTests) ... ok
+
+----------------------------------------------------------------------
+Ran 38 tests in 81.941s
+
+OK

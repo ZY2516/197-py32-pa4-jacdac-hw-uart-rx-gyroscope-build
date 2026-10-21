@@ -1,0 +1,74 @@
+﻿[
+    {
+        "Path":  "C:\\Users\\72903\\Desktop\\jacdac\\gyro\\197-py32-pa4-jacdac-hw-uart-rx-gyroscope-build\\Src\\main.c",
+        "Hash":  "6776A7C13C86B14558EA11E042C933678EBF17678F55F573A98D3AB15FEEA590"
+    },
+    {
+        "Path":  "C:\\Users\\72903\\Desktop\\jacdac\\gyro\\197-py32-pa4-jacdac-hw-uart-rx-gyroscope-build\\Src\\py32f002b_hal_msp.c",
+        "Hash":  "25F2511925561DE6F1E45CC102C88163828FEDA31F79A42E4AFF5C8A51B34699"
+    },
+    {
+        "Path":  "C:\\Users\\72903\\Desktop\\jacdac\\gyro\\197-py32-pa4-jacdac-hw-uart-rx-gyroscope-build\\Src\\py32f002b_it.c",
+        "Hash":  "7116C2991A9AF39F4313F616705FFF9C1FAE4CB944CF3338DC3CEE0A1644A5E3"
+    },
+    {
+        "Path":  "C:\\Users\\72903\\Desktop\\jacdac\\gyro\\197-py32-pa4-jacdac-hw-uart-rx-gyroscope-build\\Src\\py32_jacdac_runtime.c",
+        "Hash":  "EFA89369E8E75E147126B91FC771FB59C27CBB912279CCACDA37B3CAD2215B77"
+    },
+    {
+        "Path":  "C:\\Users\\72903\\Desktop\\jacdac\\gyro\\197-py32-pa4-jacdac-hw-uart-rx-gyroscope-build\\Src\\py32_qmi8656_jacdac_services.c",
+        "Hash":  "D2CB4161B1F375A42782BDE7882659F2EDBDFFFFCF4DB2C02503F8A2834701C1"
+    },
+    {
+        "Path":  "C:\\Users\\72903\\Desktop\\jacdac\\gyro\\197-py32-pa4-jacdac-hw-uart-rx-gyroscope-build\\Src\\py32_rgb_pwm_backend.c",
+        "Hash":  "2CA55AEA3A082EC7A53EC5D91CA7D05F8937E4C3F6F072D926B6F386B73D7DEF"
+    },
+    {
+        "Path":  "C:\\Users\\72903\\Desktop\\jacdac\\gyro\\197-py32-pa4-jacdac-hw-uart-rx-gyroscope-build\\Src\\qmi8656_probe.c",
+        "Hash":  "6CAEE832D06CB13420016B093A99BD2CF8B8DF5806EFCBF5091C5A9B5C3C40AE"
+    },
+    {
+        "Path":  "C:\\Users\\72903\\Desktop\\jacdac\\gyro\\197-py32-pa4-jacdac-hw-uart-rx-gyroscope-build\\Src\\system_py32f002b.c",
+        "Hash":  "0DB0E4F07CC9B659F26545D10A9AFDE22AF95530280C33802538EF4647AC7C5D"
+    },
+    {
+        "Path":  "C:\\Users\\72903\\Desktop\\jacdac\\gyro\\197-py32-pa4-jacdac-hw-uart-rx-gyroscope-build\\Inc\\Config.txt",
+        "Hash":  "AF5F7A6723F6F5051242BB4BDFED6A4ACBAB4507DF922DA5CBB88C74BE4B0619"
+    },
+    {
+        "Path":  "C:\\Users\\72903\\Desktop\\jacdac\\gyro\\197-py32-pa4-jacdac-hw-uart-rx-gyroscope-build\\Inc\\jdprofile.h",
+        "Hash":  "E3FCBBD6308805FC4DE48D125E8CD8533CFF8821719D841FA6D8E1D4F1542EFA"
+    },
+    {
+        "Path":  "C:\\Users\\72903\\Desktop\\jacdac\\gyro\\197-py32-pa4-jacdac-hw-uart-rx-gyroscope-build\\Inc\\jd_user_config.h",
+        "Hash":  "6CE015E189EF8826C348864C20C407F35F6CC970581355677201E5F968FB2C0A"
+    },
+    {
+        "Path":  "C:\\Users\\72903\\Desktop\\jacdac\\gyro\\197-py32-pa4-jacdac-hw-uart-rx-gyroscope-build\\Inc\\main.h",
+        "Hash":  "5E2FD3E13928A5CC3DCA1D7CDA2B961A8513EBAF2CE1E803165847428E39FE0E"
+    },
+    {
+        "Path":  "C:\\Users\\72903\\Desktop\\jacdac\\gyro\\197-py32-pa4-jacdac-hw-uart-rx-gyroscope-build\\Inc\\py32f002b_hal_conf.h",
+        "Hash":  "916ADBD523B08CEE0ECD94B6BF4FCA8BC5ADE9CCC2E5609F3814961C2D10914A"
+    },
+    {
+        "Path":  "C:\\Users\\72903\\Desktop\\jacdac\\gyro\\197-py32-pa4-jacdac-hw-uart-rx-gyroscope-build\\Inc\\py32f002b_it.h",
+        "Hash":  "5332A4188211875EA371C672CC4BCAD207F08CB1932529CBCD21BC67ACF8010C"
+    },
+    {
+        "Path":  "C:\\Users\\72903\\Desktop\\jacdac\\gyro\\197-py32-pa4-jacdac-hw-uart-rx-gyroscope-build\\Inc\\py32_jacdac_board.h",
+        "Hash":  "93250F10077B9F4D137F86967981136B0E03FDF0427C352CE6A40FF2619CCB3D"
+    },
+    {
+        "Path":  "C:\\Users\\72903\\Desktop\\jacdac\\gyro\\197-py32-pa4-jacdac-hw-uart-rx-gyroscope-build\\Inc\\py32_jacdac_runtime.h",
+        "Hash":  "A511BFE893205BCA5AB24BBCEA41F2EE7AEC4F8417B07CA1F73CFDAFB0876902"
+    },
+    {
+        "Path":  "C:\\Users\\72903\\Desktop\\jacdac\\gyro\\197-py32-pa4-jacdac-hw-uart-rx-gyroscope-build\\Inc\\py32_rgb_pwm_backend.h",
+        "Hash":  "678322376430E061FDE2099C632599D763FE9FED90A0665F57437C01EF426DA5"
+    },
+    {
+        "Path":  "C:\\Users\\72903\\Desktop\\jacdac\\gyro\\197-py32-pa4-jacdac-hw-uart-rx-gyroscope-build\\Inc\\qmi8656_probe.h",
+        "Hash":  "177700EA397FA995CB399F314955264368C247F6B30BE8E13CE9E5FE6036DC26"
+    }
+]
