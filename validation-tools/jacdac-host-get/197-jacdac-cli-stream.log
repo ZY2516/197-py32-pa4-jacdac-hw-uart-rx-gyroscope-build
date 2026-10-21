@@ -1,0 +1,53 @@
+jacdac cli
+adding USB transport (requires "usb" package)
+jacdac: creating usb transport
+starting bus...
+usb: connecting
+usb: requesting device...
+NamedError [NotFoundError]: Failed to execute 'requestDevice' on 'USB': No device selected.
+    at WebUSB.requestDevice (D:\py32-jacdac-rx-staging\PY32-DEMO-1\197-py32-pa4-jacdac-hw-uart-rx-gyroscope-build\validation-tools\jacdac-host-get\node_modules\usb\dist\webusb\index.js:144:19)
+    at async requestDevice (D:\py32-jacdac-rx-staging\PY32-DEMO-1\197-py32-pa4-jacdac-hw-uart-rx-gyroscope-build\validation-tools\jacdac-host-get\node_modules\jacdac-ts\dist\jacdac.cjs:27251:22)
+    at async Object.getDevices (D:\py32-jacdac-rx-staging\PY32-DEMO-1\197-py32-pa4-jacdac-hw-uart-rx-gyroscope-build\validation-tools\jacdac-host-get\node_modules\jacdac-ts\dist\jacdac.cjs:27260:17)
+    at async USBIO.tryReconnectAsync (D:\py32-jacdac-rx-staging\PY32-DEMO-1\197-py32-pa4-jacdac-hw-uart-rx-gyroscope-build\validation-tools\jacdac-host-get\node_modules\jacdac-ts\dist\jacdac.cjs:25357:23)
+    at async USBIO.connectAsync (D:\py32-jacdac-rx-staging\PY32-DEMO-1\197-py32-pa4-jacdac-hw-uart-rx-gyroscope-build\validation-tools\jacdac-host-get\node_modules\jacdac-ts\dist\jacdac.cjs:25375:5)
+    at async WebUSBTransport.transportConnectAsync (D:\py32-jacdac-rx-staging\PY32-DEMO-1\197-py32-pa4-jacdac-hw-uart-rx-gyroscope-build\validation-tools\jacdac-host-get\node_modules\jacdac-ts\dist\jacdac.cjs:26044:16)
+    at async JDBus.connect (D:\py32-jacdac-rx-staging\PY32-DEMO-1\197-py32-pa4-jacdac-hw-uart-rx-gyroscope-build\validation-tools\jacdac-host-get\node_modules\jacdac-ts\dist\jacdac.cjs:19998:7)
+usb: requesting device...
+NamedError [NotFoundError]: Failed to execute 'requestDevice' on 'USB': No device selected.
+    at WebUSB.requestDevice (D:\py32-jacdac-rx-staging\PY32-DEMO-1\197-py32-pa4-jacdac-hw-uart-rx-gyroscope-build\validation-tools\jacdac-host-get\node_modules\usb\dist\webusb\index.js:144:19)
+    at async Object.requestDevice (D:\py32-jacdac-rx-staging\PY32-DEMO-1\197-py32-pa4-jacdac-hw-uart-rx-gyroscope-build\validation-tools\jacdac-host-get\node_modules\jacdac-ts\dist\jacdac.cjs:27251:22)
+    at async USBIO.requestDeviceAsync (D:\py32-jacdac-rx-staging\PY32-DEMO-1\197-py32-pa4-jacdac-hw-uart-rx-gyroscope-build\validation-tools\jacdac-host-get\node_modules\jacdac-ts\dist\jacdac.cjs:25367:18)
+    at async USBIO.connectAsync (D:\py32-jacdac-rx-staging\PY32-DEMO-1\197-py32-pa4-jacdac-hw-uart-rx-gyroscope-build\validation-tools\jacdac-host-get\node_modules\jacdac-ts\dist\jacdac.cjs:25377:7)
+    at async WebUSBTransport.transportConnectAsync (D:\py32-jacdac-rx-staging\PY32-DEMO-1\197-py32-pa4-jacdac-hw-uart-rx-gyroscope-build\validation-tools\jacdac-host-get\node_modules\jacdac-ts\dist\jacdac.cjs:26044:16)
+    at async JDBus.connect (D:\py32-jacdac-rx-staging\PY32-DEMO-1\197-py32-pa4-jacdac-hw-uart-rx-gyroscope-build\validation-tools\jacdac-host-get\node_modules\jacdac-ts\dist\jacdac.cjs:19998:7)
+501ms: from LR65/CONTROL (0): announce; sz=8; Announce services: CONTROL, INFRASTRUCTURE
+507ms: to LR65/CONTROL (0): GET[device_description]; sz=0; GET device_description
+508ms: to LR65/CONTROL (0): GET[product_identifier]; sz=0; GET product_identifier
+508ms: to LR65/CONTROL (0): GET[bootloader_product_identifier]; sz=0; GET bootloader_product_identifier
+509ms: to LR65/CONTROL (0): GET[firmware_version]; sz=0; GET firmware_version
+1000ms:  ====== from LR65/CONTROL (0): announce; sz=8
+1315ms: to LR65/CONTROL (0): GET[device_description]; sz=0; GET device_description
+1316ms: to LR65/CONTROL (0): GET[product_identifier]; sz=0; GET product_identifier
+1316ms: to LR65/CONTROL (0): GET[bootloader_product_identifier]; sz=0; GET bootloader_product_identifier
+1316ms: to LR65/CONTROL (0): GET[firmware_version]; sz=0; GET firmware_version
+1499ms:  ====== from LR65/CONTROL (0): announce; sz=8
+1999ms:  ====== from LR65/CONTROL (0): announce; sz=8
+2498ms:  ====== from LR65/CONTROL (0): announce; sz=8
+2930ms: to LR65/CONTROL (0): GET[device_description]; sz=0; GET device_description
+2930ms: to LR65/CONTROL (0): GET[product_identifier]; sz=0; GET product_identifier
+2931ms: to LR65/CONTROL (0): GET[bootloader_product_identifier]; sz=0; GET bootloader_product_identifier
+2931ms: to LR65/CONTROL (0): GET[firmware_version]; sz=0; GET firmware_version
+2997ms:  ====== from LR65/CONTROL (0): announce; sz=8
+3496ms:  ====== from LR65/CONTROL (0): announce; sz=8
+3995ms:  ====== from LR65/CONTROL (0): announce; sz=8
+4494ms:  ====== from LR65/CONTROL (0): announce; sz=8
+4993ms:  ====== from LR65/CONTROL (0): announce; sz=8
+5492ms:  ====== from LR65/CONTROL (0): announce; sz=8
+5991ms:  ====== from LR65/CONTROL (0): announce; sz=8
+6490ms:  ====== from LR65/CONTROL (0): announce; sz=8
+6990ms:  ====== from LR65/CONTROL (0): announce; sz=8
+7489ms:  ====== from LR65/CONTROL (0): announce; sz=8
+7988ms:  ====== from LR65/CONTROL (0): announce; sz=8
+8488ms:  ====== from LR65/CONTROL (0): announce; sz=8
+8988ms:  ====== from LR65/CONTROL (0): announce; sz=8
+9487ms:  ====== from LR65/CONTROL (0): announce; sz=8

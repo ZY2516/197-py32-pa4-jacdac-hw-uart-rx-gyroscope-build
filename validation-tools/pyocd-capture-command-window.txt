@@ -1,0 +1,10 @@
+halt
+continue
+sleep 900
+halt
+read32 0x2000003c 16
+read32 0x200000cc 28
+read32 0x20000100 12
+savemem 0x20000618 176 197-rx-diag-ring-command-window.bin
+continue
+exit

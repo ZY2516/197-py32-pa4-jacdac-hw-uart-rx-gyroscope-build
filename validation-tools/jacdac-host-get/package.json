@@ -1,0 +1,12 @@
+{
+  "name": "py32-jacdac-197-host-validation",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --test"
+  },
+  "dependencies": {
+    "jacdac-cli": "^1.10.0",
+    "usb": "2.17.0"
+  }
+}

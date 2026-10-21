@@ -1,0 +1,24 @@
+jacdac cli
+adding serial transport (requires "serialport" package)
+starting bus...
+serial: connecting
+TypeError: serialPort.list is not a function
+    at listPorts (D:\py32-jacdac-rx-staging\PY32-DEMO-1\197-py32-pa4-jacdac-hw-uart-rx-gyroscope-build\validation-tools\jacdac-host-get\node_modules\jacdac-ts\dist\jacdac.cjs:27016:34)
+    at NodeWebSerialIO.tryReconnectAsync (D:\py32-jacdac-rx-staging\PY32-DEMO-1\197-py32-pa4-jacdac-hw-uart-rx-gyroscope-build\validation-tools\jacdac-host-get\node_modules\jacdac-ts\dist\jacdac.cjs:27105:27)
+    at NodeWebSerialIO.connectAsync (D:\py32-jacdac-rx-staging\PY32-DEMO-1\197-py32-pa4-jacdac-hw-uart-rx-gyroscope-build\validation-tools\jacdac-host-get\node_modules\jacdac-ts\dist\jacdac.cjs:27148:16)
+    at WebSerialTransport.transportConnectAsync (D:\py32-jacdac-rx-staging\PY32-DEMO-1\197-py32-pa4-jacdac-hw-uart-rx-gyroscope-build\validation-tools\jacdac-host-get\node_modules\jacdac-ts\dist\jacdac.cjs:26211:37)
+    at D:\py32-jacdac-rx-staging\PY32-DEMO-1\197-py32-pa4-jacdac-hw-uart-rx-gyroscope-build\validation-tools\jacdac-host-get\node_modules\jacdac-ts\dist\jacdac.cjs:10576:22
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async JDBus.connect (D:\py32-jacdac-rx-staging\PY32-DEMO-1\197-py32-pa4-jacdac-hw-uart-rx-gyroscope-build\validation-tools\jacdac-host-get\node_modules\jacdac-ts\dist\jacdac.cjs:19998:7)
+501ms: from HL34/CONTROL (0): announce; sz=8; Announce services: CONTROL, INFRASTRUCTURE
+506ms: to HL34/CONTROL (0): GET[device_description]; sz=0; GET device_description
+507ms: to HL34/CONTROL (0): GET[product_identifier]; sz=0; GET product_identifier
+507ms: to HL34/CONTROL (0): GET[bootloader_product_identifier]; sz=0; GET bootloader_product_identifier
+508ms: to HL34/CONTROL (0): GET[firmware_version]; sz=0; GET firmware_version
+999ms:  ====== from HL34/CONTROL (0): announce; sz=8
+1313ms: to HL34/CONTROL (0): GET[device_description]; sz=0; GET device_description
+1314ms: to HL34/CONTROL (0): GET[product_identifier]; sz=0; GET product_identifier
+1314ms: to HL34/CONTROL (0): GET[bootloader_product_identifier]; sz=0; GET bootloader_product_identifier
+1315ms: to HL34/CONTROL (0): GET[firmware_version]; sz=0; GET firmware_version
+1498ms:  ====== from HL34/CONTROL (0): announce; sz=8
+1998ms:  ====== from HL34/CONTROL (0): announce; sz=8

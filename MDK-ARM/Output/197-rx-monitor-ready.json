@@ -1,0 +1,1 @@
+{"initial_head": 6874, "before": {"rx_complete": 6874, "crc_ok": 5423, "control_packet": 1686, "product_id_get": 3, "rxne": 150975, "fe": 616, "ne": 0, "ore": 0, "quiet_rearm": 15304, "quiet_guard_abort": 0}}

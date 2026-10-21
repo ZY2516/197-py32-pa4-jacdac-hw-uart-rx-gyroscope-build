@@ -1,0 +1,10 @@
+Setting SWD clock to 100 kHz
+Successfully halted device
+Successfully resumed device
+Successfully halted device
+2000003c:  00001766 00001269 00000522 00000003    |...f...i..."....|
+200000cc:  0001fb5a 00000221 00000000 00000000    |...Z...!........|
+200000dc:  000002a8 0000362d 00000000             |......6-....|
+20000100:  00001766 00001766 00000008             |...f...f....|
+Saved 176 bytes to 197-rx-diag-ring-command-window.bin
+Successfully resumed device

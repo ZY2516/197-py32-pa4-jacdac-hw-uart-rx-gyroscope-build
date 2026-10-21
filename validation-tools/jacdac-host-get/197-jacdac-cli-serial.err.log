@@ -1,0 +1,11 @@
+D:\py32-jacdac-rx-staging\PY32-DEMO-1\197-py32-pa4-jacdac-hw-uart-rx-gyroscope-build\validation-tools\jacdac-host-get\node_modules\jacdac-ts\dist\jacdac.cjs:27016
+  const ports = await serialPort.list();
+                                 ^
+
+TypeError: serialPort.list is not a function
+    at listPorts (D:\py32-jacdac-rx-staging\PY32-DEMO-1\197-py32-pa4-jacdac-hw-uart-rx-gyroscope-build\validation-tools\jacdac-host-get\node_modules\jacdac-ts\dist\jacdac.cjs:27016:34)
+    at Timeout._onTimeout (D:\py32-jacdac-rx-staging\PY32-DEMO-1\197-py32-pa4-jacdac-hw-uart-rx-gyroscope-build\validation-tools\jacdac-host-get\node_modules\jacdac-ts\dist\jacdac.cjs:27181:27)
+    at listOnTimeout (node:internal/timers:605:17)
+    at process.processTimers (node:internal/timers:541:7)
+
+Node.js v24.14.1
